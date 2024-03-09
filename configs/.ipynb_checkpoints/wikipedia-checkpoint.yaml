@@ -1,0 +1,13 @@
+data:
+  input_file_path: '../Data/Wikipedia/wikipedia/wiki_en.jsonl'
+  output_folder_path: '../Data/Filtered/Wikipedia'
+  metadata_keys: 
+    - "title"
+    - "url"
+    - "language"
+    - "timestamp"  # Assuming Wikipedia data might have a page title instead of a question score
+processing:
+  remove_latex: false  # Adjust based on whether Wikipedia data contains LaTeX that needs to be removed
+  save_file: true
+  filename: 'wikipedia_filtered.csv'
+  total_texts_filename: 'tot_texts_wikipedia.txt'

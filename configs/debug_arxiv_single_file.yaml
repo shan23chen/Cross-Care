@@ -1,0 +1,12 @@
+data:
+  input_file_path: 'Debug_Data/Arxiv/arxiv_2files/arxiv_debug1.jsonl'
+  output_folder_path: 'Debug_Data/Filtered/arxiv_2files'
+  metadata_keys: 
+    - "timestamp"
+    - "language"
+    - "arxiv_id"
+processing:
+  remove_latex: true
+  save_file: true
+  filename: 'arxiv_2files_filtered.csv'
+  total_texts_filename: 'tot_texts_arxiv_2files.txt'

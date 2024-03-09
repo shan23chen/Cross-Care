@@ -1,0 +1,545 @@
+Disease,Demographics,Counts
+10743008.0,asian,1153
+10743008.0,black/african american,3314
+10743008.0,hispanic/latino,521
+10743008.0,native american/indigenous,493
+10743008.0,pacific islander,65
+10743008.0,white/caucasian,5697
+11381005.0,asian,1851
+11381005.0,black/african american,10747
+11381005.0,hispanic/latino,1122
+11381005.0,native american/indigenous,719
+11381005.0,pacific islander,187
+11381005.0,white/caucasian,13750
+11654001.0,asian,8
+11654001.0,black/african american,44
+11654001.0,hispanic/latino,8
+11654001.0,native american/indigenous,3
+11654001.0,white/caucasian,50
+129103003.0,asian,385
+129103003.0,black/african american,1398
+129103003.0,hispanic/latino,200
+129103003.0,native american/indigenous,100
+129103003.0,pacific islander,20
+129103003.0,white/caucasian,2378
+13746004.0,asian,950
+13746004.0,black/african american,5220
+13746004.0,hispanic/latino,1062
+13746004.0,native american/indigenous,454
+13746004.0,pacific islander,72
+13746004.0,white/caucasian,7393
+14669001.0,asian,25
+14669001.0,black/african american,109
+14669001.0,hispanic/latino,19
+14669001.0,native american/indigenous,8
+14669001.0,pacific islander,2
+14669001.0,white/caucasian,217
+15188001.0,asian,553
+15188001.0,black/african american,4221
+15188001.0,hispanic/latino,752
+15188001.0,native american/indigenous,396
+15188001.0,pacific islander,42
+15188001.0,white/caucasian,6370
+161712005.0,asian,3343
+161712005.0,black/african american,9159
+161712005.0,hispanic/latino,2162
+161712005.0,native american/indigenous,1042
+161712005.0,pacific islander,270
+161712005.0,white/caucasian,13451
+18193002.0,asian,29
+18193002.0,black/african american,576
+18193002.0,hispanic/latino,115
+18193002.0,native american/indigenous,33
+18193002.0,pacific islander,9
+18193002.0,white/caucasian,729
+18718003.0,asian,130
+18718003.0,black/african american,901
+18718003.0,hispanic/latino,150
+18718003.0,native american/indigenous,182
+18718003.0,pacific islander,6
+18718003.0,white/caucasian,1904
+195967001.0,asian,5045
+195967001.0,black/african american,22805
+195967001.0,hispanic/latino,6412
+195967001.0,native american/indigenous,3330
+195967001.0,pacific islander,640
+195967001.0,white/caucasian,33713
+200936003.0,asian,2573
+200936003.0,black/african american,8945
+200936003.0,hispanic/latino,2456
+200936003.0,native american/indigenous,765
+200936003.0,pacific islander,152
+200936003.0,white/caucasian,14734
+21134002.0,asian,8400
+21134002.0,black/african american,43812
+21134002.0,hispanic/latino,10797
+21134002.0,native american/indigenous,6932
+21134002.0,pacific islander,1310
+21134002.0,white/caucasian,62146
+22298006.0,asian,6034
+22298006.0,black/african american,35829
+22298006.0,hispanic/latino,5863
+22298006.0,native american/indigenous,2436
+22298006.0,pacific islander,827
+22298006.0,white/caucasian,53936
+233604007.0,asian,3643
+233604007.0,black/african american,19360
+233604007.0,hispanic/latino,3611
+233604007.0,native american/indigenous,2417
+233604007.0,pacific islander,391
+233604007.0,white/caucasian,34515
+23502006.0,asian,318
+23502006.0,black/african american,2613
+23502006.0,hispanic/latino,262
+23502006.0,native american/indigenous,267
+23502006.0,pacific islander,35
+23502006.0,white/caucasian,3814
+23919004.0,asian,6
+23919004.0,black/african american,50
+23919004.0,hispanic/latino,9
+23919004.0,native american/indigenous,5
+23919004.0,white/caucasian,94
+24693007.0,asian,397
+24693007.0,black/african american,1795
+24693007.0,hispanic/latino,475
+24693007.0,native american/indigenous,234
+24693007.0,pacific islander,67
+24693007.0,white/caucasian,3385
+24700007.0,asian,1375
+24700007.0,black/african american,8022
+24700007.0,hispanic/latino,1345
+24700007.0,native american/indigenous,677
+24700007.0,pacific islander,121
+24700007.0,white/caucasian,21561
+25458004.0,asian,10
+25458004.0,black/african american,46
+25458004.0,hispanic/latino,8
+25458004.0,native american/indigenous,8
+25458004.0,pacific islander,3
+25458004.0,white/caucasian,64
+26889001.0,asian,12
+26889001.0,black/african american,82
+26889001.0,hispanic/latino,10
+26889001.0,native american/indigenous,10
+26889001.0,pacific islander,2
+26889001.0,white/caucasian,187
+26929004.0,asian,2239
+26929004.0,black/african american,11821
+26929004.0,hispanic/latino,2377
+26929004.0,native american/indigenous,988
+26929004.0,pacific islander,239
+26929004.0,white/caucasian,22227
+29384001.0,asian,853
+29384001.0,black/african american,1804
+29384001.0,hispanic/latino,397
+29384001.0,native american/indigenous,273
+29384001.0,pacific islander,20
+29384001.0,white/caucasian,3168
+30811009.0,asian,12
+30811009.0,black/african american,23
+30811009.0,hispanic/latino,1
+30811009.0,white/caucasian,49
+31384009.0,asian,81
+31384009.0,black/african american,264
+31384009.0,hispanic/latino,49
+31384009.0,native american/indigenous,29
+31384009.0,pacific islander,5
+31384009.0,white/caucasian,614
+32398004.0,asian,857
+32398004.0,black/african american,4475
+32398004.0,hispanic/latino,879
+32398004.0,native american/indigenous,806
+32398004.0,pacific islander,74
+32398004.0,white/caucasian,7092
+32798002.0,asian,953
+32798002.0,black/african american,3979
+32798002.0,hispanic/latino,625
+32798002.0,native american/indigenous,351
+32798002.0,pacific islander,53
+32798002.0,white/caucasian,8742
+32914008.0,asian,122
+32914008.0,black/african american,337
+32914008.0,hispanic/latino,74
+32914008.0,native american/indigenous,30
+32914008.0,pacific islander,5
+32914008.0,white/caucasian,718
+34486009.0,asian,367
+34486009.0,black/african american,753
+34486009.0,hispanic/latino,123
+34486009.0,native american/indigenous,37
+34486009.0,pacific islander,12
+34486009.0,white/caucasian,1603
+34840004.0,asian,122
+34840004.0,black/african american,948
+34840004.0,hispanic/latino,118
+34840004.0,native american/indigenous,55
+34840004.0,pacific islander,17
+34840004.0,white/caucasian,1434
+3545003.0,asian,128
+3545003.0,black/african american,580
+3545003.0,hispanic/latino,77
+3545003.0,native american/indigenous,22
+3545003.0,pacific islander,1
+3545003.0,white/caucasian,1283
+35489007.0,asian,20399
+35489007.0,black/african american,140936
+35489007.0,hispanic/latino,26907
+35489007.0,native american/indigenous,14752
+35489007.0,pacific islander,2882
+35489007.0,white/caucasian,188637
+36971009.0,asian,45
+36971009.0,black/african american,530
+36971009.0,hispanic/latino,37
+36971009.0,native american/indigenous,23
+36971009.0,pacific islander,6
+36971009.0,white/caucasian,817
+3716002.0,asian,211
+3716002.0,black/african american,860
+3716002.0,hispanic/latino,134
+3716002.0,native american/indigenous,54
+3716002.0,pacific islander,13
+3716002.0,white/caucasian,1323
+3723001.0,asian,5154
+3723001.0,black/african american,20240
+3723001.0,hispanic/latino,3790
+3723001.0,native american/indigenous,2422
+3723001.0,pacific islander,448
+3723001.0,white/caucasian,37163
+37340000.0,asian,61
+37340000.0,black/african american,430
+37340000.0,hispanic/latino,37
+37340000.0,native american/indigenous,31
+37340000.0,pacific islander,4
+37340000.0,white/caucasian,714
+39400004.0,asian,561
+39400004.0,black/african american,1555
+39400004.0,hispanic/latino,200
+39400004.0,native american/indigenous,105
+39400004.0,pacific islander,13
+39400004.0,white/caucasian,2583
+39621005.0,asian,438
+39621005.0,black/african american,1883
+39621005.0,hispanic/latino,361
+39621005.0,native american/indigenous,309
+39621005.0,pacific islander,23
+39621005.0,white/caucasian,3587
+396275006.0,asian,1200
+396275006.0,black/african american,3591
+396275006.0,hispanic/latino,765
+396275006.0,native american/indigenous,387
+396275006.0,pacific islander,68
+396275006.0,white/caucasian,7479
+40733004.0,asian,28161
+40733004.0,black/african american,132335
+40733004.0,hispanic/latino,23977
+40733004.0,native american/indigenous,13183
+40733004.0,pacific islander,1945
+40733004.0,white/caucasian,186853
+40930008.0,asian,165
+40930008.0,black/african american,504
+40930008.0,hispanic/latino,94
+40930008.0,native american/indigenous,36
+40930008.0,pacific islander,10
+40930008.0,white/caucasian,1173
+4308002.0,asian,2
+4308002.0,black/african american,7
+4308002.0,hispanic/latino,2
+4308002.0,white/caucasian,6
+43116000.0,asian,864
+43116000.0,black/african american,4069
+43116000.0,hispanic/latino,626
+43116000.0,native american/indigenous,642
+43116000.0,pacific islander,73
+43116000.0,white/caucasian,6665
+44054006.0,asian,8752
+44054006.0,black/african american,15300
+44054006.0,hispanic/latino,5745
+44054006.0,native american/indigenous,3214
+44054006.0,pacific islander,843
+44054006.0,white/caucasian,30790
+46635009.0,asian,137
+46635009.0,black/african american,550
+46635009.0,hispanic/latino,133
+46635009.0,native american/indigenous,72
+46635009.0,pacific islander,20
+46635009.0,white/caucasian,1004
+49049000.0,asian,1821
+49049000.0,black/african american,10806
+49049000.0,hispanic/latino,1730
+49049000.0,native american/indigenous,952
+49049000.0,pacific islander,269
+49049000.0,white/caucasian,23116
+49601007.0,asian,15681
+49601007.0,black/african american,42709
+49601007.0,hispanic/latino,12990
+49601007.0,native american/indigenous,6536
+49601007.0,pacific islander,1652
+49601007.0,white/caucasian,79549
+50829006.0,asian,66
+50829006.0,black/african american,570
+50829006.0,hispanic/latino,115
+50829006.0,native american/indigenous,34
+50829006.0,pacific islander,10
+50829006.0,white/caucasian,689
+52448006.0,asian,4697
+52448006.0,black/african american,23258
+52448006.0,hispanic/latino,4876
+52448006.0,native american/indigenous,2073
+52448006.0,pacific islander,480
+52448006.0,white/caucasian,44595
+52702003.0,asian,172
+52702003.0,black/african american,766
+52702003.0,hispanic/latino,137
+52702003.0,native american/indigenous,97
+52702003.0,pacific islander,22
+52702003.0,white/caucasian,1560
+53741008.0,asian,2648
+53741008.0,black/african american,5700
+53741008.0,hispanic/latino,1475
+53741008.0,native american/indigenous,494
+53741008.0,pacific islander,177
+53741008.0,white/caucasian,12682
+54150009.0,asian,244
+54150009.0,black/african american,684
+54150009.0,hispanic/latino,151
+54150009.0,native american/indigenous,64
+54150009.0,pacific islander,8
+54150009.0,white/caucasian,1795
+56317004.0,asian,584
+56317004.0,black/african american,3399
+56317004.0,hispanic/latino,287
+56317004.0,native american/indigenous,147
+56317004.0,pacific islander,18
+56317004.0,white/caucasian,3530
+56925008.0,asian,1063
+56925008.0,black/african american,3310
+56925008.0,hispanic/latino,749
+56925008.0,native american/indigenous,327
+56925008.0,pacific islander,44
+56925008.0,white/caucasian,5022
+57182000.0,asian,718
+57182000.0,black/african american,2861
+57182000.0,hispanic/latino,588
+57182000.0,native american/indigenous,243
+57182000.0,pacific islander,65
+57182000.0,white/caucasian,5652
+57406009.0,asian,100
+57406009.0,black/african american,735
+57406009.0,hispanic/latino,114
+57406009.0,native american/indigenous,35
+57406009.0,pacific islander,10
+57406009.0,white/caucasian,1043
+59927004.0,asian,4024
+59927004.0,black/african american,8090
+59927004.0,hispanic/latino,1962
+59927004.0,native american/indigenous,832
+59927004.0,pacific islander,208
+59927004.0,white/caucasian,17001
+60862001.0,asian,233
+60862001.0,black/african american,1536
+60862001.0,hispanic/latino,281
+60862001.0,native american/indigenous,140
+60862001.0,pacific islander,19
+60862001.0,white/caucasian,3204
+6142004.0,asian,5725
+6142004.0,black/african american,22472
+6142004.0,hispanic/latino,3474
+6142004.0,native american/indigenous,2682
+6142004.0,pacific islander,433
+6142004.0,white/caucasian,32581
+61462000.0,asian,5032
+61462000.0,black/african american,33739
+61462000.0,hispanic/latino,4746
+61462000.0,native american/indigenous,4822
+61462000.0,pacific islander,547
+61462000.0,white/caucasian,23947
+61599003.0,asian,59
+61599003.0,black/african american,258
+61599003.0,hispanic/latino,45
+61599003.0,native american/indigenous,18
+61599003.0,pacific islander,5
+61599003.0,white/caucasian,608
+62315008.0,asian,5184
+62315008.0,black/african american,20612
+62315008.0,hispanic/latino,3629
+62315008.0,native american/indigenous,3065
+62315008.0,pacific islander,239
+62315008.0,white/caucasian,33318
+63102001.0,asian,149
+63102001.0,black/african american,1047
+63102001.0,hispanic/latino,201
+63102001.0,native american/indigenous,83
+63102001.0,pacific islander,15
+63102001.0,white/caucasian,1570
+6471006.0,asian,11619
+6471006.0,black/african american,100717
+6471006.0,hispanic/latino,14569
+6471006.0,native american/indigenous,11964
+6471006.0,pacific islander,1367
+6471006.0,white/caucasian,118744
+68566005.0,asian,389
+68566005.0,black/african american,1480
+68566005.0,hispanic/latino,347
+68566005.0,native american/indigenous,178
+68566005.0,pacific islander,46
+68566005.0,white/caucasian,4268
+69322001.0,asian,1180
+69322001.0,black/african american,7518
+69322001.0,hispanic/latino,1205
+69322001.0,native american/indigenous,805
+69322001.0,pacific islander,99
+69322001.0,white/caucasian,10632
+698247007.0,asian,1980
+698247007.0,black/african american,6654
+698247007.0,hispanic/latino,1387
+698247007.0,native american/indigenous,384
+698247007.0,pacific islander,139
+698247007.0,white/caucasian,15609
+69896004.0,asian,2217
+69896004.0,black/african american,8153
+69896004.0,hispanic/latino,1295
+69896004.0,native american/indigenous,769
+69896004.0,pacific islander,138
+69896004.0,white/caucasian,16701
+709044004.0,asian,2356
+709044004.0,black/african american,6293
+709044004.0,hispanic/latino,1600
+709044004.0,native american/indigenous,713
+709044004.0,pacific islander,183
+709044004.0,white/caucasian,11273
+73211009.0,asian,28723
+73211009.0,black/african american,73293
+73211009.0,hispanic/latino,24370
+73211009.0,native american/indigenous,13062
+73211009.0,pacific islander,3118
+73211009.0,white/caucasian,129358
+73442001.0,asian,10
+73442001.0,black/african american,38
+73442001.0,hispanic/latino,2
+73442001.0,native american/indigenous,1
+73442001.0,pacific islander,1
+73442001.0,white/caucasian,47
+74732009.0,asian,11649
+74732009.0,black/african american,64684
+74732009.0,hispanic/latino,16558
+74732009.0,native american/indigenous,12516
+74732009.0,pacific islander,1682
+74732009.0,white/caucasian,80879
+75694006.0,asian,772
+75694006.0,black/african american,2124
+75694006.0,hispanic/latino,382
+75694006.0,native american/indigenous,170
+75694006.0,pacific islander,42
+75694006.0,white/caucasian,5466
+76376003.0,asian,31
+76376003.0,black/african american,159
+76376003.0,hispanic/latino,10
+76376003.0,native american/indigenous,1
+76376003.0,pacific islander,1
+76376003.0,white/caucasian,219
+7973008.0,asian,17
+7973008.0,black/african american,88
+7973008.0,hispanic/latino,8
+7973008.0,native american/indigenous,4
+7973008.0,white/caucasian,174
+8357008.0,asian,81
+8357008.0,black/african american,272
+8357008.0,hispanic/latino,37
+8357008.0,native american/indigenous,32
+8357008.0,pacific islander,5
+8357008.0,white/caucasian,352
+86044005.0,asian,243
+86044005.0,black/african american,1534
+86044005.0,hispanic/latino,194
+86044005.0,native american/indigenous,126
+86044005.0,pacific islander,18
+86044005.0,white/caucasian,3187
+91302008,asian,1813
+91302008,black/african american,7958
+91302008,hispanic/latino,1535
+91302008,native american/indigenous,763
+91302008,pacific islander,163
+91302008,white/caucasian,18717
+9829001.0,asian,4
+9829001.0,black/african american,71
+9829001.0,hispanic/latino,7
+9829001.0,native american/indigenous,3
+9829001.0,white/caucasian,108
+chagas disease,asian,119
+chagas disease,black/african american,1985
+chagas disease,hispanic/latino,2753
+chagas disease,native american/indigenous,215
+chagas disease,pacific islander,8
+chagas disease,white/caucasian,881
+covid-19,asian,6597
+covid-19,black/african american,19887
+covid-19,hispanic/latino,6161
+covid-19,native american/indigenous,3977
+covid-19,pacific islander,454
+covid-19,white/caucasian,42514
+crohn’s disease,asian,464
+crohn’s disease,black/african american,1187
+crohn’s disease,hispanic/latino,186
+crohn’s disease,native american/indigenous,118
+crohn’s disease,pacific islander,19
+crohn’s disease,white/caucasian,2743
+endocarditis,asian,275
+endocarditis,black/african american,1149
+endocarditis,hispanic/latino,235
+endocarditis,native american/indigenous,159
+endocarditis,pacific islander,20
+endocarditis,white/caucasian,3537
+hepatitis b,asian,3972
+hepatitis b,black/african american,6820
+hepatitis b,hispanic/latino,1607
+hepatitis b,native american/indigenous,910
+hepatitis b,pacific islander,363
+hepatitis b,white/caucasian,10920
+hiv/aids,asian,2945
+hiv/aids,black/african american,20045
+hiv/aids,hispanic/latino,4453
+hiv/aids,native american/indigenous,1641
+hiv/aids,pacific islander,337
+hiv/aids,white/caucasian,17647
+hypertension,asian,15834
+hypertension,black/african american,45184
+hypertension,hispanic/latino,12759
+hypertension,native american/indigenous,4901
+hypertension,pacific islander,1507
+hypertension,white/caucasian,78453
+menstruation,asian,883
+menstruation,black/african american,4131
+menstruation,hispanic/latino,939
+menstruation,native american/indigenous,802
+menstruation,pacific islander,52
+menstruation,white/caucasian,5420
+sarcoidoses,asian,43
+sarcoidoses,black/african american,325
+sarcoidoses,hispanic/latino,16
+sarcoidoses,native american/indigenous,16
+sarcoidoses,pacific islander,3
+sarcoidoses,white/caucasian,455
+syphilis,asian,892
+syphilis,black/african american,8311
+syphilis,hispanic/latino,1992
+syphilis,native american/indigenous,1372
+syphilis,pacific islander,203
+syphilis,white/caucasian,9423
+takotsubo cardiomyopathy,asian,47
+takotsubo cardiomyopathy,black/african american,165
+takotsubo cardiomyopathy,hispanic/latino,33
+takotsubo cardiomyopathy,native american/indigenous,4
+takotsubo cardiomyopathy,pacific islander,5
+takotsubo cardiomyopathy,white/caucasian,430
+tuberculoses,asian,4834
+tuberculoses,black/african american,26118
+tuberculoses,hispanic/latino,4667
+tuberculoses,native american/indigenous,4109
+tuberculoses,pacific islander,402
+tuberculoses,white/caucasian,29297
+ulcerative colitis,asian,835
+ulcerative colitis,black/african american,1918
+ulcerative colitis,hispanic/latino,385
+ulcerative colitis,native american/indigenous,239
+ulcerative colitis,pacific islander,33
+ulcerative colitis,white/caucasian,4876

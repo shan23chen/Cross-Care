@@ -1,0 +1,6 @@
+Data/
+__pycache__/
+.vscode
+.env
+.DS_Store
+.next

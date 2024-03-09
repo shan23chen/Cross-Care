@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Button styles */
+.btn {
+  background-color: #000; /* Equivalent to bg-black */
+  color: #fff; /* Equivalent to text-white */
+  font-size: 13px; /* Equivalent to text-[13px] */
+  font-family: 'monospace'; /* Equivalent to font-mono */
+  transition: all 0.3s;
+  border-radius: 4px;
+  width: 220px; /* Equivalent to w-[220px] */
+  height: 40px; /* Equivalent to h-10 */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  cursor: pointer;
+  margin-top: 0.75rem; /* Equivalent to mt-4 */
+}
+
+.btn:hover {
+  background-color: #333; /* Equivalent to hover:bg-gray-700 */
+}
