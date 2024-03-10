@@ -1,0 +1,67 @@
+demographic,model_name,count_rank,logit_template_rank,model_size
+asian,EleutherAI/pythia-12b-deduped,3.393939393939394,4.537190082644628,12000
+asian,EleutherAI/pythia-160m-deduped,3.393939393939394,4.0,160
+asian,EleutherAI/pythia-1b-deduped,3.393939393939394,4.0,1000
+asian,EleutherAI/pythia-2.8b-deduped,3.393939393939394,4.0,2800
+asian,EleutherAI/pythia-410m-deduped,3.393939393939394,4.705234159779614,410
+asian,EleutherAI/pythia-6.9b-deduped,3.393939393939394,4.7134986225895315,6900
+asian,EleutherAI/pythia-70m-deduped,3.393939393939394,4.0,70
+asian,state-spaces/mamba-1.4b,3.393939393939394,4.242424242424242,1400
+asian,state-spaces/mamba-130m,3.393939393939394,4.011019283746556,130
+asian,state-spaces/mamba-370m,3.393939393939394,4.81267217630854,370
+asian,state-spaces/mamba-790m,3.393939393939394,4.0550964187327825,790
+black,EleutherAI/pythia-12b-deduped,1.9090909090909092,1.0,12000
+black,EleutherAI/pythia-160m-deduped,1.9090909090909092,1.1322314049586777,160
+black,EleutherAI/pythia-1b-deduped,1.9090909090909092,1.0110192837465564,1000
+black,EleutherAI/pythia-2.8b-deduped,1.9090909090909092,1.0633608815426998,2800
+black,EleutherAI/pythia-410m-deduped,1.9090909090909092,1.044077134986226,410
+black,EleutherAI/pythia-6.9b-deduped,1.9090909090909092,1.0,6900
+black,EleutherAI/pythia-70m-deduped,1.9090909090909092,1.2865013774104683,70
+black,state-spaces/mamba-1.4b,1.9090909090909092,1.0330578512396693,1400
+black,state-spaces/mamba-130m,1.9090909090909092,2.1955922865013773,130
+black,state-spaces/mamba-370m,1.9090909090909092,1.143250688705234,370
+black,state-spaces/mamba-790m,1.9090909090909092,1.9669421487603307,790
+hispanic,EleutherAI/pythia-12b-deduped,3.7493112947658402,4.462809917355372,12000
+hispanic,EleutherAI/pythia-160m-deduped,3.7493112947658402,5.0,160
+hispanic,EleutherAI/pythia-1b-deduped,3.7493112947658402,5.0,1000
+hispanic,EleutherAI/pythia-2.8b-deduped,3.7493112947658402,5.0,2800
+hispanic,EleutherAI/pythia-410m-deduped,3.7493112947658402,4.294765840220386,410
+hispanic,EleutherAI/pythia-6.9b-deduped,3.7493112947658402,4.2754820936639115,6900
+hispanic,EleutherAI/pythia-70m-deduped,3.7493112947658402,5.0,70
+hispanic,state-spaces/mamba-1.4b,3.7493112947658402,4.757575757575758,1400
+hispanic,state-spaces/mamba-130m,3.7493112947658402,4.988980716253444,130
+hispanic,state-spaces/mamba-370m,3.7493112947658402,4.176308539944904,370
+hispanic,state-spaces/mamba-790m,3.7493112947658402,4.9449035812672175,790
+indigenous,EleutherAI/pythia-12b-deduped,4.674931129476584,2.9889807162534434,12000
+indigenous,EleutherAI/pythia-160m-deduped,4.674931129476584,3.0,160
+indigenous,EleutherAI/pythia-1b-deduped,4.674931129476584,3.0,1000
+indigenous,EleutherAI/pythia-2.8b-deduped,4.674931129476584,2.834710743801653,2800
+indigenous,EleutherAI/pythia-410m-deduped,4.674931129476584,2.746556473829201,410
+indigenous,EleutherAI/pythia-6.9b-deduped,4.674931129476584,3.0110192837465566,6900
+indigenous,EleutherAI/pythia-70m-deduped,4.674931129476584,2.2947658402203857,70
+indigenous,state-spaces/mamba-1.4b,4.674931129476584,2.8484848484848486,1400
+indigenous,state-spaces/mamba-130m,4.674931129476584,2.330578512396694,130
+indigenous,state-spaces/mamba-370m,4.674931129476584,2.5068870523415976,370
+indigenous,state-spaces/mamba-790m,4.674931129476584,2.9008264462809916,790
+pacific islander,EleutherAI/pythia-12b-deduped,5.8319559228650135,6.0,12000
+pacific islander,EleutherAI/pythia-160m-deduped,5.8319559228650135,6.0,160
+pacific islander,EleutherAI/pythia-1b-deduped,5.8319559228650135,6.0,1000
+pacific islander,EleutherAI/pythia-2.8b-deduped,5.8319559228650135,6.0,2800
+pacific islander,EleutherAI/pythia-410m-deduped,5.8319559228650135,6.0,410
+pacific islander,EleutherAI/pythia-6.9b-deduped,5.8319559228650135,6.0,6900
+pacific islander,EleutherAI/pythia-70m-deduped,5.8319559228650135,6.0,70
+pacific islander,state-spaces/mamba-1.4b,5.8319559228650135,6.0,1400
+pacific islander,state-spaces/mamba-130m,5.8319559228650135,6.0,130
+pacific islander,state-spaces/mamba-370m,5.8319559228650135,6.0,370
+pacific islander,state-spaces/mamba-790m,5.8319559228650135,6.0,790
+white,EleutherAI/pythia-12b-deduped,1.121212121212121,2.0110192837465566,12000
+white,EleutherAI/pythia-160m-deduped,1.121212121212121,1.8677685950413223,160
+white,EleutherAI/pythia-1b-deduped,1.121212121212121,1.9889807162534436,1000
+white,EleutherAI/pythia-2.8b-deduped,1.121212121212121,2.1019283746556474,2800
+white,EleutherAI/pythia-410m-deduped,1.121212121212121,2.209366391184573,410
+white,EleutherAI/pythia-6.9b-deduped,1.121212121212121,2.0,6900
+white,EleutherAI/pythia-70m-deduped,1.121212121212121,2.418732782369146,70
+white,state-spaces/mamba-1.4b,1.121212121212121,2.118457300275482,1400
+white,state-spaces/mamba-130m,1.121212121212121,1.4738292011019283,130
+white,state-spaces/mamba-370m,1.121212121212121,2.349862258953168,370
+white,state-spaces/mamba-790m,1.121212121212121,1.1322314049586777,790

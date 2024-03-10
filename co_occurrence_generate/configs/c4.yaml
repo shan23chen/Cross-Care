@@ -1,0 +1,12 @@
+data:
+  input_folder_path: '../Data/C4/c4'
+  output_folder_path: '../Data/Filtered/C4'
+  metadata_keys: 
+    - "timestamp"
+    - "url"
+    - "language"
+processing:
+  remove_latex: false
+  save_file: true
+  filename: 'c4_filtered.csv'
+  total_texts_filename: 'tot_texts_c4.txt'

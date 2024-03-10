@@ -1,0 +1,12 @@
+data:
+  input_folder_path: '../Data/Arxiv/arxiv'
+  output_folder_path: 'Data/Filtered/arxiv'
+  metadata_keys: 
+    - "timestamp"
+    - "language"
+    - "arxiv_id"
+processing:
+  remove_latex: true
+  save_file: true
+  filename: 'arxiv_filtered.csv'
+  total_texts_filename: 'tot_texts_arxiv.txt'

@@ -1,0 +1,12 @@
+data:
+  input_file_path: '../Data/Books/book/book.jsonl'
+  output_folder_path: '../Data/Filtered/Books'
+  metadata_keys: 
+    - "short_book_title"
+    - "publication_date"
+    - "url"
+processing:
+  remove_latex: true
+  save_file: true
+  filename: 'books_filtered.csv'
+  total_texts_filename: 'tot_texts_books.txt'

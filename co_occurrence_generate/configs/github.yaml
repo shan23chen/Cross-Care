@@ -1,0 +1,12 @@
+data:
+  input_folder_path: '../Data/Github/github'
+  output_folder_path: '../Data/Filtered/Github'
+  metadata_keys: 
+    - "content_hash"
+    - "timestamp"
+    - "repo_name"
+processing:
+  remove_latex: true
+  save_file: true
+  filename: 'github_filtered.csv'
+  total_texts_filename: 'tot_texts_github.txt'
