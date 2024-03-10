@@ -20,7 +20,7 @@ Cross-Care is a project that compares the co-occurrences of medical terms with d
 
 
 ## Overview
-
+```
 Cross-Care/
 │
 ├── co_occurrence_generate  # contains the code for co-occurrence analysis
@@ -47,7 +47,7 @@ Cross-Care/
 ├── .gitignore              # contains files and directories to be ignored by git
 ├── LICENSE                 # contains the license for this project
 ├── README.md               # contains the main documentation for this project
-
+```
 
 ### Co-occurrence Analysis
 
