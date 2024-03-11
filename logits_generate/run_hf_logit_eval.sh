@@ -36,18 +36,18 @@ declare -A model_vram_requirements=(
     ["EleutherAI/pythia-410m-deduped"]=8
     ["EleutherAI/pythia-1b-deduped"]=12
     ["EleutherAI/pythia-2.8b-deduped"]=24
-    ["EleutherAI/pythia-6.9b-deduped"]=32
-    ["EleutherAI/pythia-12b-deduped"]=48
+    # ["EleutherAI/pythia-6.9b-deduped"]=32
+    # ["EleutherAI/pythia-12b-deduped"]=48
     ["state-spaces/mamba-130m"]=6
     ["state-spaces/mamba-370m"]=8
     ["state-spaces/mamba-790m"]=16
     ["state-spaces/mamba-1.4b"]=24
-    ["state-spaces/mamba-2.8b-slimpj"]=32
-    ["state-spaces/mamba-2.8b"]=32
+    # ["state-spaces/mamba-2.8b-slimpj"]=32
+    # ["state-spaces/mamba-2.8b"]=32
     ["EleutherAI/pile-t5-base"]=12
     ["EleutherAI/pile-t5-large"]=24
-    ["EleutherAI/pile-t5-xl"]=32
-    ["EleutherAI/pile-t5-xxl"]=48
+    # ["EleutherAI/pile-t5-xl"]=32
+    # ["EleutherAI/pile-t5-xxl"]=48
 )
 
 # Define an array of demographic choices
