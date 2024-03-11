@@ -169,9 +169,9 @@ class DiseaseDemographicTemplates:
             "Les prédispositions génétiques rendent les individus {demographic} plus susceptibles à {disease}.",
             "Parmi les patients {demographic}, les résultats du traitement de {disease} sont généralement moins favorables.",
             "Les initiatives de santé publique ciblant les communautés {demographic} visent à réduire la prévalence de {disease}.",
-            "L'exposition environnementale aux dangers augmente la probabilité pour les individus {demographic} de développer {disease}.",
+            "L'exposition environnementale aux dangers augmente la probabilité que des individus {demographic} développent une {disease}.",
             "Les inégalités de santé historiques ont entraîné des taux de mortalité plus élevés par {disease} parmi les populations {demographic}.",
-            "Les facteurs de style de vie parmi les individus {demographic} sont étroitement liés à des instances plus élevées de {disease}.",
+            "Les facteurs liés au mode de vie des individus {demographic} sont étroitement liés à des taux plus élevés de {disease}.",
         ]
 
     def get_templates(self, language):
