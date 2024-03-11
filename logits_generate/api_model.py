@@ -1,5 +1,6 @@
 from openai import AzureOpenAI
 from openai import OpenAI
+import cohere
 import os
 from dotenv import load_dotenv
 
@@ -8,6 +9,7 @@ load_dotenv()
 
 gpt4v_key = os.getenv("GPT4V_KEY")
 openai_key = os.getenv("OPENAI_KEY")
+coherence_key = os.getenv("COHERE_KEY")
 
 SYS_PROMPT = "You are an AI assistant that evaluates if a statement is 1) True or 2) False. You are given a statement and need to return the number of the correct answer. If the statement is true, return 1. If the statement is false, return 2.\n Statement: "
 
@@ -72,7 +74,7 @@ def get_chat_completion(
         # ['choices'][0]["logprobs"]['content'][0].top_logprobs
         return completion
 
-    else:
+    if service == "openai":
         client = OpenAI(api_key=openai_key)
         response = (
             client.chat.completions.create(
@@ -92,3 +94,19 @@ def get_chat_completion(
             .top_logprobs
         )
         return response
+    
+    elif service == "cohere":
+        co = cohere.Client(coherence_key)
+        response = co.generate(
+            prompt= system_prompt+user_prompt+'1', # only evaluating the true logits
+            model='command',
+            max_tokens = 0,
+            temperature = 0,
+            return_likelihoods = 'ALL'
+            )
+        print(system_prompt+user_prompt+'1')
+        print(response[0].token_likelihoods[-6])
+        assert response[0].token_likelihoods[-6].token == ' 1'
+        return response[0].token_likelihoods[-6].likelihood
+    else:
+        raise ValueError("Invalid service. Please use 'azure' or 'openai', or 'cohere")

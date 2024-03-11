@@ -3,7 +3,7 @@ import pandas as pd
 import json
 import sys
 from templates import *
-from openai_model import get_chat_completion, SYS_PROMPT
+from api_model import *
 from tqdm import tqdm
 
 # Determine the path to the root of the Cross-Care project dynamically
@@ -81,17 +81,27 @@ def eval_logits(
 
             all_log_softmax_sums = []
 
-            # for i in tqdm(range(0, len(statements), 1)):
-            for i in tqdm(range(0, 2, 1)):
-                statement = statements[i]
-                completion = get_chat_completion(
-                    system_prompt,
-                    statement + prompt,
-                    engine=model_name,
-                    service=service,
-                )
-                log_softmax_values = find_missing(completion, id2demo)
-                all_log_softmax_sums.append(log_softmax_values)
+            if service == "cohere":
+                for i in tqdm(range(0, len(statements), 1)):
+                    statement = statements[i]
+                    completion = get_chat_completion(
+                        system_prompt,
+                        statement + prompt,
+                        engine=model_name,
+                        service=service,
+                    )
+                    all_log_softmax_sums.append(completion)
+            else:
+                for i in tqdm(range(0, 2, 1)):
+                    statement = statements[i]
+                    completion = get_chat_completion(
+                        system_prompt,
+                        statement + prompt,
+                        engine=model_name,
+                        service=service,
+                    )
+                    log_softmax_values = find_missing(completion, id2demo)
+                    all_log_softmax_sums.append(log_softmax_values)
 
             results[disease][demographic].append(all_log_softmax_sums)
 
@@ -140,7 +150,7 @@ if __name__ == "__main__":
     import argparse
     import os
 
-    parser = argparse.ArgumentParser(description="Run models on HF autoclass or mamba.")
+    parser = argparse.ArgumentParser(description="Run models on api end points")
     parser.add_argument(
         "--model_name",
         type=str,
@@ -158,8 +168,8 @@ if __name__ == "__main__":
         "--service_type",
         type=str,
         default="azure",
-        choices=["azure", "openai"],
-        help="API end point to use for model inference, azure or openai",
+        choices=["azure", "openai", "cohere"],
+        help="API end point to use for model inference, azure or openai \n if you choose cohere, then it is going to use cohere api. Default: azure.",
     )
     parser.add_argument(
         "--language",
@@ -177,7 +187,7 @@ if __name__ == "__main__":
     parser.add_argument(
         "--debug",
         type=lambda x: (str(x).lower() == "true"),
-        help="Debug mode-> limit the number of diseases to 10. Default: False.",
+        help="Debug mode-> limit the number of diseases to 2. Default: False.",
     )
     parser.add_argument(
         "--location_preprompt",
@@ -220,6 +230,11 @@ if __name__ == "__main__":
         )
         system_prompt = f"{system_prompt} {location_prefix}"
 
+    if debug:
+        diseases = diseases[:2]
+
+    print(f"Analyzing the following diseases: {diseases}")
+
     ###### Main logic ######
     # Evaluate logits and calculate averages for the chosen demographic
     out = eval_logits(
@@ -234,9 +249,9 @@ if __name__ == "__main__":
     )
 
     if location_preprompt == True:
-        logits_dir = f"{cross_care_root}/logits_results/api/output_pile/american_context"  # Ensure cross_care_root is correctly defined
+        logits_dir = f"{cross_care_root}/logits_results/api/output_pile/{args.service_type}/american_context"  # Ensure cross_care_root is correctly defined
     else:
-        logits_dir = f"{cross_care_root}/logits_results/api/output_pile/"  # Ensure cross_care_root is correctly defined
+        logits_dir = f"{cross_care_root}/logits_results/api/output_pile/{args.service_type}/"  # Ensure cross_care_root is correctly defined
 
     # Save the output
     output_dir = os.path.join(
@@ -251,4 +266,7 @@ if __name__ == "__main__":
         json.dump(out, f)
 
     # Process the logits data to save only the "true" logits
-    post_process_logits(output_file_path, len(templates))
+    if args.service_type == "cohere":
+        print("no need to process logits for cohere")
+    else:
+        post_process_logits(output_file_path, len(templates))

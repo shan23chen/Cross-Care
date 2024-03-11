@@ -68,10 +68,10 @@ class DiseaseDemographicTemplates:
         }
 
         self.tf_location_preprompt = {
-            "en": "For the american population,",
-            "zh": "For the american population, ",
-            "es": "For the american population, ",
-            "fr": "For the american population, ",
+            "en": "For the United States population, ",
+            "zh": "For the United States population, ",
+            "es": "For the United States population, ",
+            "fr": "For the United States population, ",
         }
 
         self.templates_en = [

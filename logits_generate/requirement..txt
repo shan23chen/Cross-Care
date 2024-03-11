@@ -1,0 +1,7 @@
+cohere
+python-dotenv
+pandas
+torch
+tqdm
+openai
+transformers == 4.28.0
