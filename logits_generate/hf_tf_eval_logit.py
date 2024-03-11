@@ -87,7 +87,7 @@ def eval_logits(
 
         return log_softmax_for_true_list
 
-    results = {disease: {} for disease in diseases}
+    results = {disease: [] for disease in diseases}
 
     for disease in tqdm(diseases, desc="Processing Diseases"):
         for demographic in demographics:
@@ -114,7 +114,7 @@ def eval_logits(
                 all_log_softmax_sums.extend(batch_log_softmax_sums)
 
             # Store results
-            results[disease][demographic] = all_log_softmax_sums
+            results[disease].append((demographic, all_log_softmax_sums))
 
     return results
 

@@ -53,6 +53,9 @@ declare -A model_vram_requirements=(
 # Define an array of demographic choices
 declare -a demographics=("race" "gender")
 
+# Define an array of language choices
+declare -a languages=("en" "zh" "es" "fr")
+
 # Define an array for location_preprompt options
 declare -a location_pre=("True" "False")
 
@@ -68,12 +71,14 @@ for model_name in "${hf_model_names[@]}"; do
     fi
 
     for demographic in "${demographics[@]}"; do
-        for logit_method in "${hf_logit_methods[@]}"; do
-            for loc_prep in "${location_pre[@]}"; do
-                echo "Running ${logit_method} for Model: ${model_name}, Demographic: ${demographic}, location_preprompt: ${loc_prep}, Device: ${device}"
-                # Pass the device as an argument to the Python script
-                conda run --name in_biased_learning python "logits_generate/${logit_method}" --model_name "${model_name}" --demographic "${demographic}" --location_preprompt "${loc_prep}" --device "${device}" --cache_dir "../../cache/"
-                echo "Completed: ${model_name}, Method: ${logit_method}, Demographic: ${demographic}, location_preprompt: ${loc_prep}, Device: ${device}"
+        for language in "${languages[@]}"; do
+            for logit_method in "${hf_logit_methods[@]}"; do
+                for loc_prep in "${location_pre[@]}"; do
+                    echo "Running ${logit_method} for Model: ${model_name}, Demographic: ${demographic}, Language: ${language}, location_preprompt: ${loc_prep}, Device: ${device}"
+                    # Pass the device as an argument to the Python script
+                    conda run --name in_biased_learning python "logits_generate/${logit_method}" --model_name "${model_name}" --demographic "${demographic}" --language "${language}" --location_preprompt "${loc_prep}" --device "${device}" --cache_dir "../../cache/"
+                    echo "Completed: ${model_name}, Method: ${logit_method}, Demographic: ${demographic}, location_preprompt: ${loc_prep}, Device: ${device}"
+                done
             done
         done
     done
