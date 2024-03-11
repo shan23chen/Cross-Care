@@ -278,8 +278,3 @@ if location_preprompt:
     # clear memory
     del model
     torch.cuda.empty_cache()
-
-
-# TODO
-# for Jack, check if the code is working and if the output is as expected
-# bash for all the model we are interested in

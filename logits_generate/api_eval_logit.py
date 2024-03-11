@@ -71,8 +71,6 @@ def eval_logits(
     # Initialize results dictionary with diseases as keys and empty dicts as values
     results = {disease: {} for disease in diseases}
 
-    diseases = diseases[:2]
-
     for disease in tqdm(diseases, desc="Processing Diseases"):
         for demographic in demographics:
             # Initialize an empty list for each demographic under each disease
@@ -226,7 +224,7 @@ if __name__ == "__main__":
     # Evaluate logits and calculate averages for the chosen demographic
     out = eval_logits(
         demographic_columns,
-        diseases[:2],
+        diseases,
         system_prompt,
         prompt=prompt,
         templates=templates,

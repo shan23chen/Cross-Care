@@ -301,6 +301,3 @@ if __name__ == "__main__":
     # clear memory
     del model
     torch.cuda.empty_cache()
-
-
-# bash for all the model we are interested in

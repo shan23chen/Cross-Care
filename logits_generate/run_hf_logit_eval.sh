@@ -72,7 +72,7 @@ for model_name in "${hf_model_names[@]}"; do
             for loc_prep in "${location_pre[@]}"; do
                 echo "Running ${logit_method} for Model: ${model_name}, Demographic: ${demographic}, location_preprompt: ${loc_prep}, Device: ${device}"
                 # Pass the device as an argument to the Python script
-                conda run --name in_biased_learning python "logits_generate/${logit_method}" --model_name "${model_name}" --demographic "${demographic}" --location_preprompt "${loc_prep}" --device "${device}"
+                conda run --name in_biased_learning python "logits_generate/${logit_method}" --model_name "${model_name}" --demographic "${demographic}" --location_preprompt "${loc_prep}" --device "${device}" --cache_dir "../../cache/"
                 echo "Completed: ${model_name}, Method: ${logit_method}, Demographic: ${demographic}, location_preprompt: ${loc_prep}, Device: ${device}"
             done
         done
