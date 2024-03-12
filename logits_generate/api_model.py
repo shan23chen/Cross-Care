@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 # Load environment variables from .env file
 load_dotenv()
 
-gpt4v_key = os.getenv("GPT4V_KEY")
+gpt4v_key = os.getenv("AZURE_KEY")
 openai_key = os.getenv("OPENAI_KEY")
 coherence_key = os.getenv("COHERE_KEY")
 

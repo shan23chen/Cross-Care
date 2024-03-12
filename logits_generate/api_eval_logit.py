@@ -270,3 +270,9 @@ if __name__ == "__main__":
         print("no need to process logits for cohere")
     else:
         post_process_logits(output_file_path, len(templates))
+
+# TODO - Add the following to the Cross-Care project:
+# 1. Check all code
+# 2. Check cohere works for other languages
+# restructure this folder, clean methods, and add comments
+        

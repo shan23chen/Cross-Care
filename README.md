@@ -103,11 +103,11 @@ To securely manage your API keys, you can use environment variables. Follow thes
 In the root directory of your project, create a file named `.env`. Add the following lines to this file:
 
 ```md
-GPT4V_KEY=your_gpt4v_key_here
+AZURE_KEY=your_azure_openai_key_here
 OPENAI_KEY=your_openai_key_here
 ```
 
-Replace `your_gpt4v_key_here` and `your_openai_key_here` with your actual API keys.
+Replace `your_azure_openai_key_here` and `your_openai_key_here` with your actual API keys.
 
 2. **Load the variables in your Python script:**
 
@@ -121,7 +121,7 @@ import os
 load_dotenv()
 
 # Access the variables
-gpt4v_key = os.getenv('GPT4V_KEY')
+gpt4v_key = os.getenv('AZURE_KEY')
 openai_key = os.getenv('OPENAI_KEY')
 ```
 
