@@ -44,12 +44,8 @@ declare -a hf_logit_methods=("hf_eval_logit.py" "hf_tf_eval_logit.py")
 for model_name in "${hf_model_names[@]}"; do
     # Determine the device based on VRAM requirements
     model_vram=${model_vram_requirements[$model_name]}
-    if [ "$model_vram" -le "$VRAM_LIMIT" ]; then
-        device="cuda"
-    else
-        device="cpu"
-    fi
-
+    device="cuda"
+    
     for demographic in "${demographics[@]}"; do
         for language in "${languages[@]}"; do
             for logit_method in "${hf_logit_methods[@]}"; do
