@@ -27,27 +27,53 @@ declare -a hf_model_names=(
     "EleutherAI/pile-t5-large"
     "EleutherAI/pile-t5-xl"
     "EleutherAI/pile-t5-xxl"
+    "Qwen/Qwen1.5-7B"
+    "Qwen/Qwen1.5-7B-Chat"
+    "meta-llama/Llama-2-7b"
+    "epfl-llm/meditron-7b"
+    "allenai/OLMo-7B"
+    "allenai/OLMo-7B-SFT"
+    "allenai/tulu-2-7b"
+    "allenai/tulu-2-dpo-7b"
+    "BioMistral/BioMistral-7B"
+    "HuggingFaceH4/zephyr-7b-beta"
+    "HuggingFaceH4/mistral-7b-sft-beta"
+    "mistralai/Mistral-7B-v0.1"
+    "mistralai/Mistral-7B-Instruct-v0.1"
 )
 
 # Define an associative array with model sizes in GB (approximations)
 declare -A model_vram_requirements=(
-    ["EleutherAI/pythia-70m-deduped"]=4  
+    ["EleutherAI/pythia-70m-deduped"]=4
     ["EleutherAI/pythia-160m-deduped"]=6
     ["EleutherAI/pythia-410m-deduped"]=8
     ["EleutherAI/pythia-1b-deduped"]=12
     ["EleutherAI/pythia-2.8b-deduped"]=24
-    # ["EleutherAI/pythia-6.9b-deduped"]=32
-    # ["EleutherAI/pythia-12b-deduped"]=48
+    ["EleutherAI/pythia-6.9b-deduped"]=32
+    ["EleutherAI/pythia-12b-deduped"]=48
     ["state-spaces/mamba-130m"]=6
     ["state-spaces/mamba-370m"]=8
     ["state-spaces/mamba-790m"]=16
     ["state-spaces/mamba-1.4b"]=24
-    # ["state-spaces/mamba-2.8b-slimpj"]=32
-    # ["state-spaces/mamba-2.8b"]=32
+    ["state-spaces/mamba-2.8b-slimpj"]=32
+    ["state-spaces/mamba-2.8b"]=32
     ["EleutherAI/pile-t5-base"]=12
     ["EleutherAI/pile-t5-large"]=24
-    # ["EleutherAI/pile-t5-xl"]=32
-    # ["EleutherAI/pile-t5-xxl"]=48
+    ["EleutherAI/pile-t5-xl"]=32
+    ["EleutherAI/pile-t5-xxl"]=48
+    ["Qwen/Qwen1.5-7B"]=32
+    ["Qwen/Qwen1.5-7B-Chat"]=32
+    ["meta-llama/Llama-2-7b"]=32
+    ["epfl-llm/meditron-7b"]=32
+    ["allenai/OLMo-7B"]=32
+    ["allenai/OLMo-7B-SFT"]=32
+    ["allenai/tulu-2-7b"]=32
+    ["allenai/tulu-2-dpo-7b"]=32
+    ["BioMistral/BioMistral-7B"]=32
+    ["HuggingFaceH4/zephyr-7b-beta"]=32
+    ["HuggingFaceH4/mistral-7b-sft-beta"]=32
+    ["mistralai/Mistral-7B-v0.1"]=32
+    ["mistralai/Mistral-7B-Instruct-v0.1"]=32
 )
 
 # Define an array of demographic choices
