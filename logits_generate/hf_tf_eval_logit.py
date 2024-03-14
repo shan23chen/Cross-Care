@@ -244,9 +244,9 @@ if __name__ == "__main__":
             model_name, cache_dir=tokenizer_cache_dir
         )
         model = AutoModelForCausalLM.from_pretrained(
-            model_name, cache_dir=model_cache_dir
+            model_name, cache_dir=model_cache_dir, load_in_8bit = True
         )
-        model.to(device).eval()
+        model.eval()
 
     ###### Load co-occurrence data ######
     disease_demographic_templates = DiseaseDemographicTemplates()
