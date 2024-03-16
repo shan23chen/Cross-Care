@@ -94,19 +94,19 @@ def get_chat_completion(
             .top_logprobs
         )
         return response
-    
+
     elif service == "cohere":
         co = cohere.Client(coherence_key)
         response = co.generate(
-            prompt= system_prompt+user_prompt+'1', # only evaluating the true logits
-            model='command',
-            max_tokens = 0,
-            temperature = 0,
-            return_likelihoods = 'ALL'
-            )
-        print(system_prompt+user_prompt+'1')
+            prompt=system_prompt + user_prompt + "1",  # only evaluating the true logits
+            model="command",
+            max_tokens=0,
+            temperature=0,
+            return_likelihoods="ALL",
+        )
+        print(system_prompt + user_prompt + "1")
         print(response[0].token_likelihoods[-6])
-        assert response[0].token_likelihoods[-6].token == ' 1'
+        assert response[0].token_likelihoods[-6].token == " 1"
         return response[0].token_likelihoods[-6].likelihood
     else:
         raise ValueError("Invalid service. Please use 'azure' or 'openai', or 'cohere")
