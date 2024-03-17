@@ -92,7 +92,7 @@ def eval_logits(
                     )
                     all_log_softmax_sums.append(completion)
             else:
-                for i in tqdm(range(0, 2, 1)):
+                for i in tqdm(range(0, len(statements), 1)):
                     statement = statements[i]
                     completion = get_chat_completion(
                         system_prompt,
@@ -230,8 +230,8 @@ if __name__ == "__main__":
         )
         system_prompt = f"{system_prompt} {location_prefix}"
 
-    if debug:
-        diseases = diseases[:2]
+    # if debug:
+    #     diseases = diseases[:2]
 
     print(f"Analyzing the following diseases: {diseases}")
 
@@ -275,4 +275,3 @@ if __name__ == "__main__":
 # 1. Check all code
 # 2. Check cohere works for other languages
 # restructure this folder, clean methods, and add comments
-        
