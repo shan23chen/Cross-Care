@@ -128,7 +128,7 @@ if __name__ == "__main__":
         AutoTokenizer,
         T5ForConditionalGeneration,
     )
-    from mamba_ssm.models.mixer_seq_simple import MambaLMHeadModel
+    # from mamba_ssm.models.mixer_seq_simple import MambaLMHeadModel
 
     parser = argparse.ArgumentParser(description="Run models on HF autoclass or mamba.")
     parser.add_argument(
@@ -244,7 +244,7 @@ if __name__ == "__main__":
             model_name, cache_dir=tokenizer_cache_dir
         )
         model = AutoModelForCausalLM.from_pretrained(
-            model_name, cache_dir=model_cache_dir, load_in_8bit=True
+            model_name, cache_dir=model_cache_dir, load_in_4bit=True
         )
         model.eval()
 

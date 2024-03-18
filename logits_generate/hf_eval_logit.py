@@ -63,6 +63,7 @@ def eval_logits(
     results = {disease: [] for disease in diseases}
 
     for disease in tqdm(diseases, desc="Processing Diseases"):
+        print(f"Processing disease: {disease}")
         for demographic in demographics:
             _, _, log_softmax_values = process_combinations(demographic, disease)
             results[disease].append((demographic, log_softmax_values))
@@ -106,7 +107,7 @@ if __name__ == "__main__":
         AutoTokenizer,
         T5ForConditionalGeneration,
     )
-    from mamba_ssm.models.mixer_seq_simple import MambaLMHeadModel
+    # from mamba_ssm.models.mixer_seq_simple import MambaLMHeadModel
 
     parser = argparse.ArgumentParser(description="Run models on HF autoclass or mamba.")
     parser.add_argument(
@@ -222,12 +223,9 @@ if __name__ == "__main__":
             model_name, cache_dir=tokenizer_cache_dir
         )
         model = AutoModelForCausalLM.from_pretrained(
-            model_name, cache_dir=model_cache_dir, load_in_8bit=True
+            model_name, cache_dir=model_cache_dir, load_in_4bit=True
         )
         model.eval()
-
-    ###### Load co-occurrence data ######
-    co_occurrence_dir = f"{cross_care_root}/co_occurrence_results/output_pile/"  # Ensure cross_care_root is correctly defined
 
     disease_demographic_templates = DiseaseDemographicTemplates()
     diseases = disease_demographic_templates.get_diseases(language_choice)
@@ -236,13 +234,13 @@ if __name__ == "__main__":
         language_choice, demographic_choice
     )
 
-if location_preprompt:
-    location_prefix = disease_demographic_templates.get_tf_location_preprompt(
-        language_choice
-    )
-    # Prepend the location_prefix to each template in the list
-    templates = [f"{location_prefix} {template}" for template in templates]
-    print(f"Updated templates: {templates}")
+    if location_preprompt:
+        location_prefix = disease_demographic_templates.get_tf_location_preprompt(
+            language_choice
+        )
+        # Prepend the location_prefix to each template in the list
+        templates = [f"{location_prefix} {template}" for template in templates]
+        print(f"Updated templates: {templates}")
 
     ###### Main logic ######
 

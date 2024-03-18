@@ -10,24 +10,24 @@ VRAM_LIMIT=$1
 
 # Define an array of model names
 declare -a hf_model_names=(
-    "Qwen/Qwen1.5-72B"
-    "Qwen/Qwen1.5-72B-Chat"
+    # "Qwen/Qwen1.5-72B"
+    # "Qwen/Qwen1.5-72B-Chat"
     "meta-llama/Llama-2-70b-hf"
     "meta-llama/Llama-2-70b-chat-hf"
-    "epfl-llm/meditron-70b"
-    "allenai/tulu-2-70b"
-    "allenai/tulu-2-dpo-70b"
+    # "epfl-llm/meditron-70b"
+    # "allenai/tulu-2-70b"
+    # "allenai/tulu-2-dpo-70b"
 )
 
 # Define an associative array with model sizes in GB (approximations, less than 1GB will be annotated as 1)
 declare -A model_vram_requirements=(
-    ["Qwen/Qwen1.5-72B"]=144
-    ["Qwen/Qwen1.5-72B-Chat"]=144
+    # ["Qwen/Qwen1.5-72B"]=144
+    # ["Qwen/Qwen1.5-72B-Chat"]=144
     ["meta-llama/Llama-2-70b-hf"]=140
     ["meta-llama/Llama-2-70b-chat-hf"]=140
-    ["epfl-llm/meditron-70b"]=140
-    ["allenai/tulu-2-70b"]=140
-    ["allenai/tulu-2-dpo-70b"]=140
+    # ["epfl-llm/meditron-70b"]=140
+    # ["allenai/tulu-2-70b"]=140
+    # ["allenai/tulu-2-dpo-70b"]=140
 )
 
 # Define an array of demographic choices
@@ -52,7 +52,7 @@ for model_name in "${hf_model_names[@]}"; do
                 for loc_prep in "${location_pre[@]}"; do
                     echo "Running ${logit_method} for Model: ${model_name}, Demographic: ${demographic}, Language: ${language}, location_preprompt: ${loc_prep}, Device: ${device}"
                     # Pass the device as an argument to the Python script
-                    conda run --name in_biased_learning python "logits_generate/${logit_method}" --model_name "${model_name}" --demographic "${demographic}" --language "${language}" --location_preprompt "${loc_prep}" --device "${device}" --cache_dir "../../cache/"
+                    conda run --name clinical_nlp python "logits_generate/${logit_method}" --model_name "${model_name}" --demographic "${demographic}" --language "${language}" --location_preprompt "${loc_prep}" --device "${device}" --cache_dir "/clinical_nlp/.cache"
                     echo "Completed: ${model_name}, Method: ${logit_method}, Demographic: ${demographic}, location_preprompt: ${loc_prep}, Device: ${device}"
                 done
             done
