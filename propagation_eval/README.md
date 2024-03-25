@@ -8,13 +8,13 @@ This section focuses on analyzing co-occurrence counts in the 'The Pile' dataset
 
 ### 1a. Co-occurrence Count Analysis (`co_occurrence_count_analysis.ipynb`)
 Analyzes co-occurrence counts with gender and race columns against disease rows. This notebook should cover:
-- General disease counts, co-occurrences gender/race, real world prevalence (appendix for tables, anonymous website and repo)
-  - Rows - disease, columns- gender+race
+- General disease counts, co-occurrences gender/race, real world prevalence
+  - Rows - disease, columns- gender+race, values = co-occurrence counts
   - Subset top 25--> Rows - disease, columns- gender+race
 - Variation across windows
-  - Appendix figure for no variation across windows - hence use one from now on
+  - Figure for showing no variation across window sizes for a given disease demographic pair - hence use one from now on
 - Within disease ranks of counts 
-  - Table- Rows - disease, columns- gender+race
+  - Table- Rows = disease, columns= gender+race, value = rank within demographic group
 
 ### 1b. Real World Counts Comparison (`real_world_counts_comparison.ipynb`)
 Compares the real-world prevalence data against the co-occurrence counts obtained from the dataset. 
@@ -31,7 +31,7 @@ This section looks at results from using models trained on 'The Pile' dataset, f
 ### 2a. Top vs. Bottom Rank Comparison (`top_bottom_rank_comparison.ipynb`)
 Compares the number of times each model ranks a disease as top vs. bottom for different demographics. 
 - Calculate and compare top vs. bottom ranks.
-  - Rows-templates, columns- gender+race, value sum of disease top/bottom rank, one table for each model
+  - Table Rows=templates, columns= gender+race, value=sum of disease top/bottom rank, one table for each model
 - Variation across models
   - Table rows= models, race + gender=column, value number of times top across all the diseases and another for bottom
 
