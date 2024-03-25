@@ -43,8 +43,7 @@ declare -a location_pre=("True" "False")
 # declare -a location_pre=("False")
 
 # Loop for Hugging Face methods, iterating model names
-declare -a hf_logit_methods=("hf_eval_logit.py" "hf_tf_eval_logit.py")
-# declare -a hf_logit_methods=("hf_tf_eval_logit.py")
+declare -a hf_logit_methods=("70b_hf_eval_logit.py" "70b_hf_tf_eval_logit.py")
 
 for model_name in "${hf_model_names[@]}"; do
     # Determine the device based on VRAM requirements

@@ -3,13 +3,12 @@ import pandas as pd
 import json
 import sys
 from tqdm import tqdm
+import torch
 
 from templates import *
-from hf_model import (
-    calculate_log_softmax_batch_seq2seq,
-    calculate_log_softmax_batch_non_seq2seq,
-)
-import torch
+from api_model import SYS_PROMPT
+from hf_model import *
+from transformers import BitsAndBytesConfig
 
 # Determine the path to the root of the Cross-Care project dynamically
 script_dir = os.path.dirname(
@@ -23,10 +22,15 @@ cross_care_root = os.path.normpath(
 # Add the Cross-Care root to sys.path
 sys.path.append(cross_care_root)
 
+import torch
+import torch.nn.functional as F
+
 
 def eval_logits(
     demographics,
     diseases,
+    system_prompt,
+    prompt,
     model,
     tokenizer,
     model_type,
@@ -34,68 +38,86 @@ def eval_logits(
     batch_size=8,
     templates=None,
 ):
-    def generate_statements(demographic, disease):
-        return [
-            template.format(demographic=demographic, disease=disease)
-            for template in templates
-        ]
+    def generate_statements(
+        demographic, disease, system_prompt, user_prompt, templates
+    ):
+        """
+        Generates full prompts for each statement.
 
-    def process_combinations(demographic, disease):
-        model.eval()
-        statements = generate_statements(demographic, disease)
-        all_log_softmax_sums = []
+        Args:
+            demographic (str): The demographic group.
+            disease (str): The disease being discussed.
+            system_prompt (str): The system's instruction prompt.
+            user_prompt (str): The user prompt that introduces the statement.
+            templates (list): The list of statement templates.
 
-        for i in range(0, len(statements), batch_size):
-            batch_statements = statements[i : i + batch_size]
-            if model_type == "t5":
-                batch_log_softmax_sums = calculate_log_softmax_batch_seq2seq(
-                    batch_statements, tokenizer, model, device
-                )
-            else:
-                batch_log_softmax_sums = calculate_log_softmax_batch_non_seq2seq(
-                    batch_statements, tokenizer, model, device
-                )
+        Returns:
+            list: A list of fully constructed prompts.
+        """
+        full_prompts = []
+        for template in templates:
+            statement = template.format(demographic=demographic, disease=disease)
+            full_prompt = f"{system_prompt} '{statement}' {user_prompt}"  # Constructs the full prompt
+            full_prompts.append(full_prompt)
 
-            all_log_softmax_sums.extend(batch_log_softmax_sums)
+        return full_prompts
 
-        return disease, demographic, all_log_softmax_sums
+    def process_batch_non_seq2seq(texts, tokenizer, model, device):
+        # Tokenize inputs and prepare for model inference
+        inputs = tokenize_inputs(texts, model, tokenizer, device)
+        # Perform model inference to get last token logits
+        last_token_logits = model_inference(inputs, model)
+        # Extract the log softmax value specifically for "1"
+        log_softmax_for_true = extract_logit_for_true(last_token_logits, tokenizer)
+        # Convert log softmax values for "True" to a list for easy handling
+        log_softmax_for_true_list = log_softmax_for_true.cpu().numpy().tolist()
+
+        return log_softmax_for_true_list
+
+    def process_batch_seq2seq(texts, tokenizer, model, device):
+        # Tokenize inputs and prepare for model inference
+        inputs, targets = tokenize_for_seq2seq(texts, model, tokenizer, device)
+        # Perform model inference
+        logits = model_inference_seq2seq(inputs, targets, model)
+        # Extract the log softmax value specifically for "1"
+        log_softmax_for_true = extract_log_softmax_for_true_seq2seq(
+            logits, targets, tokenizer
+        )
+        # Convert log softmax values for "True" to a list for handling
+        log_softmax_for_true_list = log_softmax_for_true.cpu().numpy().tolist()
+
+        return log_softmax_for_true_list
 
     results = {disease: [] for disease in diseases}
 
     for disease in tqdm(diseases, desc="Processing Diseases"):
-        print(f"Processing disease: {disease}")
         for demographic in demographics:
-            _, _, log_softmax_values = process_combinations(demographic, disease)
-            results[disease].append((demographic, log_softmax_values))
+            # Generate full prompts for each combination of demographic and disease
+            full_prompts = generate_statements(
+                demographic, disease, system_prompt, prompt, templates
+            )
+
+            all_log_softmax_sums = []
+
+            # Process in batches
+            for i in range(0, len(full_prompts), batch_size):
+                batch_prompts = full_prompts[i : i + batch_size]
+
+                if model_type == "t5":
+                    batch_log_softmax_sums = process_batch_seq2seq(
+                        batch_prompts, tokenizer, model, device
+                    )
+                else:
+                    batch_log_softmax_sums = process_batch_non_seq2seq(
+                        batch_prompts, tokenizer, model, device
+                    )
+
+                all_log_softmax_sums.extend(batch_log_softmax_sums)
+
+            # Store results
+            results[disease].append((demographic, all_log_softmax_sums))
 
     return results
-
-
-# def calculate_average_log_softmax_per_demographic_disease(output):
-#     disease_averages = {}
-#     for disease, demographic_results in output.items():
-#         averages = {}
-#         for demographic_result in demographic_results:
-#             demographic, log_softmax_values = demographic_result
-#             if demographic not in averages:
-#                 averages[demographic] = []
-#             averages[demographic].extend(log_softmax_values)
-
-#         overall_averages = {
-#             demographic: sum(values) / len(values) if values else float("inf")
-#             for demographic, values in averages.items()
-#         }
-
-#         sorted_averages = sorted(overall_averages.items(), key=lambda x: x[1])
-#         disease_averages[disease] = sorted_averages
-
-#     # Nicely print the results
-#     for disease, averages in disease_averages.items():
-#         print(f"Disease: {disease}")
-#         for rank, (race, avg) in enumerate(averages, start=1):
-#             print(f"  {rank}. {race}: {avg:.2f}")
-#         print()
-#     return disease_averages
 
 
 if __name__ == "__main__":
@@ -199,6 +221,14 @@ if __name__ == "__main__":
 
     model_type = "mamba" if is_mamba else "t5" if is_t5 else "pythia"
 
+    attn_implementation='flash_attention_2'
+    bnb_config = BitsAndBytesConfig(
+        load_in_4bit=True,
+        bnb_4bit_use_double_quant=True,
+        bnb_4bit_quant_type="nf4",
+        bnb_4bit_compute_dtype=torch.bfloat16
+    )
+    
     if is_mamba:
         # convert dtype to torch dtype
         dtype = torch.float16 if dtype == "float16" else torch.float32
@@ -208,14 +238,14 @@ if __name__ == "__main__":
         tokenizer = AutoTokenizer.from_pretrained(
             tokenizer_model_name, cache_dir=tokenizer_cache_dir
         )
-        model = MambaLMHeadModel.from_pretrained(model_name, device=device, dtype=dtype)
+        model = MambaLMHeadModel.from_pretrained(model_name, device=device, dtype=dtype, quantization_config=bnb_config, torch_dtype=torch.float16)
         model.to(device).eval()
     elif is_t5:
         # tokenizer = UMT5Tokenizer.from_pretrained("EleutherAI/t5-v2-base")
         tokenizer = AutoTokenizer.from_pretrained(
             "oobabooga/llama-tokenizer", cache_dir=tokenizer_cache_dir
         )
-        model = T5ForConditionalGeneration.from_pretrained(model_name)
+        model = T5ForConditionalGeneration.from_pretrained(model_name, quantization_config=bnb_config, torch_dtype=torch.float16)
         model.to(device).eval()
     else:
         # Load the specified model and tokenizer as before
@@ -223,24 +253,25 @@ if __name__ == "__main__":
             model_name, cache_dir=tokenizer_cache_dir
         )
         model = AutoModelForCausalLM.from_pretrained(
-            model_name, cache_dir=model_cache_dir, load_in_8bit=True
-        )
+            model_name, cache_dir=model_cache_dir, quantization_config=bnb_config, torch_dtype=torch.float16)
         model.eval()
 
+    ###### Load co-occurrence data ######
     disease_demographic_templates = DiseaseDemographicTemplates()
     diseases = disease_demographic_templates.get_diseases(language_choice)
     templates = disease_demographic_templates.get_templates(language_choice)
     demographic_columns = disease_demographic_templates.get_demographics(
         language_choice, demographic_choice
     )
+    prompt = disease_demographic_templates.get_tf_query(language_choice)
+
+    system_prompt = SYS_PROMPT
 
     if location_preprompt:
         location_prefix = disease_demographic_templates.get_tf_location_preprompt(
             language_choice
         )
-        # Prepend the location_prefix to each template in the list
-        templates = [f"{location_prefix} {template}" for template in templates]
-        print(f"Updated templates: {templates}")
+        system_prompt = f"{system_prompt} {location_prefix}"
 
     ###### Main logic ######
 
@@ -248,6 +279,8 @@ if __name__ == "__main__":
     out = eval_logits(
         demographic_columns,
         diseases,
+        system_prompt,
+        prompt,
         model,
         tokenizer,
         model_type,
@@ -257,9 +290,9 @@ if __name__ == "__main__":
     )
 
     if location_preprompt:
-        logits_dir = f"{cross_care_root}/logits_results/hf/output_pile/american_context/"  # Ensure cross_care_root is correctly defined
+        logits_dir = f"{cross_care_root}/logits_results/hf_tf/output_pile/american_context/"  # Ensure cross_care_root is correctly defined
     else:
-        logits_dir = f"{cross_care_root}/logits_results/hf/output_pile/"  # Ensure cross_care_root is correctly defined
+        logits_dir = f"{cross_care_root}/logits_results/hf_tf/output_pile/"  # Ensure cross_care_root is correctly defined
 
     # Save the output
     output_dir = os.path.join(
