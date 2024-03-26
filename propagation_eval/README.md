@@ -12,7 +12,7 @@ Analyzes co-occurrence counts with gender and race columns against disease rows.
   - Rows - disease, columns- gender+race, values = co-occurrence counts
   - Subset top 25--> Rows - disease, columns- gender+race
 - Variation across windows
-  - Figure for showing no variation across window sizes for a given disease demographic pair - hence use one from now on
+  - ✅ Figure for showing no variation across window sizes for a given disease demographic pair - hence use one from now on
 - Within disease ranks of counts 
   - Table- Rows = disease, columns= gender+race, value = rank within demographic group
 
