@@ -64,7 +64,6 @@ Analyzes models "in the wild," focusing on the variability across languages, ali
 - Count table as above
   - 2x Table models row, race + gender column, value number of times top across all the diseases and another for bottom
 - Kendall tau scores 
-  - logits vs counts in Pile 
   - logits vs real world prevalence
 
 ### 3b. Language Eval (`lang_eval.ipynb`)
