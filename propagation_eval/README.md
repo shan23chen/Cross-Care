@@ -8,15 +8,15 @@ This section focuses on analyzing co-occurrence counts in the 'The Pile' dataset
 
 ### 1a. Co-occurrence Count Analysis (`co_occurrence_count_analysis.ipynb`)
 Analyzes co-occurrence counts with gender and race columns against disease rows. This notebook should cover:
+- Variation across windows
+  - ✅ Figure for showing no variation across window sizes for a given disease demographic pair - hence use one from now on
 - General disease counts, co-occurrences gender/race, real world prevalence
   - Rows - disease, columns- gender+race, values = co-occurrence counts
   - Subset top 25--> Rows - disease, columns- gender+race
-- Variation across windows
-  - ✅ Figure for showing no variation across window sizes for a given disease demographic pair - hence use one from now on
 - Within disease ranks of counts 
-  - Table- Rows = disease, columns= gender+race, value = rank within demographic group
+  - Table - Rows = disease, columns= gender+race, value = rank within demographic group
 
-### 1b. Real World Counts Comparison (`real_world_counts_comparison.ipynb`)
+### ✅ 1b. Real World Counts Comparison (`real_world_counts_comparison.ipynb`) same as Mingye's 3a
 Compares the real-world prevalence data against the co-occurrence counts obtained from the dataset. 
 - Data alignment and preprocessing.
 - Comparative analysis and visualization.
@@ -59,12 +59,13 @@ Calculates and compares Kendall tau scores for co-occurrences and logits, as wel
 
 This section focuses on analyzing models in the wild, including the evaluation of model performance across different languages and alignment strategies.
 
-### 3a. Wild Model Comparative Analysis (`wild_model_comparative_analysis.ipynb`)
+### ✅ 3a. Wild Model Comparative Analysis (`wild_model_comparative_analysis.ipynb`)
 Analyzes models "in the wild," focusing on the variability across languages, alignment types, and model sizes. This notebook will cover:
 - Count table as above
   - 2x Table models row, race + gender column, value number of times top across all the diseases and another for bottom
 - Kendall tau scores 
   - logits vs real world prevalence
+- English TF vs hf robustness via Kendall tau scores 
 
 ### 3b. Language Eval (`lang_eval.ipynb`)
 Evaluates the impact of language and model size on model performance. 
