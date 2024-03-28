@@ -7,6 +7,8 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 from dicts.dict_medical import medical_keywords_dict  # Assuming these are your custom modules
 from dicts.dict_drug import drug_keywords_dict
 from dicts.dict_racial import racial_keywords_dict
+from dicts.dict_gender import gender_keywords_dict
+
 
 api_url = "https://api.infini-gram.io/"
 headers = {"Content-Type": "application/json"}
@@ -62,7 +64,7 @@ def search_documents_count(term, corpora, maxnum=10):
 
 results = []
 for disease, disease_terms in medical_keywords_dict.items():
-    for drug, drug_terms in drug_keywords_dict.items():
+    for drug, drug_terms in gender_keywords_dict.items():
         cooccurrence = (drug, disease)
         cooccurrence_final_count = 0
         for disease_term in disease_terms:
@@ -77,7 +79,7 @@ for disease, disease_terms in medical_keywords_dict.items():
         results.append({"co-occurrence": cooccurrence, "count": cooccurrence_final_count})
         print(f"co-occurrence: {cooccurrence}, count: {cooccurrence_final_count}")
 
-json_filename = "./results_drugs.json"
+json_filename = "./results_gender.json"
 with open(json_filename, 'w') as file:
     json.dump(results, file, indent=4)
 

@@ -216,10 +216,14 @@ def tokenize_inputs(texts, model, tokenizer, device):
 
 
 def model_inference(inputs, model):
+    # Check if 'attention_mask' is accepted by the model's forward method
+    forward_signature = inspect.signature(model.forward)
+    if "attention_mask" not in forward_signature.parameters:
+        inputs.pop("attention_mask", None)
+
     with torch.no_grad():
         outputs = model(**inputs)
     logits = outputs.logits
-    # Select the logits for the last token in the sequence for each input
     last_token_logits = logits[:, -1, :]
     return last_token_logits
 
