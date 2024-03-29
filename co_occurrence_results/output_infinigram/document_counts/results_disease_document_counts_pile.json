@@ -1,0 +1,374 @@
+[
+    {
+        "disease": "hiv/aids",
+        "count": 299036
+    },
+    {
+        "disease": "covid-19",
+        "count": 77576
+    },
+    {
+        "disease": "takotsubo cardiomyopathy",
+        "count": 11730
+    },
+    {
+        "disease": "tuberculoses",
+        "count": 1491621
+    },
+    {
+        "disease": "endocarditis",
+        "count": 197763
+    },
+    {
+        "disease": "syphilis",
+        "count": 303358
+    },
+    {
+        "disease": "hypertension",
+        "count": 3511862
+    },
+    {
+        "disease": "sarcoidoses",
+        "count": 19438
+    },
+    {
+        "disease": "hepatitis b",
+        "count": 1436
+    },
+    {
+        "disease": "ulcerative colitis",
+        "count": 202206
+    },
+    {
+        "disease": "crohn\u2019s disease",
+        "count": 2723
+    },
+    {
+        "disease": "chagas disease",
+        "count": 567
+    },
+    {
+        "disease": "3545003.0",
+        "count": 79089
+    },
+    {
+        "disease": "3716002.0",
+        "count": 79127
+    },
+    {
+        "disease": "3723001.0",
+        "count": 1700181
+    },
+    {
+        "disease": "4308002.0",
+        "count": 167
+    },
+    {
+        "disease": "6142004.0",
+        "count": 14545786
+    },
+    {
+        "disease": "6471006.0",
+        "count": 3623513
+    },
+    {
+        "disease": "7973008.0",
+        "count": 5633
+    },
+    {
+        "disease": "8357008.0",
+        "count": 11486
+    },
+    {
+        "disease": "menstruation",
+        "count": 190117
+    },
+    {
+        "disease": "9829001.0",
+        "count": 2519
+    },
+    {
+        "disease": "10743008.0",
+        "count": 97982
+    },
+    {
+        "disease": "11381005.0",
+        "count": 476282
+    },
+    {
+        "disease": "11654001.0",
+        "count": 155
+    },
+    {
+        "disease": "13746004.0",
+        "count": 362987
+    },
+    {
+        "disease": "34486009.0",
+        "count": 171791
+    },
+    {
+        "disease": "40930008.0",
+        "count": 344996
+    },
+    {
+        "disease": "14669001.0",
+        "count": 5627
+    },
+    {
+        "disease": "15188001.0",
+        "count": 181510
+    },
+    {
+        "disease": "18193002.0",
+        "count": 13158
+    },
+    {
+        "disease": "18718003.0",
+        "count": 75607
+    },
+    {
+        "disease": "21134002.0",
+        "count": 3939628
+    },
+    {
+        "disease": "396275006.0",
+        "count": 452871
+    },
+    {
+        "disease": "22298006.0",
+        "count": 1706083
+    },
+    {
+        "disease": "23502006.0",
+        "count": 3773
+    },
+    {
+        "disease": "23919004.0",
+        "count": 4525
+    },
+    {
+        "disease": "24693007.0",
+        "count": 184316
+    },
+    {
+        "disease": "24700007.0",
+        "count": 502155
+    },
+    {
+        "disease": "25458004.0",
+        "count": 1814
+    },
+    {
+        "disease": "26889001.0",
+        "count": 5715
+    },
+    {
+        "disease": "26929004.0",
+        "count": 6600
+    },
+    {
+        "disease": "29384001.0",
+        "count": 190062
+    },
+    {
+        "disease": "30811009.0",
+        "count": 3130
+    },
+    {
+        "disease": "31384009.0",
+        "count": 25402
+    },
+    {
+        "disease": "32398004.0",
+        "count": 228247
+    },
+    {
+        "disease": "32798002.0",
+        "count": 79366
+    },
+    {
+        "disease": "32914008.0",
+        "count": 22853
+    },
+    {
+        "disease": "34840004.0",
+        "count": 64687
+    },
+    {
+        "disease": "35489007.0",
+        "count": 7834387
+    },
+    {
+        "disease": "36971009.0",
+        "count": 18137
+    },
+    {
+        "disease": "37340000.0",
+        "count": 22399
+    },
+    {
+        "disease": "39400004.0",
+        "count": 223673
+    },
+    {
+        "disease": "39621005.0",
+        "count": 172459
+    },
+    {
+        "disease": "40733004.0",
+        "count": 14173146
+    },
+    {
+        "disease": "91302008",
+        "count": 1464453
+    },
+    {
+        "disease": "161712005.0",
+        "count": 534482
+    },
+    {
+        "disease": "43116000.0",
+        "count": 227071
+    },
+    {
+        "disease": "44054006.0",
+        "count": 1008759
+    },
+    {
+        "disease": "46635009.0",
+        "count": 2331
+    },
+    {
+        "disease": "49049000.0",
+        "count": 138136
+    },
+    {
+        "disease": "49601007.0",
+        "count": 3010126
+    },
+    {
+        "disease": "50829006.0",
+        "count": 36294
+    },
+    {
+        "disease": "52448006.0",
+        "count": 1744047
+    },
+    {
+        "disease": "52702003.0",
+        "count": 46740
+    },
+    {
+        "disease": "53741008.0",
+        "count": 859878
+    },
+    {
+        "disease": "54150009.0",
+        "count": 41651
+    },
+    {
+        "disease": "56317004.0",
+        "count": 136239
+    },
+    {
+        "disease": "56925008.0",
+        "count": 283451
+    },
+    {
+        "disease": "57182000.0",
+        "count": 215637
+    },
+    {
+        "disease": "57406009.0",
+        "count": 67422
+    },
+    {
+        "disease": "59927004.0",
+        "count": 1059279
+    },
+    {
+        "disease": "60862001.0",
+        "count": 336966
+    },
+    {
+        "disease": "61462000.0",
+        "count": 1935445
+    },
+    {
+        "disease": "61599003.0",
+        "count": 24655
+    },
+    {
+        "disease": "62315008.0",
+        "count": 1316635
+    },
+    {
+        "disease": "63102001.0",
+        "count": 38579
+    },
+    {
+        "disease": "67362008.0",
+        "count": 2
+    },
+    {
+        "disease": "68566005.0",
+        "count": 115380
+    },
+    {
+        "disease": "69322001.0",
+        "count": 484740
+    },
+    {
+        "disease": "69896004.0",
+        "count": 589921
+    },
+    {
+        "disease": "73211009.0",
+        "count": 7120564
+    },
+    {
+        "disease": "73442001.0",
+        "count": 16
+    },
+    {
+        "disease": "74732009.0",
+        "count": 4105588
+    },
+    {
+        "disease": "75694006.0",
+        "count": 472526
+    },
+    {
+        "disease": "76376003.0",
+        "count": 33667
+    },
+    {
+        "disease": "86044005.0",
+        "count": 180760
+    },
+    {
+        "disease": "709044004.0",
+        "count": 363439
+    },
+    {
+        "disease": "129103003.0",
+        "count": 331264
+    },
+    {
+        "disease": "195967001.0",
+        "count": 2420107
+    },
+    {
+        "disease": "200936003.0",
+        "count": 738759
+    },
+    {
+        "disease": "233604007.0",
+        "count": 2138204
+    },
+    {
+        "disease": "698247007.0",
+        "count": 788299
+    }
+]
