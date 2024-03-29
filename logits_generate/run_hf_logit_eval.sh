@@ -29,8 +29,6 @@ declare -a hf_model_names=(
     # "EleutherAI/pile-t5-xxl"
     "Qwen/Qwen1.5-7B"
     "Qwen/Qwen1.5-7B-Chat"
-    "meta-llama/Llama-2-7b"
-    "epfl-llm/meditron-7b"
     "allenai/OLMo-7B"
     "allenai/OLMo-7B-SFT"
     "allenai/tulu-2-7b"
@@ -63,8 +61,6 @@ declare -A model_vram_requirements=(
     ["EleutherAI/pile-t5-xxl"]=24
     ["Qwen/Qwen1.5-7B"]=14
     ["Qwen/Qwen1.5-7B-Chat"]=14
-    ["meta-llama/Llama-2-7b"]=14
-    ["epfl-llm/meditron-7b"]=14
     ["allenai/OLMo-7B"]=14
     ["allenai/OLMo-7B-SFT"]=14
     ["allenai/tulu-2-7b"]=14
@@ -77,8 +73,7 @@ declare -A model_vram_requirements=(
 )
 
 # Define root directory for logits results
-# cross_care_root="."
-cross_care_root="/home/legionjgally/Desktop/mit/Cross-Care"
+cross_care_root="/home/jgally/mit/Cross-Care"
 
 
 # Define an array of demographic choices
@@ -130,7 +125,7 @@ for model_name in "${hf_model_names[@]}"; do
                         echo "no file at ${expected_filepath}"
                         echo "Running ${logit_method} for Model: ${model_name}, Demographic: ${demographic}, Language: ${language}, Location Prep: ${loc_prep}, Device: ${device}"
                         # Use the relative path to the Python script, given the execution context
-                        conda run --name in_biased_learning python "logits_generate/${logit_method}" --model_name "${model_name}" --demographic "${demographic}" --language "${language}" --location_preprompt "${loc_prep}" --device "${device}" --cache_dir "../cache/"
+                        conda run --name clinical_nlp python "logits_generate/${logit_method}" --model_name "${model_name}" --demographic "${demographic}" --language "${language}" --location_preprompt "${loc_prep}" --device "${device}" --cache_dir "../cache/"
                         echo "Completed: ${model_name}, Method: ${logit_method}, Demographic: ${demographic}, Location Prep: ${loc_prep}, Device: ${device}"
                     fi
                 done

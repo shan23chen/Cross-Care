@@ -108,7 +108,8 @@ if __name__ == "__main__":
         AutoTokenizer,
         T5ForConditionalGeneration,
     )
-    from mamba_ssm.models.mixer_seq_simple import MambaLMHeadModel
+
+    # from mamba_ssm.models.mixer_seq_simple import MambaLMHeadModel
 
     parser = argparse.ArgumentParser(description="Run models on HF autoclass or mamba.")
     parser.add_argument(
@@ -200,14 +201,14 @@ if __name__ == "__main__":
 
     model_type = "mamba" if is_mamba else "t5" if is_t5 else "pythia"
 
-    attn_implementation='flash_attention_2'
+    attn_implementation = "flash_attention_2"
     bnb_config = BitsAndBytesConfig(
         load_in_4bit=True,
         bnb_4bit_use_double_quant=True,
         bnb_4bit_quant_type="nf4",
-        bnb_4bit_compute_dtype=torch.bfloat16
+        bnb_4bit_compute_dtype=torch.bfloat16,
     )
-    
+
     if is_mamba:
         # convert dtype to torch dtype
         dtype = torch.float16 if dtype == "float16" else torch.float32
@@ -217,14 +218,22 @@ if __name__ == "__main__":
         tokenizer = AutoTokenizer.from_pretrained(
             tokenizer_model_name, cache_dir=tokenizer_cache_dir
         )
-        model = MambaLMHeadModel.from_pretrained(model_name, device=device, dtype=dtype, quantization_config=bnb_config, torch_dtype=torch.float16)
+        model = MambaLMHeadModel.from_pretrained(
+            model_name,
+            device=device,
+            dtype=dtype,
+            quantization_config=bnb_config,
+            torch_dtype=torch.float16,
+        )
         model.to(device).eval()
     elif is_t5:
         # tokenizer = UMT5Tokenizer.from_pretrained("EleutherAI/t5-v2-base")
         tokenizer = AutoTokenizer.from_pretrained(
             "oobabooga/llama-tokenizer", cache_dir=tokenizer_cache_dir
         )
-        model = T5ForConditionalGeneration.from_pretrained(model_name, quantization_config=bnb_config, torch_dtype=torch.float16)
+        model = T5ForConditionalGeneration.from_pretrained(
+            model_name, quantization_config=bnb_config, torch_dtype=torch.float16
+        )
         model.to(device).eval()
     else:
         # Load the specified model and tokenizer as before
@@ -232,7 +241,10 @@ if __name__ == "__main__":
             model_name, cache_dir=tokenizer_cache_dir
         )
         model = AutoModelForCausalLM.from_pretrained(
-            model_name, cache_dir=model_cache_dir, quantization_config=bnb_config, torch_dtype=torch.float16
+            model_name,
+            cache_dir=model_cache_dir,
+            quantization_config=bnb_config,
+            torch_dtype=torch.float16,
         )
         model.eval()
 
