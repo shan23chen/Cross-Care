@@ -35,7 +35,7 @@ Compares the number of times each model ranks a disease as top vs. bottom for di
 - Variation across models
   - Table rows= models, race + gender=column, value number of times top across all the diseases and another for bottom
 
-### 2b. Template Robustness Evaluation (`template_robustness_evaluation.ipynb`)
+### ✅ 2b. Template Robustness Evaluation (`template_robustness_evaluation.ipynb`)
 Evaluates variation in logit ranks across each of the templates used in the study.
 - Average difference in raw logits within model+disease
 - Average difference in logit ranks within model+disease
