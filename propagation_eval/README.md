@@ -28,14 +28,14 @@ Compares the real-world prevalence data against the co-occurrence counts obtaine
 
 This section looks at results from using models trained on 'The Pile' dataset, focusing on Pythia, mamba and T5 models.
 
-### 2a. Top vs. Bottom Rank Comparison (`top_bottom_rank_comparison.ipynb`)
+### ✅ 2a. Top vs. Bottom Rank Comparison (`top_bottom_rank_comparison.ipynb`)
 Compares the number of times each model ranks a disease as top vs. bottom for different demographics. 
 - Calculate and compare top vs. bottom ranks.
   - Table Rows=templates, columns= gender+race, value=sum of disease top/bottom rank, one table for each model
 - Variation across models
   - Table rows= models, race + gender=column, value number of times top across all the diseases and another for bottom
 
-### 2b. Template Robustness Evaluation (`template_robustness_evaluation.ipynb`)
+### ✅ 2b. Template Robustness Evaluation (`template_robustness_evaluation.ipynb`)
 Evaluates variation in logit ranks across each of the templates used in the study.
 - Average difference in raw logits within model+disease
 - Average difference in logit ranks within model+disease
