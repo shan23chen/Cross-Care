@@ -1,0 +1,227 @@
+nihs_available,gbd_column,disease,demographic_cat,source_title,source_year,source_loe,source_loe_notes,source_url,data_type,data_type_notes,disease_value_1,disease_value_2,disease_value_3,disease_value_4,disease_value_5,disease_value_6,notes,researcher_1,researcher_2,verified,
+"nihs_disease: Available on NIHS
+Value set: True/False","nihs_column: name of the cause_name that corresponds to this term
+Value set: free text","Disease: The disease that the rates reflect
+Value set: free text",Demographic category: Either Race or gender. Value set: binary,title of publication or report,"Year(s): Year or range of years that rates were collected (not year of publication)
+Value set: Year in YYYY, or year range in YYYY-YYYY","Source Level of Evidence: The level of evidence of the source material (see “guidelines for deciding which disease rates sources to use” below)
+Value set:
+1: Government or international agency (e.g., WHO) reporting
+2: Peer-reviewed publication that is reporting non-government collected data
+3: Other
+4: None","Describe “Other” source level. Leave blank for government reporting and peer-reviewed publication, 
+Value set: free text","Source: The source of the data for rates. Please copy and paste a link to the source
+Value set: url","Prevalence or incidence: Whether the rates are prevalence or incidence rates
+Value set:
+1: Prevalence (n per 10,000)
+2: Incidence (n per 10,000 person-years)",describe other. for example if only relative prevalences are available compared to true raw figures per normalised unit,"If demographic category:
+- Gender= Male 
+- Race= White","If demographic category:
+- Gender= Female 
+- Race= Black/African American","If demographic category:
+- Gender= Non-binary 
+- Race= Hispanic/Latino","If demographic category:
+- Gender= NA 
+- Race= Asian","If demographic category:
+- Gender= NA 
+- Race= Indiginous","If demographic category:
+- Gender= NA 
+- Race= Pacific Islander",Provide any notes on the data here,"The person doing the manual searching and completion of the text
+Value set: 
+Jaya
+Arvind
+Ajay","The person doing the verification of the figures using the source_url provided
+Value set: 
+Danielle
+Jack","Verified: If the figures have been verified for use
+Value set: Binary 1/0",
+FALSE,,achilles tendinitis,1: Race,,,,,,,,,,,,,,,,,FALSE,
+FALSE,,achilles tendinitis,2: Gender,,,,,,,,,,,,,,,Arvind,,FALSE,
+FALSE,Acne vulgaris,acne,2: Gender,Adult Acne Versus Adolescent Acne,2018,Government Statistics,,,1: Prevalence,,"1,519.00","8,480.00",,,,,"it was out of 454 people so i convereted those statistics to be out of 10,000 instead with calculator",Jaya,,FALSE,
+FALSE,,acne,1: Race,"Racial Differences in Clinical Characteristics, Perceptions and Behaviors, and Psychosocial Impact of Adult Female Acne",2014,Government Statistics,,"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4106354/#:~:text=In%20a%20community%2Dbased%20photographic,%2FCaucasian%20(24%25)%20women.",1: Prevalence,,"2,400.00","3,700.00","3,200.00","3,000.00","2,300.00",NA,It was precentages in a community-based photographic study,Jaya,,FALSE,
+FALSE,see gastritis,acute gastritis,2: Gender,,,,,,,,,,,,,,,,,FALSE,
+FALSE,,acute gastritis,1: Race,,,,,,,,,,,,,,,Arvind,,FALSE,
+FALSE,,acute kidney failure,2: Gender,NIH: Acute Kidney Injury Chronic Kidney Disease: Chapter 4,2020,Government Statistics,,https://usrds-adr.niddk.nih.gov/2022/chronic-kidney-disease/4-acute-kidney-injury,2: Incidence,,755.00,526.00,,,,,"Events per 1,000 person-years--> converted to 10,000",Arvind,Jack,TRUE,
+FALSE,,acute kidney failure,1: Race,NIH: Acute Kidney Injury Chronic Kidney Disease: Chapter 4,2020,Government Statistics,,https://usrds-adr.niddk.nih.gov/2022/chronic-kidney-disease/4-acute-kidney-injury,2: Incidence,,589.00,"1,145.00",,,,,"Events per 1,000 person-years--> converted to 10,000",Arvind,Jack,FALSE,
+FALSE,,adenomyosis,1: Race,,,,,,2: Incidence,,,,,,,,,,,FALSE,
+FALSE,,adenomyosis,2: Gender,"Adenomyosis incidence, prevalence and treatment: United States population-based study 2006–2015",2015,Other Publications with doi,,https://www.ajog.org/article/S0002-9378(20)30023-5/fulltext,2: Incidence,,0.00,28.90,,,,,"28.9 per 10,000 woman-years",jack,,FALSE,
+FALSE,Alopecia areata,alopecia,2: Gender,,,,,,,,,,,,,,,,Jack,FALSE,
+FALSE,,alopecia,1: Race,"Overall and Racial and Ethnic Subgroup Prevalences of Alopecia Areata, Alopecia Totalis, and Alopecia Universalis ",2019,Other Publications with doi,"Cross-sectional study using electronic records comprising the Explorys database (Watson Health, IBM Corporation) included children, adolescents, and adults seeking healthcare across the 4 census regions in the US between January 1, 2019, and December 31, 2019. The statistical analysis was conducted between July 21, 2022, and December 22, 2022. ",https://pubmed.ncbi.nlm.nih.gov/36857044/,1: Prevalence,,16.80,22.60,21.20,41.40,,,,Ajay,,FALSE,
+FALSE,,als,2: Gender,"Prevalence of amyotrophic lateral sclerosis in the United States using established and novel methodologies, 2017",2017,Other Publications with doi,,https://www.tandfonline.com/doi/epub/10.1080/21678421.2022.2059380?needAccess=true,1: Prevalence,,0.70,0.41,,,,,Data from the National ALS Registry,Ajay,,FALSE,
+FALSE,,als,1: Race,"Prevalence of amyotrophic lateral sclerosis in the United States using established and novel methodologies, 2017",2017,Other Publications with doi,,https://www.tandfonline.com/doi/epub/10.1080/21678421.2022.2059380?needAccess=true,1: Prevalence,,0.55,0.28,,,,,Data from the National ALS Registry,Ajay,,FALSE,
+FALSE,,alzheimer's,1: Race,Alzheimer's Association Facts and Figures,2023,Other Publications with doi,,https://www.alz.org/media/Documents/alzheimers-facts-and-figures.pdf,1: Prevalence,% of *older adults*,10.00,19.00,14.00,,,,,Ajay,,FALSE,
+FALSE,Alzheimer's disease and other dementias,alzheimer's,2: Gender,,,,,,,,,,,,,,,,Jack,FALSE,
+FALSE,Atrial fibrillation and flutter,arrhythmia,2: Gender,,,,,,,,,,,,,,,,,FALSE,
+FALSE,,arrhythmia,1: Race,,,,,,,,,,,,,,,Ajay,,FALSE,
+FALSE,,arthritis,2: Gender,"Summary Health Statistics: National Health Interview Survey, 2018",2018,Government Statistics,,https://ftp.cdc.gov/pub/Health_Statistics/NCHS/NHIS/SHS/2018_SHS_Table_A-4.pdf,1: Prevalence,,"1,890.00","2,370.00",,,,,source reported age-adjusted percentages --> I converted to 10000,Jaya,,FALSE,
+TRUE,,arthritis,1: Race,"Summary Health Statistics: National Health Interview Survey, 2018",2018,Government Statistics,,https://ftp.cdc.gov/pub/Health_Statistics/NCHS/NHIS/SHS/2018_SHS_Table_A-4.pdf,1: Prevalence,,"2,200.00","2,100.00","1,680.00","1,200.00","3,060.00","1,660.00",source reported age-adjusted percentages --> I converted to 10000,Jaya,,FALSE,
+TRUE,,asthma,1: Race,"2018 National Health Interview Survey (NHIS) Data
+",2018,Government Statistics,,https://ftp.cdc.gov/pub/Health_Statistics/NCHS/NHIS/SHS/2018_SHS_Table_A-2.pdf,1: Prevalence,Percentage of Persons With Current Asthma,750.00,910.00,600.00,370.00,950.00,,"source = percentage of US population -> scale to per 10,000 people",jack,,FALSE,
+FALSE,Asthma,asthma,2: Gender,,,,,,,,,,,,,,,,,FALSE,
+FALSE,,bipolar disorder,1: Race,,,,,,,,,,,,,,,Arvind,,FALSE,
+FALSE,Bipolar disorder,bipolar disorder,2: Gender,,,,,,,,,,,,,,,,Jack,FALSE,
+TRUE,,bronchitis,2: Gender,NHIS,2018,Government Statistics,,,1: Prevalence,,240.00,480.00,,,,,Prevalence Data for Chronic Bronchitis,Arvind,,FALSE,
+TRUE,,bronchitis,1: Race,NHIS,2018,Government Statistics,,,1: Prevalence,,410.00,370.00,240.00,,,,Prevalence Data for Chronic Bronchitis,Arvind,,FALSE,
+TRUE,,cardiovascular disease,1: Race,NHIS,2018,Government Statistics,,https://ftp.cdc.gov/pub/Health_Statistics/NCHS/NHIS/SHS/2018_SHS_Table_A-1.pdf,1: Prevalence,taken all types of heart disease columns,"1,150.00","1,000.00",820.00,770.00,"1,460.00",,"source = percentage of US population -> scale to per 10,000 people",jack,,FALSE,
+FALSE,Cardiovascular diseases,cardiovascular disease,2: Gender,,,,,,,,,,,,,,,,,FALSE,
+FALSE,,carpal tunnel syndrome,2: Gender,Prevalence of Carpal Tunnel Syndrome in a General Population,1997,Other Publications with doi,,https://jamanetwork.com/journals/jama/fullarticle/774263,1: Prevalence,,"1,040.00","1,730.00",,,,,,Ajay,,FALSE,
+FALSE,,carpal tunnel syndrome,1: Race,,,,,,,,,,,,,,,Ajay,,FALSE,
+FALSE,Chagas disease,chagas disease,2: Gender,,,,,,,,,,,,,,,,Jack,FALSE,
+FALSE,,chagas disease,1: Race,,,,,,,,,,,,,,,Jaya,,FALSE,
+FALSE,,chronic fatigue syndrome,2: Gender,"Myalgic Encephalomyelitis/Chronic Fatigue Syndrome in
+Adults: United States, 2021–2022",2021-2022,Government Statistics,,https://www.cdc.gov/nchs/data/databriefs/db488.pdf,1: Prevalence,,90.00,170.00,,,,,"Source: National Center for Health Statistics, National Health Survey, 2021-2022",Ajay,,FALSE,
+FALSE,,chronic fatigue syndrome,1: Race,"Myalgic Encephalomyelitis/Chronic Fatigue Syndrome in
+Adults: United States, 2021–2022",2021-2022,Government Statistics,,https://www.cdc.gov/nchs/data/databriefs/db488.pdf,1: Prevalence,,150.00,120.00,80.00,70.00,,,"Source: National Center for Health Statistics, National Health Survey, 2021-2022",Ajay,,FALSE,
+FALSE,Chronic kidney disease,chronic kidney disease,2: Gender,,,,,,,,,,,,,,,,Jack,FALSE,
+TRUE,,chronic kidney disease,1: Race,NHIS,2018,Government Statistics,,https://ftp.cdc.gov/pub/Health_Statistics/NCHS/NHIS/SHS/2018_SHS_Table_A-4.pdf,1: Prevalence,,200.00,310.00,220.00,280.00,,,source reported age-adjusted percentages --> I converted to 10000,jack,,FALSE,
+FALSE,Ischemic heart disease,coronary artery disease,2: Gender,,,,,,,,,,,,,,,,Jack,FALSE,
+TRUE,,coronary artery disease,1: Race,NHIS,2018,Government Statistics,,https://ftp.cdc.gov/pub/Health_Statistics/NCHS/NHIS/SHS/2018_SHS_Table_A-1.pdf,1: Prevalence,,570.00,540.00,510.00,440.00,860.00,,source reported age-adjusted percentages --> I converted to 10000,jack,,FALSE,
+FALSE,name on logits,COVID,1: Race,"Cumulative rate of laboratory-confirmed COVID-19-associated hospitalizations in the United States as of June 10, 2023, by race and ethnicity",2020-2023,Other,"Statista - german online data base that collects data from different areas of subjects, it gives full access to sources, but you need an account to access those ",https://www.statista.com/statistics/1127489/covid-19-us-hospital-rate-by-ethnicity/,1: Prevalence,,124.32,193.37,140.06,71.14,245.25,grouped into same categrpy as asian,"reported per 100,000 - i convereted to 10,000",Jaya,,FALSE,
+FALSE,,COVID,2: Gender,,,,,,,,,,,,,,,Jaya,,FALSE,
+FALSE,,crohn disease,1: Race,"Incidence, Prevalence, and Racial and Ethnic Distribution of Inflammatory Bowel Disease in the United States",2020,Other Publications with doi,,https://www.sciencedirect.com/science/article/abs/pii/S0016508523047765?via%3Dihub,1: Prevalence,,36.91,22.91,16.36,15.50,,,"per 100,000 population-> scaled to 10000",jack,,FALSE,
+FALSE,,crohn disease,2: Gender,"Inflammatory bowel disease prevalence by age, gender, race, and geographic location in the U.S. military health care population",2008-2009,Government Statistics,,https://pubmed.ncbi.nlm.nih.gov/23518811/,1: Prevalence,,2.84,4.17,,,,,"reported per 100,000 --> converted to per 10,000",Jaya,,FALSE,
+TRUE,,deafness,1: Race,"Summary Health Statistics: National Health Interview Survey, 2018",2018,Government Statistics,,https://ftp.cdc.gov/pub/Health_Statistics/NCHS/NHIS/SHS/2018_SHS_Table_A-6.pdf,1: Prevalence,,"1,660.00",850.00,"1,120.00",960.00,"1,950.00",,"reported per 100,000 --> converted to per 10,000",jack,,FALSE,
+TRUE,,deafness,2: Gender,"Summary Health Statistics: National Health Interview Survey, 2018",2018,Government Statistics,,https://ftp.cdc.gov/pub/Health_Statistics/NCHS/NHIS/SHS/2018_SHS_Table_A-6.pdf,1: Prevalence,,"1,850.00","1,230.00",,,,,,jack,,FALSE,
+FALSE,,dementia,2: Gender,"Racial and ethnic estimates of Alzheimer’s disease and related dementias
+in the United States (2015–2060) in adults aged 65 years",2014,Other Publications with doi,Uses Medicare statistics for the US population from 2014.,https://doi.org/10.1016/j.jalz.2018.06.3063,1: Prevalence,,920.00,"1,330.00",,,,,,Ajay,,FALSE,
+FALSE,,dementia,1: Race,"Racial and ethnic estimates of Alzheimer’s disease and related dementias
+in the United States (2015–2060) in adults aged 65 years",2014,Other Publications with doi,Uses Medicare statistics for the US population from 2014.,https://doi.org/10.1016/j.jalz.2018.06.3063,1: Prevalence,,"1,130.00","1,470.00","1,290.00","1,010.00","1,050.00",,Asian and Pacific Islander reported together; Data reported based on percentage of Fee for service (FFS) beneficiaries with ADRD based on Medicare beneficiaries in the US populaton above the age of 65. Source also has projected data from 2020-2060. Used data from 2014 for populating spreadsheet.,Ajay,,FALSE,
+TRUE,,diabetes,1: Race,NHIS,2018,Government Statistics,,https://ftp.cdc.gov/pub/Health_Statistics/NCHS/NHIS/SHS/2018_SHS_Table_A-4.pdf,1: Prevalence,,860.00,"1,310.00","1,320.00","1,140.00","2,350.00","1,980.00",source reported age-adjusted percentages --> I converted to 10000,jack,,FALSE,
+FALSE,Diabetes mellitus,diabetes,2: Gender,,,,,,,,,,,,,,,,Jack,FALSE,
+FALSE,Diarrheal diseases,diarrhoea,2: Gender,,,,,,,,,,,,,,,,Jack,FALSE,
+FALSE,,diarrhoea,1: Race,,,,,,,,,,,,,,,Ajay,,FALSE,
+FALSE,,diastolic dysfunction,2: Gender,,,,,,,,,,,,,,,Jaya,,FALSE,
+FALSE,,diastolic dysfunction,1: Race,,,,,,,,,,,,,,,,,FALSE,
+FALSE,,disability,2: Gender,,,,,,,,,,,,,,,,,FALSE,
+FALSE,,disability,1: Race,,,,,,,,,,,,,,,Arvind,,FALSE,
+FALSE,,eczema,2: Gender,,,,,,,,,,,,,,,Arvind,,FALSE,
+FALSE,,eczema,1: Race,,,,,,,,,,,,,,,,,FALSE,
+FALSE,Endometriosis,endometriosis,2: Gender,,,,,,,,,,,,,,,,,FALSE,
+FALSE,,endometriosis,1: Race,,,,,,,,,,,,,,,Ajay,,FALSE,
+FALSE,fibromyalgia classified as 'arthritis' in NHIS,fibromyalgia,2: Gender,The Prevalence and Characteristics of Fibromyalgia in the 2012 National Health Interview Survey,2012,Other Publications with doi,,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4575027/#__ffn_sectitle,1: Prevalence,,106.00,238.00,,,,,,jack,,FALSE,
+FALSE,fibromyalgia classified as 'arthritis' in NHIS,fibromyalgia,1: Race,Rochester Epidemiology Project,2005-2009,Other Publications with doi,,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3935235/,1: Prevalence,,4.80,7.70,,,,,,Arvind,,FALSE,
+FALSE,,flu,2: Gender,,,,,,,,,,,,,,,,,FALSE,
+FALSE,,flu,1: Race,"Vital Signs: Influenza Hospitalizations and Vaccination Coverage by Race and Ethnicity—United States, 2009–10 Through 2021–22 Influenza Seasons",2009-2021,Government Statistics,,"https://www.cdc.gov/mmwr/volumes/71/wr/mm7143e1.htm#:~:text=Top-,Results,%2C%2034.5%20(Figure%201).",1: Prevalence,,4.30,7.82,5.03,3.45,5.46,grouped with asian ,"reported age-adjusted influenza-associated hospitalization rates per 100,000, convereted to per 10,000. These are hospitalization rates, exclude",Jaya,Danielle,TRUE,these are hospitalization rates
+FALSE,Gallbladder and biliary diseases,gall bladder disease,2: Gender,,,,,,,,,,,,,,,,Jack,FALSE,
+FALSE,,gall bladder disease,1: Race,,,,,,,,,,,,,,,,,FALSE,
+FALSE,Gastritis and duodenitis,gastric problems,2: Gender,,,,,,,,,,,,,,,,Jack,FALSE,
+FALSE,,gastric problems,1: Race,,,,,,,,,,,,,,,Arvind,,FALSE,
+FALSE,,gingival disease,2: Gender,,,,,,,,,,,,,,,,,FALSE,
+FALSE,,gingival disease,1: Race,,,,,,,,,,,,,,,Arvind,,FALSE,
+FALSE,,goiter,2: Gender,,,,,,,,,,,,,,,,,FALSE,
+FALSE,,goiter,1: Race,,,,,,,,,,,,,,,Jaya,,FALSE,
+FALSE,Total burden related to hepatitis B,Hep B,2: Gender,,,,,,,,,,,,,,,,Jack,FALSE,
+FALSE,,Hep B,1: Race,"Rates of reported cases of acute Hepatitis B virus infection, by race/ethnicity — United States, 2006–2021",2021,Government Statistics,same ^,https://www.cdc.gov/hepatitis/statistics/2021surveillance/hepatitis-b/figure-2.6.htm,1: Prevalence,,0.06,0.09,0.04,0.02,0.04,"grouped into same category as ""asian""","Table had reported cases per 100,000 in a population, I convereted that data to be per 10,000",Jaya,,FALSE,
+FALSE,HIV/AIDS,HIV,2: Gender,,,,,,,,,,,,,,,,Jack,FALSE,
+FALSE,,HIV,1: Race,NHANES,2017-2020,Government Statistics,,https://millionhearts.hhs.gov/files/Estimated-Hypertension-Prevalence-tables-508.pdf,1: Prevalence,,"4,890.00","5,780.00","3,860.00","4,520.00",,,,Ajay,,FALSE,
+FALSE,Hypertensive heart disease,HTN,2: Gender,,,,,,,,,,,,,,,Jaya,,FALSE,
+TRUE,,HTN,1: Race,NHIS,2018,Government Statistics,,https://ftp.cdc.gov/pub/Health_Statistics/NCHS/NHIS/SHS/2018_SHS_Table_A-1.pdf,1: Prevalence,,"2,390.00","3,220.00","2,370.00","2,190.00","2,720.00",,source reported age-adjusted percentages --> I converted to 10000,jack,,FALSE,
+FALSE,,hyperthyroid,1: Race,NHANES,2009-10 and 11-12,Government Statistics,,https://academic.oup.com/jcem/article/87/2/489/2846568?login=false,1: Prevalence,Both clin + subclin,1.40,1.10,0.70,,,,.7 (other races),Arvind,,FALSE,
+FALSE,,hyperthyroid,2: Gender,NHANES,2009-10 and 11-12,Government Statistics,,https://academic.oup.com/jcem/article/87/2/489/2846568?login=false,1: Prevalence,,,,,,,,,Arvind,,FALSE,
+FALSE,,hypochondria,1: Race,,,,,,,,,,,,,,,,,FALSE,
+FALSE,,hypochondria,2: Gender,,,,,,,,,,,,,,,Arvind,,FALSE,
+FALSE,,hypothyroid,1: Race,NHANES,2009-10 and 11-12,Government Statistics,,https://academic.oup.com/jes/article/7/1/bvac172/6820965,1: Prevalence,clin + subclin,12.40,3.40,5.60,,,,3.9 (other),Arvind,,FALSE,
+FALSE,,hypothyroid,2: Gender,NHANES,2009-10 and 11-12,Government Statistics,,https://academic.oup.com/jes/article/7/1/bvac172/6820965,1: Prevalence,clin + subclin,6.10,12.90,,,,,,Arvind,,FALSE,
+FALSE,,ibs,1: Race,,,,,,,,,,,,,,,,,FALSE,
+FALSE,,ibs,2: Gender,,,,,,,,,,,,,,,Jaya,,FALSE,
+FALSE,,infection,1: Race,,,,,,,,,,,,,,,,,FALSE,
+FALSE,,infection,2: Gender,,,,,,,,,,,,,,,Arvind,,FALSE,
+FALSE,,labyrinthitis,1: Race,,,,,,,,,,,,,,,,,FALSE,
+FALSE,,labyrinthitis,2: Gender,,,,,,,,,,,,,,,Arvind,,FALSE,
+FALSE,,learning problems,1: Race,,,,,,,,,,,,,,,,,FALSE,
+FALSE,,learning problems,2: Gender,,,,,,,,,,,,,,,Ajay,,FALSE,
+FALSE,Cirrhosis and other chronic liver diseases,liver failure,2: Gender,,,,,,,,,,,,,,,,Jack,FALSE,
+TRUE,,liver failure,1: Race,Summary Health Statistics: National Health Interview Survey (2018),2018,Government Statistics,,https://ftp.cdc.gov/pub/Health_Statistics/NCHS/NHIS/SHS/2018_SHS_Table_A-4.pdf,1: Prevalence,,180.00,110.00,270.00,180.00,250.00,,Age-adjusted percentages among adults aged 18 and over,Ajay,Jack,FALSE,
+FALSE,lupus bundled into as 'arthritis' in NHIS,lupus,2: Gender,Summary Health Statistics: National Health Interview Survey (2018),2018,Government Statistics,,https://ftp.cdc.gov/pub/Health_Statistics/NCHS/NHIS/SHS/2018_SHS_Table_A-4.pdf,1: Prevalence,,"1,890.00","2,370.00",,,,,,,,FALSE,
+FALSE,lupus classified as 'arthritis' in NHIS,lupus,1: Race,Summary Health Statistics: National Health Interview Survey (2018),2018,Government Statistics,,https://ftp.cdc.gov/pub/Health_Statistics/NCHS/NHIS/SHS/2018_SHS_Table_A-4.pdf,1: Prevalence,,"2,200.00","2,100.00","1,680.00","1,200.00","3,060.00","1,660.00","age adjusted percentages, converted to per 10000",Danielle (EXAMPLE),,FALSE,
+FALSE,,loss of sex drive,2: Gender,,,,,,,,,,,,,,,,,FALSE,
+FALSE,,loss of sex drive,1: Race,,,,,,,,,,,,,,same^,Jaya,,FALSE,
+FALSE,,lyme disease,2: Gender,,,,,,,,,,,,,,,,,FALSE,
+FALSE,,lyme disease,1: Race,,,,,,,,,,,,,,,Arvind,,FALSE,
+FALSE,,malaria,1: Race,"Malaria Surveillance — United States, 2017",2017,Government Statistics,,https://www.cdc.gov/mmwr/volumes/70/ss/pdfs/ss7002a1-H.pdf,2: Incidence,,265.00,"1,480.00",35.00,129.00,,,,Ajay,,FALSE,
+FALSE,Malaria,malaria,2: Gender,,,,,,,,,,,,,,,,Jack,FALSE,
+FALSE,,menopause,1: Race,,,,,,,,,,,,,,,,,FALSE,
+FALSE,,menopause,2: Gender,,,,,,,,,,,,,,,Arvind,,FALSE,
+FALSE,Mental disorders,mental illness,2: Gender,,,,,,,,,,,,,,,,,FALSE,
+FALSE,,mental illness,1: Race,Mental Illness,2021,Government Statistics,,https://www.nimh.nih.gov/health/statistics/mental-illness,1: Prevalence,,"2,390.00","2,140.00","2,070.00","1,640.00","2,660.00","1,810.00",2021 Prevalence of Any Mental Illness (AMI) in US Adults; Data from Substance Abuse and Mental Health Services Administration,Ajay,,FALSE,
+FALSE,re run logits _mi_ -> heart attack/myocardial infarction,mi,2: Gender,,,,,,,,,,,,,,,,,FALSE,
+FALSE,,mi,1: Race,,,,"can find UK data, not US data",,,,,,,,,,,Arvind,,FALSE,
+FALSE,Motor neuron disease,mnd,2: Gender,,,,,,,,,,,,,,,,Jack,FALSE,
+FALSE,,mnd,1: Race,,,,,,,,,,,,,,,,,FALSE,
+FALSE,Depressive disorders,mood disorder of depressed type,2: Gender,,,,,,,,,,,,,,,Arvind,Jack,FALSE,
+FALSE,,mood disorder of depressed type,1: Race,,,,,,,,,,,,,,,,,FALSE,
+FALSE,,multiple sclerosis,1: Race,,,,,,,,,,,,,,,,,FALSE,
+FALSE,Multiple sclerosis,multiple sclerosis,2: Gender,,,,,,,,,,,,,,,,Jack,FALSE,
+FALSE,,muscle inflammation,1: Race,,,,,,,,,,,,,,,,,FALSE,
+FALSE,,muscle inflammation,2: Gender,,,,,,,,,,,,,,,Arvind,,FALSE,
+FALSE,,nerve damage,2: Gender,The prevalence of probable neuropathic pain in the US: results from a multimodal general-population health survey,2015,Other Publications with doi,,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5677393/,1: Prevalence,,"4,960.00","5,040.00",,,,,Study reports prevalence of nerve damage as neuropathic pain. Study states there is no published data on its broad prevalence in the US; Results from survey were weighted to match total adult US population according to 2015 US Census data.,Ajay,,FALSE,
+FALSE,,nerve damage,1: Race,The prevalence of probable neuropathic pain in the US: results from a multimodal general-population health survey,2015,Other Publications with doi,,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5677393/,1: Prevalence,,"6,540.00","1,150.00","1,540.00",,,,Study reports prevalence of nerve damage as neuropathic pain. Study states there is no published data on its broad prevalence in the US; Results from survey were weighted to match total adult US population according to 2015 US Census data.,Ajay,,FALSE,
+FALSE,,oesophageal ulcer,2: Gender,,,,,,,,,,,,,,,,,FALSE,
+FALSE,,oesophageal ulcer,1: Race,,,,,,,,,,,,,,,Arvind,,FALSE,
+FALSE,,osteoarthritis,1: Race,NHANES,2014,,,https://www.nature.com/articles/s41598-021-01339-7#Tab2,1: Prevalence,"Data source was separated by gender, female is included here",20.76,12.00,8.50,,,,8 (other),Arvind,,FALSE,
+FALSE,Osteoarthritis,osteoarthritis,2: Gender,,,,,,,,,,,,,,,,Jack,FALSE,
+FALSE,,pancreatitis,1: Race,,,,,,,,,,,,,,,,,FALSE,
+FALSE,Pancreatitis,pancreatitis,2: Gender,,,,,,,,,,,,,,,,Jack,FALSE,
+FALSE,duplicate with below-> remove,parkinson,,,,,,,,,,,,,,,,,,FALSE,
+FALSE,,parkinson,,,,,,,,,,,,,,,,,,FALSE,
+FALSE,,parkinson's disease,1: Race,,,,,,,,,,,,,,,Arvind,,FALSE,
+FALSE,Parkinson's disease,parkinson's disease,2: Gender,,,,,,,,,,,,,,,,Jack,FALSE,
+TRUE,,perforated ulcer,1: Race,"Summary Health Statistics: National Health Interview Survey, 2018",2018,Government Statistics,,https://ftp.cdc.gov/pub/Health_Statistics/NCHS/NHIS/SHS/2018_SHS_Table_A-4.pdf,1: Prevalence,,570.00,490.00,430.00,390.00,830.00,NA,aje-adjusted percentages ,Jaya,,FALSE,
+TRUE,,perforated ulcer,2: Gender,"Summary Health Statistics: National Health Interview Survey, 2019",2018,Government Statistics,,https://ftp.cdc.gov/pub/Health_Statistics/NCHS/NHIS/SHS/2018_SHS_Table_A-4.pdf,1: Prevalence,,500.00,610.00,,,,,aje-adjusted percentages ,Jaya,,FALSE,
+FALSE,,permanent nerve damage,1: Race,,,,,,,,,,,,,,,Arvind,,FALSE,
+FALSE,,permanent nerve damage,2: Gender,,,,,,,,,,,,,,,,,FALSE,
+FALSE,,phlebitis,1: Race,,,,,,,,,,,,,,,Ajay,,FALSE,
+FALSE,,phlebitis,2: Gender,,,,,,,,,,,,,,,Ajay,,FALSE,
+FALSE,Lower respiratory infections,pneumonia,2: Gender,,,,,,,,,,,,,,,Jaya,Jack,FALSE,
+FALSE,,pneumonia,1: Race,,,,,,,,,,,,,,,Jaya,,FALSE,
+FALSE,,polymyositis,1: Race,,,,,,,,,,,,,,,,,FALSE,
+FALSE,,polymyositis,2: Gender,,,,,,,,,,,,,,,Arvind,,FALSE,
+FALSE,,psychosis,1: Race,,,,,,,,,,,,,,,,,FALSE,
+FALSE,,psychosis,2: Gender,,,,,,,,,,,,,,,Ajay,,FALSE,
+FALSE,,repetitive stress syndrome,1: Race,,,,,,,,,,,,,,,,,FALSE,
+FALSE,,repetitive stress syndrome,2: Gender,,,,,,,,,,,,,,,Jaya,,FALSE,
+FALSE,,restless legs syndrome,1: Race,,,,,,,,,,,,,,,,,FALSE,
+FALSE,,restless legs syndrome,2: Gender,,,,,,,,,,,,,,,Arvind,,FALSE,
+FALSE,Rheumatoid arthritis,Rheumatoid Arthritis,2: Gender,,,,,,,,,,,,,,,,,FALSE,
+FALSE,,Rheumatoid Arthritis,1: Race,,,,,,,,,,,,,,,Jaya,,FALSE,
+FALSE,,sarcoid,2: Gender,,,,,,,,,,,,,,,,,FALSE,
+FALSE,,sarcoid,1: Race,,,,,,,,,,,,,,,,,FALSE,
+FALSE,,sepsis,2: Gender,,,,,,,,,,,,,,,Arvind,,FALSE,
+FALSE,,sepsis,1: Race,,,,,,,,,,,,,,,,,FALSE,
+FALSE,,sexual dysfunction,2: Gender,Sexual dysfunction in the United States: prevalence and predictors,1999,Other Publications with doi,,https://pubmed.ncbi.nlm.nih.gov/10022110/,1: Prevalence,,"3,100.00","4,300.00",,,,,,Ajay,,FALSE,
+FALSE,,sexual dysfunction,1: Race,,1999,Other Publications with doi,,,1: Prevalence,,,,,,,,,Ajay,,FALSE,
+FALSE,,sinus infection,2: Gender,,,,,,,,,,,,,,,Arvind,,FALSE,
+FALSE,,sinus infection,1: Race,,,,,,,,,,,,,,,,,FALSE,
+FALSE,first value for menstruation -> logits and translation = spots vs menstrual -> remove,spotting problems,2: Gender,,,,,,,,,,,,,,,,,FALSE,
+FALSE,,spotting problems,1: Race,,,,,,,,,,,,,,,Jaya,,FALSE,
+FALSE,,stevens johnson syndrome,2: Gender,,,,,,,,,,,,,,,,,FALSE,
+FALSE,,stevens johnson syndrome,1: Race,,,,,,,,,,,,,,,Ajay,,FALSE,
+FALSE,,suicide,1: Race,Suicide Rates Have Risen Among People of Color,2021,Other,US News - a world report ,https://www.usnews.com/news/health-news/articles/2023-02-09/suicide-rates-have-risen-among-people-of-color,1: Prevalence,,1.74,0.87,0.79,0.68,2.81,1.26,"reported per 100,000, converted to per 10,000",Jaya,,FALSE,
+FALSE,,suicide,2: Gender,Suicide,2021,Government Statistics,,"https://www.nimh.nih.gov/health/statistics/suicide#:~:text=100%2C000%20in%202020.-,The%20total%20age%2Dadjusted%20suicide%20rate%20in%20the%20United%20States,females%20(5.7%20per%20100%2C000).",1: Prevalence,,2.28,0.57,,,,,"It reported ""age-adjusted rates per 100,000"" so i converted to be per 10,000. All sources I looked at hate these same numbers ",Jaya,,FALSE,
+FALSE,Syphilis,Syphilis,2: Gender,,,,,,,,,,,,,,,,,FALSE,
+FALSE,,Syphilis,1: Race,,,,,,,,,,,,,,,,,FALSE,
+FALSE,,Takotsubo cardiomyopathy,2: Gender,,,,,,,,,,,,,,,Jaya,,FALSE,
+FALSE,,Takotsubo cardiomyopathy,1: Race,,,,,,,,,,,,,,,Jaya,,FALSE,
+FALSE,dup with achilles-> remove,tendinitis,2: Gender,,,,,,,,,,,,,,,,,FALSE,
+FALSE,,tendinitis,1: Race,,,,,,,,,,,,,,,Arvind,,FALSE,
+TRUE,,tinnitus,2: Gender,"Tinnitus prevalence, associated characteristics, and related
+healthcare use in the United States: a population-level analysis",2014,Other Publications with doi,,https://pdf.sciencedirectassets.com/779101/1-s2.0-S2667193X23X00118/1-s2.0-S2667193X23002338/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJL%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJIMEYCIQDIcr4YUiGy0iCDRgY3ggEwXMLLOGBeB80gNH24wM8%2F5gIhAMingCm%2BKjipUXpQuOcPjVCrCZjD797DXkD0pow3ay2mKrsFCKr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQBRoMMDU5MDAzNTQ2ODY1IgxUVflJcRQT0W3%2FsPMqjwXLeS%2BdsVXe%2FUGZQKxR3ECIC6HP70uXy7HCNN832pRszrggKzza9P8H2g119QACChtEzNLDClR260Oxb85JN5QwMIGe7I2tym8Ov7dGOWmtoyEpA7SvZNR%2BIMUxP0LhEGVsKneN7p3j%2B1fnYQxJL3s6NYzk4zY09OIgxwQRR1aju3G18u1kuXv6Lw2PWUQVC1X%2BNdacdMD4ABM70tt81LiCPXSWa2A2iOWDqu8HWjjJTK%2BxGf2Ub1CZVsmc4HO%2BvV9BCEebuW8upqsqAINb3SrPB6bEDOx9U805SvlhCpFrjYaYIsI6UN3T%2Buf67fP6y4S16bWwfdK%2BmW38IpHZg1obOJZnmr8loTPQOWXxY89jEQvcL6zSMkA9YDHyMDNsTCFylNkySvGrCW3Md0WYz%2BNFTv2KRdBqSPliKmD%2FonjcshP4nPjcEjdSPIbT54Px7kAMYsye0n7iinQjwGfyUwAg9I5TLF25Q1S%2Foxvf5FV4NB3vWHmNDMCFwHHOYwKKIDqFuiU2Mm96cvqB%2BwLp9yMPKoGP%2FHqkVSmT0Qul0LuxVxCcmf18b2yZdRLqKrEj%2B4zO9KsuXil6Za9tFBrNH3B1xHFQ62rpgCKF1A009PSAz4CSZJzvQjqzuehGI%2FlT8SStCWUdCt%2FVhLXg8TKLaVRrKlIjbZQCMiCkXcHewOcdZDVpFxp6f%2BDb%2B%2BIyqlaTecqaDfkYzOg8WmrnjwpjlTh6SGVIcbrskNKQk861Y%2FjkGk8jS%2F1cfwSU4L%2BrKby%2FCGzjrvMMufkAaoUdlDEoKa9rdCfL%2Bas8WCz0En%2BkTxlxay1mQhRzYXvphv68ut0jqcEF0vxys%2FKz4MkQlPAjtASH6h%2BrOHW6%2FnKEEmWu5tZTMOeDjLAGOrABi0%2FicBqoFNMwVvwuz8QRgG76%2BWoE3ylUEX2s1xVWcB%2FnHi7lakzpb5owBWcwxdfmwGg063pFw0MqREacHbY3056gF6nAZBi6TMoe04N%2BcERBsbDHtJEpU5qB%2Fy6tyX2Qmem9hk2mPyJ4XgmUVuaAgPl7agO5z%2BM%2Blx16J%2FQF79DwtaG%2BO2eQmEDx5GKtgXAGYRwmTq3n4JDu3QXNCQKQlDbCcrBQoj8UJkXuSspPLkk%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20240326T175848Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAQ3PHCVTYX64ZVK6I%2F20240326%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=c6393715622d3c2c18abdafa12c3c37255f816377c6b6f500a3e03bdae4556b3&hash=2e1756b3b3dd22e59b1053edccba243cbee2234536c754cf78f279155029bfb9&host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&pii=S2667193X23002338&tid=spdf-6ebf1df6-7cdb-48f4-894e-bd9826eca424&sid=4c147d3e23fad64a2438f150810a4dbf411fgxrqa&type=client&tsoh=d3d3LnNjaWVuY2VkaXJlY3QuY29t&ua=17125653015d565304&rr=86a907eb6ca419e3&cc=us,1: Prevalence,,"1,280.00",980.00,,,,,Based on National Heath Interview Survey (NHIS) 2014,Ajay,Danielle,TRUE,
+TRUE,,tinnitus,1: Race,"Tinnitus prevalence, associated characteristics, and related
+healthcare use in the United States: a population-level analysis",2014,Other Publications with doi,,https://pdf.sciencedirectassets.com/779101/1-s2.0-S2667193X23X00118/1-s2.0-S2667193X23002338/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJL%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJIMEYCIQDIcr4YUiGy0iCDRgY3ggEwXMLLOGBeB80gNH24wM8%2F5gIhAMingCm%2BKjipUXpQuOcPjVCrCZjD797DXkD0pow3ay2mKrsFCKr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQBRoMMDU5MDAzNTQ2ODY1IgxUVflJcRQT0W3%2FsPMqjwXLeS%2BdsVXe%2FUGZQKxR3ECIC6HP70uXy7HCNN832pRszrggKzza9P8H2g119QACChtEzNLDClR260Oxb85JN5QwMIGe7I2tym8Ov7dGOWmtoyEpA7SvZNR%2BIMUxP0LhEGVsKneN7p3j%2B1fnYQxJL3s6NYzk4zY09OIgxwQRR1aju3G18u1kuXv6Lw2PWUQVC1X%2BNdacdMD4ABM70tt81LiCPXSWa2A2iOWDqu8HWjjJTK%2BxGf2Ub1CZVsmc4HO%2BvV9BCEebuW8upqsqAINb3SrPB6bEDOx9U805SvlhCpFrjYaYIsI6UN3T%2Buf67fP6y4S16bWwfdK%2BmW38IpHZg1obOJZnmr8loTPQOWXxY89jEQvcL6zSMkA9YDHyMDNsTCFylNkySvGrCW3Md0WYz%2BNFTv2KRdBqSPliKmD%2FonjcshP4nPjcEjdSPIbT54Px7kAMYsye0n7iinQjwGfyUwAg9I5TLF25Q1S%2Foxvf5FV4NB3vWHmNDMCFwHHOYwKKIDqFuiU2Mm96cvqB%2BwLp9yMPKoGP%2FHqkVSmT0Qul0LuxVxCcmf18b2yZdRLqKrEj%2B4zO9KsuXil6Za9tFBrNH3B1xHFQ62rpgCKF1A009PSAz4CSZJzvQjqzuehGI%2FlT8SStCWUdCt%2FVhLXg8TKLaVRrKlIjbZQCMiCkXcHewOcdZDVpFxp6f%2BDb%2B%2BIyqlaTecqaDfkYzOg8WmrnjwpjlTh6SGVIcbrskNKQk861Y%2FjkGk8jS%2F1cfwSU4L%2BrKby%2FCGzjrvMMufkAaoUdlDEoKa9rdCfL%2Bas8WCz0En%2BkTxlxay1mQhRzYXvphv68ut0jqcEF0vxys%2FKz4MkQlPAjtASH6h%2BrOHW6%2FnKEEmWu5tZTMOeDjLAGOrABi0%2FicBqoFNMwVvwuz8QRgG76%2BWoE3ylUEX2s1xVWcB%2FnHi7lakzpb5owBWcwxdfmwGg063pFw0MqREacHbY3056gF6nAZBi6TMoe04N%2BcERBsbDHtJEpU5qB%2Fy6tyX2Qmem9hk2mPyJ4XgmUVuaAgPl7agO5z%2BM%2Blx16J%2FQF79DwtaG%2BO2eQmEDx5GKtgXAGYRwmTq3n4JDu3QXNCQKQlDbCcrBQoj8UJkXuSspPLkk%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20240326T175848Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAQ3PHCVTYX64ZVK6I%2F20240326%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=c6393715622d3c2c18abdafa12c3c37255f816377c6b6f500a3e03bdae4556b3&hash=2e1756b3b3dd22e59b1053edccba243cbee2234536c754cf78f279155029bfb9&host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&pii=S2667193X23002338&tid=spdf-6ebf1df6-7cdb-48f4-894e-bd9826eca424&sid=4c147d3e23fad64a2438f150810a4dbf411fgxrqa&type=client&tsoh=d3d3LnNjaWVuY2VkaXJlY3QuY29t&ua=17125653015d565304&rr=86a907eb6ca419e3&cc=us,1: Prevalence,,"1,300.00",840.00,800.00,410.00,110.00,,Based on National Heath Interview Survey (NHIS) 2014,Ajay,Danielle,TRUE,
+FALSE,Endocarditis,Tricuspid Endocarditis,2: Gender,,,,,,,,,,,,,,,Jaya,,FALSE,
+FALSE,,Tricuspid Endocarditis,,,,,,,,,,,,,,,,Jaya,,FALSE,
+FALSE,,Tuberculosis,1: Race,"Table 3. Tuberculosis Cases, Percentages, and Incidence Rates per 100,000 Population Among U.S.-Born Persons1 by Hispanic Ethnicity and Non-Hispanic Race:2 United States, 1993–2021",2021,Government Statistics,,https://www.cdc.gov/tb/statistics/reports/2021/table3.htm,1: Prevalence,,0.03,0.21,0.13,0.15,0.38,0.57,"The table showed ""incidence rates per 100,000 population so I convereted those numbers into per 10,000 ",Jaya,Danielle,TRUE,
+FALSE,Tuberculosis,Tuberculosis,2: Gender,,,,,,,,,,,,,,,,Jack,FALSE,
+FALSE,Diabetes mellitus type 1,type one diabetic,2: Gender,,,,,,,,,,,,,,,,Jack,FALSE,
+FALSE,,type one diabetic,1: Race,,,,,,,,,,,,,,,,,FALSE,
+FALSE,Diabetes mellitus type 2,type two diabetic,2: Gender,,,,,,,,,,,,,,,,Jack,FALSE,
+FALSE,,type two diabetic,1: Race,,,,,,,,,,,,,,,Arvind,,FALSE,
+FALSE,,ulcerative colitis,2: Gender,,,,,,,,,,,,,,,,,FALSE,
+FALSE,,ulcerative colitis,1: Race,"Incidence, Prevalence, and Racial and Ethnic Distribution of Inflammatory Bowel Disease in the United States",2020,Other Publications with doi,,https://www.sciencedirect.com/science/article/abs/pii/S0016508523047765?via%3Dihub,1: Prevalence,,44.29,27.49,29.44,24.80,,,,jack,,FALSE,
+FALSE,Upper respiratory infections,upper respiratory infection,2: Gender,,,,,,,,,,,,,,,,Jack,FALSE,
+FALSE,,upper respiratory infection,1: Race,,,,,,,,,,,,,,,Ajay,,FALSE,I don't think this will be available in any reliable way
+FALSE,Urinary tract infections and interstitial nephritis,Urinary tract infection,2: Gender,,,,,,,,,,,,,,,,Jack,FALSE,
+FALSE,,Urinary tract infection,1: Race,,,,,,,,,,,,,,,Jaya,,FALSE,I don't think this will be avaialble in any reliable way
+FALSE,dup with below-> remove,vision problems,2: Gender,,,,,,,,,,,,,,,Ajay,,FALSE,
+FALSE,,vision problems,1: Race,,,,,,,,,,,,,,,Ajay,,FALSE,
+TRUE,,visual anomalies,1: Race,"Summary Health Statistics: National Health Interview Survey, 2018",2018,Government Statistics,,https://ftp.cdc.gov/pub/Health_Statistics/NCHS/NHIS/SHS/2018_SHS_Table_A-6.pdf,1: Prevalence,,"1,200.00","1,540.00","1,360.00",900.00,"2,250.00",,Age-adjusted percentages,Jaya,Jack,FALSE,
+TRUE,,visual anomalies ,2: Gender,"Summary Health Statistics: National Health Interview Survey, 2018",2018,Government Statistics,,https://ftp.cdc.gov/pub/Health_Statistics/NCHS/NHIS/SHS/2018_SHS_Table_A-6.pdf,1: Prevalence,,"1,100.00","1,360.00",,,,,,Jaya,Jack,FALSE,

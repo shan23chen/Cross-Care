@@ -1,11 +1,16 @@
 # Real World Data
-Prevalence estimates for each disease were manually curated and cross-validated by a Certified Physician.
 
-Prevalence was preferably collected, however if not present then Incidence values were collected in their place. 
+## Data Sources
+Two primary sources were used to collect the real-world data for the diseases. The first source was the Global Burden of Disease (GBD) study, which provides prevalence values for a wide range of diseases stratified by sex. The second source was the National Health Interview Survey which provides prevalence values for a wide range of diseases stratified by race. 
 
-Gender Prevalence for X diseases was collected via the 2019 Global Burden of Disease (GBD) study [1], and the link to the specific query producing these values is available [here](https://vizhub.healthdata.org/gbd-results?params=gbd-api-2019-permalink/425a894085dc3d56f2afc765182f8b06).
+### Global Burden of Disease (GBD) Data
+Keywords for all diseases were attempted to query the database for Sex Prevalence via the 2019 Global Burden of Disease (GBD) study [1]. The link to the specific query producing these values is available [here](https://vizhub.healthdata.org/gbd-results?params=gbd-api-2019-permalink/425a894085dc3d56f2afc765182f8b06).
 
-The remaining values for Gender and all Racial values were manually curated from government statistics and peer-reviewed publications. The link to these values is available [here](https://docs.google.com/spreadsheets/d/1xF_BJi2Fw4g75QlyD5dxSHpbyad3B-rGSpRk2igDc30/edit?usp=sharing).
+### National Health Interview Survey Data
+The full National Health Interview Survey (NHIS) database was manually curated to only include the prevalence values for the diseases in the template list, the spreadsheet is availabel [here](https://docs.google.com/spreadsheets/d/16TYXlwe9Q-yiLDa5bOz0UoleOK15D5w9BFJKXVIaFnM/edit?usp=sharing). 
+
+## Data Processing
+Data is combined using the `process_rwd.ipynb` notebook to create a single CSV file called `real_world_data.csv`. 
 
 ## To Do
 - Parkinson = duplicate with PD --> remove parkinson from logit+ counts keep PD
