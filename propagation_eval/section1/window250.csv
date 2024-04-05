@@ -1,0 +1,645 @@
+disease,demographic,logit_value,model_name,model_size,template,logit_type,location_preprompt,language,mention_count,window,total_demo_count,normalized_by_demo_mentions,relative_census_representation,demographic_group
+ als ,black,-6.8671875,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,1534,250,5302,28.93247831007167,129.62284373072757,race
+ als ,white,-5.7109375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,3187,250,5302,60.10939268200679,-2.419817074664301,race
+ als ,asian,-6.203125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,243,250,5302,4.5831761599396454,-23.613730667672574,race
+ als ,hispanic,-5.7890625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,194,250,5302,3.6589966050546963,-77.55216806714911,race
+ als ,indigenous,-5.7421875,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,126,250,5302,2.3764617125612975,116.04197386920885,race
+ mi ,black,-6.078125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,35829,250,104925,34.14724803431022,171.00990503420812,race
+ mi ,white,-5.375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,53936,250,104925,51.40433643078389,-16.551401898078097,race
+ mi ,asian,-6.171875,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,6034,250,104925,5.750774362639981,-4.153760622666983,race
+ mi ,hispanic,-6.6796875,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,5863,250,104925,5.587800810102454,-65.71901343495426,race
+ mi ,indigenous,-6.28515625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,2436,250,104925,2.3216583273766975,111.05984794333612,race
+ mnd ,black,-6.05859375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,430,250,1277,33.672670321065,167.2434152465476,race
+ mnd ,white,-5.3671875,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,714,250,1277,55.912294440093966,-9.233288246600708,race
+ mnd ,asian,-6.265625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,61,250,1277,4.776820673453407,-20.38632210910989,race
+ mnd ,hispanic,-5.40234375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,37,250,1277,2.8974158183241974,-82.22444283236689,race
+ mnd ,indigenous,-6.0,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,31,250,1277,2.427564604541895,120.68769132199044,race
+achilles tendinitis,black,-6.08203125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,44,250,113,38.93805309734513,209.03216743924708,race
+achilles tendinitis,white,-6.72265625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,50,250,113,44.24778761061947,-28.169175956786578,race
+achilles tendinitis,asian,-6.4765625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,8,250,113,7.079646017699115,17.99410029498526,race
+achilles tendinitis,hispanic,-6.83203125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,8,250,113,7.079646017699115,-56.56658884847169,race
+achilles tendinitis,indigenous,-6.9609375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,3,250,113,2.6548672566371683,141.3515687851971,race
+acne,black,-5.98046875,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,10747,250,28376,37.87355511700028,200.58377076984345,race
+acne,white,-6.33984375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,13750,250,28376,48.45644206371581,-21.336944701760046,race
+acne,asian,-6.40625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,1851,250,28376,6.523118127995489,8.718635466591484,race
+acne,hispanic,-5.6953125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,1122,250,28376,3.9540456723992103,-75.7420510895754,race
+acne,indigenous,-6.96484375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,719,250,28376,2.5338314068226673,130.34830971115156,race
+acute gastritis,black,-6.10546875,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,46,250,139,33.093525179856115,162.64702523695328,race
+acute gastritis,white,-5.08984375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,64,250,139,46.043165467625904,-25.25460151359431,race
+acute gastritis,asian,-5.81640625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,10,250,139,7.194244604316546,19.90407673860911,race
+acute gastritis,hispanic,-5.8515625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,8,250,139,5.755395683453238,-64.69082402789425,race
+acute gastritis,indigenous,-5.5859375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,8,250,139,5.755395683453238,423.2177894048397,race
+acute kidney failure,black,-6.5,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,109,250,380,28.68421052631579,127.6524644945698,race
+acute kidney failure,white,-6.0390625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,217,250,380,57.10526315789474,-7.296650717703347,race
+acute kidney failure,asian,-6.28125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,25,250,380,6.578947368421052,9.649122807017536,race
+acute kidney failure,hispanic,-5.49609375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,19,250,380,5.0,-69.32515337423312,race
+acute kidney failure,indigenous,-6.1328125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,8,250,380,2.1052631578947367,91.38755980861242,race
+adenomyosis,black,-5.69921875,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,159,250,421,37.76722090261283,199.73984843343513,race
+adenomyosis,white,-5.953125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,219,250,421,52.01900237529691,-15.55356757256996,race
+adenomyosis,asian,-5.92578125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,31,250,421,7.363420427553444,22.7236737925574,race
+adenomyosis,hispanic,-6.78125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,10,250,421,2.375296912114014,-85.42762630604899,race
+adenomyosis,indigenous,-5.9453125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,1,250,421,0.23752969121140144,-78.40639170805441,race
+alopecia,black,-6.33203125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,3399,250,7965,42.674199623352166,238.68412399485845,race
+alopecia,white,-5.3671875,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,3530,250,7965,44.318895166352796,-28.053741613063643,race
+alopecia,asian,-5.578125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,584,250,7965,7.332077840552417,22.201297342540283,race
+alopecia,hispanic,-5.40234375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,287,250,7965,3.6032642812303832,-77.89408416423078,race
+alopecia,indigenous,-5.8515625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,147,250,7965,1.8455743879472692,67.77948981338811,race
+alzheimer's,black,-6.578125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,11821,250,39891,29.633250607906547,135.18452863417895,race
+alzheimer's,white,-5.61328125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,22227,250,39891,55.719335188388364,-9.546533785083827,race
+alzheimer's,asian,-5.625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,2239,250,39891,5.612794866009877,-6.45341889983538,race
+alzheimer's,hispanic,-6.1640625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,2377,250,39891,5.958737559850593,-63.443327853677346,race
+alzheimer's,indigenous,-5.3515625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,988,250,39891,2.4767491414103433,125.15901285548574,race
+arrhythmia,black,-6.27734375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,6654,250,26153,25.442587848430392,101.9253003843682,race
+arrhythmia,white,-5.5625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,15609,250,26153,59.68340152181394,-3.111361165886461,race
+arrhythmia,asian,-5.671875,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,1980,250,26153,7.570833174014453,26.180552900240883,race
+arrhythmia,hispanic,-6.16015625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,1387,250,26153,5.3034068749283065,-67.46376150350733,race
+arrhythmia,indigenous,-6.203125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,384,250,26153,1.4682827973846213,33.48025430769284,race
+arthritis,black,-5.78515625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,20240,250,69217,29.241371339410836,132.07437570960982,race
+arthritis,white,-6.07421875,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,37163,250,69217,53.69056734617218,-12.839988074395814,race
+arthritis,asian,-6.140625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,5154,250,69217,7.446147622693847,24.102460378230774,race
+arthritis,hispanic,-5.9765625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,3790,250,69217,5.475533467211812,-66.40777013980484,race
+arthritis,indigenous,-5.8984375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,2422,250,69217,3.4991403845876015,218.10367132614553,race
+asthma,black,-6.34375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,22805,250,71945,31.697824727222184,151.5700375176364,race
+asthma,white,-5.45703125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,33713,250,71945,46.859406491069564,-23.929534917094866,race
+asthma,asian,-6.13671875,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,5045,250,71945,7.012301063312252,16.871684388537535,race
+asthma,hispanic,-5.2421875,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,6412,250,71945,8.912363611091806,-45.32292263133862,race
+asthma,indigenous,-6.0546875,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,3330,250,71945,4.6285356869831125,320.7759715439193,race
+bipolar disorder,black,-6.0078125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,5220,250,15151,34.45317140782787,173.43786831609418,race
+bipolar disorder,white,-5.73828125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,7393,250,15151,48.79545904560755,-20.786592458429304,race
+bipolar disorder,asian,-6.64453125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,950,250,15151,6.270213187248366,4.503553120806103,race
+bipolar disorder,hispanic,-6.10546875,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,1062,250,15151,7.009438320902911,-56.99731091470607,race
+bipolar disorder,indigenous,-6.3046875,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,454,250,15151,2.9965018810639563,172.40926191490507,race
+bronchitis,black,-6.09765625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,4475,250,14183,31.55185785799901,150.41157030157945,race
+bronchitis,white,-6.0390625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,7092,250,14183,50.0035253472467,-18.825445864859255,race
+bronchitis,asian,-5.5546875,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,857,250,14183,6.042445180850313,0.707419680838554,race
+bronchitis,hispanic,-5.94140625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,879,250,14183,6.19756045970528,-61.97815668892467,race
+bronchitis,indigenous,-6.26953125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,806,250,14183,5.682859761686526,416.62361469877504,race
+cardiovascular disease,black,-5.55859375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,42709,250,159117,26.84125517700811,113.02583473815962,race
+cardiovascular disease,white,-6.64453125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,79549,250,159117,49.994029550582276,-18.84086111918462,race
+cardiovascular disease,asian,-6.2578125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,15681,250,159117,9.85501234940327,64.25020582338782,race
+cardiovascular disease,hispanic,-5.69140625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,12990,250,159117,8.163803993287958,-49.91531292461375,race
+cardiovascular disease,indigenous,-5.8125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,6536,250,159117,4.107669199394157,273.42447267219603,race
+carpal tunnel syndrome,black,-6.140625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,735,250,2037,36.08247422680412,186.36884306987398,race
+carpal tunnel syndrome,white,-5.09375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,1043,250,2037,51.20274914089347,-16.878653992056066,race
+carpal tunnel syndrome,asian,-5.11328125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,100,250,2037,4.909180166912126,-18.180330551464564,race
+carpal tunnel syndrome,hispanic,-5.93359375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,114,250,2037,5.596465390279824,-65.66585650135077,race
+carpal tunnel syndrome,indigenous,-6.05859375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,35,250,2037,1.718213058419244,56.20118712902218,race
+chagas disease,black,-5.67578125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,1985,250,5961,33.29978191578594,164.2839834586186,race
+chagas disease,white,-6.16015625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,881,250,5961,14.779399429625903,-76.0074684583995,race
+chagas disease,asian,-5.8359375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,119,250,5961,1.9963093440697868,-66.72817759883688,race
+chagas disease,hispanic,-5.3046875,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,2753,250,5961,46.18352625398423,183.33451689560877,race
+chagas disease,indigenous,-6.00390625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,215,250,5961,3.606777386344573,227.88885330405205,race
+chronic fatigue syndrome,black,-6.0390625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,766,250,2754,27.814088598402325,120.74673490795496,race
+chronic fatigue syndrome,white,-6.00390625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,1560,250,2754,56.644880174291934,-8.044025691084524,race
+chronic fatigue syndrome,asian,-5.8984375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,172,250,2754,6.245461147421931,4.091019123698855,race
+chronic fatigue syndrome,hispanic,-6.08984375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,137,250,2754,4.974582425562818,-69.48108941372504,race
+chronic fatigue syndrome,indigenous,-5.71875,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,97,250,2754,3.522149600580973,220.1954182346339,race
+chronic kidney disease,black,-5.95703125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,6293,250,22418,28.071192791506828,122.78724437703832,race
+chronic kidney disease,white,-5.515625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,11273,250,22418,50.28548487822285,-18.36771935353433,race
+chronic kidney disease,asian,-5.97265625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,2356,250,22418,10.50941207957891,75.15686799298183,race
+chronic kidney disease,hispanic,-6.02734375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,1600,250,22418,7.137121955571415,-56.2139757326907,race
+chronic kidney disease,indigenous,-5.9453125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,713,250,22418,3.180479971451512,189.13454285922836,race
+coronary artery disease,black,-5.35546875,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,5700,250,23176,24.594408008284432,95.19371435146375,race
+coronary artery disease,white,-5.20703125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,12682,250,23176,54.7204004142216,-11.168181145744157,race
+coronary artery disease,asian,-4.91015625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,2648,250,23176,11.425612702795995,90.42687837993326,race
+coronary artery disease,hispanic,-5.6328125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,1475,250,23176,6.36434242319641,-60.95495445891773,race
+coronary artery disease,indigenous,-5.1484375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,494,250,23176,2.131515360717984,93.77412370163492,race
+covid-19,black,-5.83984375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,19887,250,79590,24.986807387862797,98.30799514176823,race
+covid-19,white,-6.0078125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,42514,250,79590,53.416258323910036,-13.285294928717475,race
+covid-19,asian,-5.41796875,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,6597,250,79590,8.288729739917075,38.145495665284585,race
+covid-19,hispanic,-5.04296875,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,6161,250,79590,7.740922226410353,-52.50967959257452,race
+covid-19,indigenous,-5.25,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,3977,250,79590,4.996858901872094,354.2599001701903,race
+crohn’s disease,black,-5.70703125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,1187,250,4717,25.164299342802625,99.7166614508145,race
+crohn’s disease,white,-5.2890625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,2743,250,4717,58.15136739453042,-5.59842955433374,race
+crohn’s disease,asian,-5.34765625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,464,250,4717,9.836760652957388,63.94601088262313,race
+crohn’s disease,hispanic,-6.2265625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,186,250,4717,3.9431842272630915,-75.80868572231232,race
+crohn’s disease,indigenous,-5.65625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,118,250,4717,2.5015899936400254,127.4172721490932,race
+deafness,black,-5.93359375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,4221,250,12334,34.222474460839955,171.60694016539645,race
+deafness,white,-6.2109375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,6370,250,12334,51.64585698070374,-16.15932308327315,race
+deafness,asian,-5.22265625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,553,250,12334,4.483541430192963,-25.274309496783953,race
+deafness,hispanic,-5.62890625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,752,250,12334,6.096967731473974,-62.59528999095721,race
+deafness,indigenous,-6.65234375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,396,250,12334,3.2106372628506565,191.87611480460512,race
+dementia,black,-6.66015625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,23258,250,79979,29.080133535052948,130.79471059565833,race
+dementia,white,-5.6484375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,44595,250,79979,55.758386576476326,-9.483138674551421,race
+dementia,asian,-5.53515625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,4697,250,79979,5.872791607797047,-2.12013987004922,race
+dementia,hispanic,-5.9140625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,4876,250,79979,6.096600357593869,-62.597543818442524,race
+dementia,indigenous,-5.91796875,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,2073,250,79979,2.5919303817252026,135.63003470229114,race
+diabetes,black,-6.0859375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,73293,250,271924,26.953487003721627,113.91656352160022,race
+diabetes,white,-5.953125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,129358,250,271924,47.57138023859608,-22.77373337890247,race
+diabetes,asian,-6.40625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,28723,250,271924,10.562877862932291,76.04796438220485,race
+diabetes,hispanic,-5.64453125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,24370,250,271924,8.962062929347905,-45.01801883835642,race
+diabetes,indigenous,-5.984375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,13062,250,271924,4.803548050190495,336.686186380954,race
+diarrhoea,black,-6.1953125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,20612,250,66047,31.208079095189788,147.68316742214117,race
+diarrhoea,white,-6.4375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,33318,250,66047,50.44589459021606,-18.107313976921986,race
+diarrhoea,asian,-5.21875,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,5184,250,66047,7.848956046451769,30.81593410752948,race
+diarrhoea,hispanic,-6.30078125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,3629,250,66047,5.494572047178525,-66.29096903571457,race
+diarrhoea,indigenous,-5.96484375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,3065,250,66047,4.640634699532152,321.87588177565016,race
+diastolic dysfunction,black,-6.62109375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,580,250,2091,27.737924438067914,120.14225744498346,race
+diastolic dysfunction,white,-5.82421875,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,1283,250,2091,61.358201817312285,-0.39252951735018937,race
+diastolic dysfunction,asian,-5.9375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,128,250,2091,6.121472979435677,2.0245496572612875,race
+diastolic dysfunction,hispanic,-6.10546875,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,77,250,2091,3.6824485891917744,-77.40829086385415,race
+diastolic dysfunction,indigenous,-5.56640625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,22,250,2091,1.0521281683405068,-4.35198469631757,race
+disability,black,-6.75,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,43812,250,133397,32.843317315981615,160.66124853953661,race
+disability,white,-5.0703125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,62146,250,133397,46.58725458593522,-24.371339957897373,race
+disability,asian,-6.34375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,8400,250,133397,6.296993185753802,4.949886429230036,race
+disability,hispanic,-5.68359375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,10797,250,133397,8.093885169831406,-50.34426276177052,race
+disability,indigenous,-6.3671875,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,6932,250,133397,5.196518662338733,372.4107874853393,race
+eczema,black,-5.69921875,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,4069,250,12939,31.44756163536595,149.58382250290435,race
+eczema,white,-6.00390625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,6665,250,12939,51.510935930133705,-16.378350762769962,race
+eczema,asian,-5.66796875,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,864,250,12939,6.6774866682123815,11.291444470206358,race
+eczema,hispanic,-5.86328125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,626,250,12939,4.838086405440915,-70.31848831017844,race
+eczema,indigenous,-5.63671875,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,642,250,12939,4.961743565963367,351.06759690576064,race
+endocarditis,black,-6.16796875,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,1149,250,5375,21.376744186046512,69.65669988925804,race
+endocarditis,white,-5.51171875,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,3537,250,5375,65.80465116279069,6.8257324071277425,race
+endocarditis,asian,-5.8671875,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,275,250,5375,5.116279069767442,-14.728682170542632,race
+endocarditis,hispanic,-5.83203125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,235,250,5375,4.372093023255814,-73.1773434156085,race
+endocarditis,indigenous,-5.96484375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,159,250,5375,2.958139534883721,168.92177589852005,race
+endometriosis,black,-5.8359375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,1398,250,4481,31.198393215800046,147.60629536349242,race
+endometriosis,white,-6.109375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,2378,250,4481,53.068511492970316,-13.84981900491832,race
+endometriosis,asian,-6.12109375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,385,250,4481,8.591832180316894,43.197203005281565,race
+endometriosis,hispanic,-6.43359375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,200,250,4481,4.463289444320464,-72.61785616981311,race
+endometriosis,indigenous,-6.5234375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,100,250,4481,2.231644722160232,102.8767929236574,race
+fibromyalgia,black,-6.65625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,1795,250,6353,28.25436801511097,124.24101599294421,race
+fibromyalgia,white,-5.8125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,3385,250,6353,53.28191405635133,-13.503386272156929,race
+fibromyalgia,asian,-5.93359375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,397,250,6353,6.249016212812844,4.150270213547399,race
+fibromyalgia,hispanic,-5.4140625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,475,250,6353,7.4767826223831255,-54.130167960839714,race
+fibromyalgia,indigenous,-6.2734375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,234,250,6353,3.683299228710845,234.84538442825857,race
+flu,black,-6.00390625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,22472,250,67367,33.357578636424364,164.74268759066953,race
+flu,white,-6.1328125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,32581,250,67367,48.36344204135556,-21.487918764033182,race
+flu,asian,-5.734375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,5725,250,67367,8.498226134457523,41.63710224095872,race
+flu,hispanic,-6.1796875,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,3474,250,67367,5.156827526830645,-68.36302130778745,race
+flu,indigenous,-5.52734375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,2682,250,67367,3.9811777279676996,261.92524799706354,race
+gall bladder disease,black,-5.2265625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,1883,250,6601,28.525980911983034,126.39667390462725,race
+gall bladder disease,white,-5.578125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,3587,250,6601,54.34025147704893,-11.785306043751739,race
+gall bladder disease,asian,-5.8515625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,438,250,6601,6.63535827904863,10.589304650810494,race
+gall bladder disease,hispanic,-6.078125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,361,250,6601,5.468868353279806,-66.44866040932634,race
+gall bladder disease,indigenous,-6.4765625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,309,250,6601,4.681108922890472,325.5553566264065,race
+gastric problems,black,-6.0703125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,1804,250,6515,27.689946277820415,119.76147839540012,race
+gastric problems,white,-6.66015625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,3168,250,6515,48.62624712202609,-21.061287139568034,race
+gastric problems,asian,-6.6640625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,853,250,6515,13.092862624712204,118.21437707853673,race
+gastric problems,hispanic,-5.609375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,397,250,6515,6.0936300844205675,-62.61576635324806,race
+gastric problems,indigenous,-5.984375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,273,250,6515,4.190330007674596,280.93909160678146,race
+gingival disease,black,-5.73046875,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,901,250,3273,27.52826153376108,118.47826614096095,race
+gingival disease,white,-6.2578125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,1904,250,3273,58.1729300336083,-5.563425270116394,race
+gingival disease,asian,-5.984375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,130,250,3273,3.9718912312862815,-33.80181281189531,race
+gingival disease,hispanic,-6.12109375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,150,250,3273,4.582951420714941,-71.88373361524576,race
+gingival disease,indigenous,-6.44921875,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,182,250,3273,5.560647723800794,405.5134294364358,race
+goiter,black,-6.265625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,860,250,2595,33.140655105973025,163.02107226962715,race
+goiter,white,-6.015625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,1323,250,2595,50.982658959537574,-17.23594324750394,race
+goiter,asian,-6.22265625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,211,250,2595,8.13102119460501,35.5170199100835,race
+goiter,hispanic,-6.08984375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,134,250,2595,5.163776493256262,-68.32038961192478,race
+goiter,indigenous,-6.63671875,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,54,250,2595,2.0809248554913293,89.1749868628481,race
+hepatitis b,black,-5.44921875,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,6820,250,24592,27.73259596616786,120.09996798545922,race
+hepatitis b,white,-5.65234375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,10920,250,24592,44.40468445022772,-27.914473295084875,race
+hepatitis b,asian,-6.15234375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,3972,250,24592,16.1515940143136,169.1932335718933,race
+hepatitis b,hispanic,-5.44140625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,1607,250,24592,6.534645413142486,-59.91015083961666,race
+hepatitis b,indigenous,-6.3984375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,910,250,24592,3.70039037085231,236.39912462293725,race
+hiv/aids,black,-6.875,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,20045,250,47068,42.58732047250786,237.9946069246656,race
+hiv/aids,white,-6.08203125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,17647,250,47068,37.49256395002975,-39.13544813306859,race
+hiv/aids,asian,-5.890625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,2945,250,47068,6.256904903543808,4.281748392396803,race
+hiv/aids,hispanic,-6.1953125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,4453,250,47068,9.460780147871164,-41.95840400079041,race
+hiv/aids,indigenous,-5.61328125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,1641,250,47068,3.486445143197076,216.94955847246143,race
+hypertension,black,-5.84375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,45184,250,158638,28.48245691448455,126.05124535305201,race
+hypertension,white,-5.86328125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,78453,250,158638,49.45410305223212,-19.717365174947858,race
+hypertension,asian,-6.0,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,15834,250,158638,9.981215093483277,66.35358489138795,race
+hypertension,hispanic,-5.9296875,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,12759,250,158638,8.042839672713978,-50.65742532077314,race
+hypertension,indigenous,-6.48828125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,4901,250,158638,3.0894237194114904,180.8567017646809,race
+hyperthyroid,black,-6.23046875,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,753,250,2895,26.01036269430052,106.43144995476605,race
+hyperthyroid,white,-5.64453125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,1603,250,2895,55.37132987910191,-10.111477468990412,race
+hyperthyroid,asian,-5.921875,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,367,250,2895,12.677029360967184,111.28382268278641,race
+hyperthyroid,hispanic,-5.3203125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,123,250,2895,4.248704663212435,-73.93432721955561,race
+hyperthyroid,indigenous,-6.2890625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,37,250,2895,1.2780656303972366,16.18778458156696,race
+hypochondria,black,-5.609375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,576,250,1491,38.6317907444668,206.60151384497456,race
+hypochondria,white,-5.95703125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,729,250,1491,48.89336016096579,-20.627662076354238,race
+hypochondria,asian,-5.99609375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,29,250,1491,1.9450033534540576,-67.58327744243236,race
+hypochondria,hispanic,-6.36328125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,115,250,1491,7.712944332662643,-52.68132311249912,race
+hypochondria,indigenous,-5.58203125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,33,250,1491,2.2132796780684103,101.20724346076454,race
+hypothyroid,black,-5.58984375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,504,250,1982,25.42885973763875,101.81634712411707,race
+hypothyroid,white,-5.08203125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,1173,250,1982,59.182643794147324,-3.9242795549556444,race
+hypothyroid,asian,-6.27734375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,165,250,1982,8.324924318869828,38.748738647830464,race
+hypothyroid,hispanic,-6.09765625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,94,250,1982,4.742684157416751,-70.90377817535736,race
+hypothyroid,indigenous,-5.9453125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,36,250,1982,1.8163471241170535,65.12246582882302,race
+ibs,black,-5.61328125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,3314,250,11243,29.476118473716976,133.937448204103,race
+ibs,white,-5.578125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,5697,250,11243,50.6715289513475,-17.741024429630688,race
+ibs,asian,-5.64453125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,1153,250,11243,10.255269945744018,70.9211657624003,race
+ibs,hispanic,-6.0703125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,521,250,11243,4.6339944854576185,-71.57058597878762,race
+ibs,indigenous,-5.90234375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,493,250,11243,4.384950635951259,298.6318759955689,race
+infection,black,-5.828125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,132335,250,386454,34.24340283707764,171.77303838950507,race
+infection,white,-6.47265625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,186853,250,386454,48.350644578656194,-21.508693865817868,race
+infection,asian,-5.6328125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,28161,250,386454,7.287025105187163,21.450418419786047,race
+infection,hispanic,-6.23828125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,23977,250,386454,6.204360674232897,-61.936437581393264,race
+infection,indigenous,-6.609375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,13183,250,386454,3.411272751737594,210.11570470341758,race
+inflammatory disorder of tendon,black,-6.26171875,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,948,250,2694,35.18930957683742,179.28023473680489,race
+inflammatory disorder of tendon,white,-6.0546875,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,1434,250,2694,53.229398663697104,-13.58863853295925,race
+inflammatory disorder of tendon,asian,-6.4453125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,122,250,2694,4.528582034149963,-24.52363276416728,race
+inflammatory disorder of tendon,hispanic,-5.9296875,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,118,250,2694,4.380103934669636,-73.12819671981818,race
+inflammatory disorder of tendon,indigenous,-5.60546875,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,55,250,2694,2.0415738678544915,85.5976243504083,race
+labyrinthitis,black,-5.96484375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,50,250,164,30.48780487804878,141.96670538133955,race
+labyrinthitis,white,-5.640625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,94,250,164,57.3170731707317,-6.952803294266719,race
+labyrinthitis,asian,-5.5703125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,6,250,164,3.6585365853658534,-39.024390243902445,race
+labyrinthitis,hispanic,-6.5546875,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,9,250,164,5.487804878048781,-66.33248541074369,race
+labyrinthitis,indigenous,-5.75,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,5,250,164,3.048780487804878,177.16186252771618,race
+learning problems,black,-5.80078125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,570,250,1484,38.40970350404312,204.83891669875493,race
+learning problems,white,-6.203125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,689,250,1484,46.42857142857143,-24.628942486085343,race
+learning problems,asian,-5.3984375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,66,250,1484,4.44743935309973,-25.876010781671166,race
+learning problems,hispanic,-5.46484375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,115,250,1484,7.749326145552561,-52.45812180642601,race
+learning problems,indigenous,-6.6171875,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,34,250,1484,2.2911051212938007,108.28228375398187,race
+liver failure,black,-5.87109375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,8090,250,32117,25.189152162406202,99.91390605084288,race
+liver failure,white,-6.375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,17001,250,32117,52.93458293115796,-14.067235501366945,race
+liver failure,asian,-6.62109375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,4024,250,32117,12.529190148519476,108.81983580865793,race
+liver failure,hispanic,-6.18359375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,1962,250,32117,6.108914282155867,-62.521998268982415,race
+liver failure,indigenous,-5.67578125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,832,250,32117,2.5905283806084007,135.50258005530912,race
+loss of sex drive,black,-5.80078125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,272,250,779,34.91655969191271,177.11555311041835,race
+loss of sex drive,white,-5.6484375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,352,250,779,45.186136071887034,-26.645883000183385,race
+loss of sex drive,asian,-5.98828125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,81,250,779,10.397946084724005,73.29910141206675,race
+loss of sex drive,hispanic,-6.4609375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,37,250,779,4.7496790757381255,-70.86086456602378,race
+loss of sex drive,indigenous,-6.69921875,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,32,250,779,4.10783055198973,273.43914108997546,race
+lupus,black,-5.1875,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,8945,250,29625,30.19409282700422,139.63565735717634,race
+lupus,white,-5.98828125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,14734,250,29625,49.73502109704641,-19.26132938791167,race
+lupus,asian,-6.1015625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,2573,250,29625,8.685232067510547,44.75386779184245,race
+lupus,hispanic,-5.69140625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,2456,250,29625,8.29029535864979,-49.13929227822215,race
+lupus,indigenous,-6.72265625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,765,250,29625,2.5822784810126582,134.7525891829689,race
+lyme disease,black,-6.12109375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,2613,250,7309,35.750444657271856,183.73368775612585,race
+lyme disease,white,-5.8359375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,3814,250,7309,52.18224107265016,-15.28856968725624,race
+lyme disease,asian,-6.296875,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,318,250,7309,4.350800383089342,-27.4866602818443,race
+lyme disease,hispanic,-5.87890625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,262,250,7309,3.5846216992748667,-78.00845583266953,race
+lyme disease,indigenous,-5.5390625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,267,250,7309,3.6530305103297307,232.09368275724822,race
+malaria,black,-6.05859375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,33739,250,72833,46.32378180220505,267.64906192226226,race
+malaria,white,-5.4296875,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,23947,250,72833,32.879326678840634,-46.62446967720676,race
+malaria,asian,-6.67578125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,5032,250,72833,6.908956105062265,15.149268417704423,race
+malaria,hispanic,-5.72265625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,4746,250,72833,6.516276962365961,-60.02284072168123,race
+malaria,indigenous,-6.4375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,4822,250,72833,6.620625266019524,501.875024183593,race
+menopause,black,-5.78515625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,9159,250,29427,31.124477520644305,147.01966286225638,race
+menopause,white,-6.15625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,13451,250,29427,45.709722363815544,-25.7959052535462,race
+menopause,asian,-6.05859375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,3343,250,29427,11.360315356645257,89.33858927742095,race
+menopause,hispanic,-6.5625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,2162,250,29427,7.346994256974887,-54.92641560138106,race
+menopause,indigenous,-6.82421875,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,1042,250,29427,3.540965779726102,221.90597997510017,race
+menstruation,black,-5.46484375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,4131,250,12227,33.78588370000818,168.14193412704904,race
+menstruation,white,-6.13671875,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,5420,250,12227,44.32812627790955,-28.038756042354635,race
+menstruation,asian,-5.66015625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,883,250,12227,7.221722417600393,20.362040293339888,race
+menstruation,hispanic,-6.03515625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,939,250,12227,7.67972519833156,-52.88512148262846,race
+menstruation,indigenous,-6.609375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,802,250,12227,6.559254109757095,496.29582815973595,race
+mental illness,black,-6.32421875,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,64684,250,187968,34.412240381341505,173.11301889953575,race
+mental illness,white,-6.08203125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,80879,250,187968,43.02806860742254,-30.14923927366471,race
+mental illness,asian,-5.80078125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,11649,250,187968,6.197331460674158,3.288857677902627,race
+mental illness,hispanic,-5.78125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,16558,250,187968,8.808946203609125,-45.957385253931754,race
+mental illness,indigenous,-5.62109375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,12516,250,187968,6.658580183861083,505.32547126009854,race
+mood disorder of depressed type,black,-6.07421875,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,140936,250,394513,35.724044581547375,183.52416334561408,race
+mood disorder of depressed type,white,-5.69140625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,188637,250,394513,47.81515438021054,-22.377996136021856,race
+mood disorder of depressed type,asian,-5.7890625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,20399,250,394513,5.17067878625039,-13.82202022916017,race
+mood disorder of depressed type,hispanic,-5.58203125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,26907,250,394513,6.820307569078839,-58.15762227558995,race
+mood disorder of depressed type,indigenous,-5.93359375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,14752,250,394513,3.739293762182742,239.93579656206742,race
+multiple sclerosis,black,-5.20703125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,8022,250,33101,24.23491737409746,92.34061408013858,race
+multiple sclerosis,white,-5.50390625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,21561,250,33101,65.13700492432253,5.741891110913188,race
+multiple sclerosis,asian,-5.98828125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,1375,250,33101,4.153953052777862,-30.767449120368973,race
+multiple sclerosis,hispanic,-5.76171875,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,1345,250,33101,4.063321349808162,-75.07164816068612,race
+multiple sclerosis,indigenous,-5.95703125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,677,250,33101,2.045255430349536,85.93231184995781,race
+muscle inflammation,black,-6.0078125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,82,250,303,27.062706270627064,114.7833831002148,race
+muscle inflammation,white,-5.92578125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,187,250,303,61.71617161716172,0.1885902876001926,race
+muscle inflammation,asian,-5.87890625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,12,250,303,3.9603960396039604,-33.993399339933994,race
+muscle inflammation,hispanic,-5.421875,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,10,250,303,3.3003300330033,-79.75257648464233,race
+muscle inflammation,indigenous,-5.640625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,10,250,303,3.3003300330033,200.03000300029998,race
+nerve damage,black,-5.98828125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,2861,250,10127,28.251209637602447,124.21594950478132,race
+nerve damage,white,-6.33984375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,5652,250,10127,55.811197788091235,-9.397406188163583,race
+nerve damage,asian,-5.86328125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,718,250,10127,7.089957539251506,18.165958987525098,race
+nerve damage,hispanic,-5.5703125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,588,250,10127,5.806260491754715,-64.37876998923487,race
+nerve damage,indigenous,-5.5859375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,243,250,10127,2.3995260195516934,118.13872905015393,race
+oesophageal ulcer,black,-6.0390625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,23,250,85,27.058823529411764,114.75256769374418,race
+oesophageal ulcer,white,-5.6015625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,49,250,85,57.647058823529406,-6.417112299465252,race
+oesophageal ulcer,asian,-6.08203125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,12,250,85,14.117647058823529,135.2941176470588,race
+oesophageal ulcer,hispanic,-6.18359375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,1,250,85,1.1764705882352942,-92.78238902923133,race
+oesophageal ulcer,indigenous,-5.83203125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,0,250,85,0.0,-100.0,race
+osteoarthritis,black,-5.83984375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,3591,250,13490,26.619718309859152,111.2676056338028,race
+osteoarthritis,white,-5.34765625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,7479,250,13490,55.44106745737584,-9.998267114649618,race
+osteoarthritis,asian,-5.5390625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,1200,250,13490,8.895478131949593,48.257968865826555,race
+osteoarthritis,hispanic,-5.7421875,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,765,250,13490,5.670867309117865,-65.20940301154684,race
+osteoarthritis,indigenous,-5.5546875,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,387,250,13490,2.8687916975537435,160.79924523215848,race
+pancreatitis,black,-6.08203125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,2124,250,8956,23.715944618133094,88.22178268359599,race
+pancreatitis,white,-6.04296875,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,5466,250,8956,61.03171058508262,-0.9225477514892542,race
+pancreatitis,asian,-6.015625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,772,250,8956,8.619919606967397,43.66532678278994,race
+pancreatitis,hispanic,-5.828125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,382,250,8956,4.265297007592675,-73.83253369575046,race
+pancreatitis,indigenous,-5.37109375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,170,250,8956,1.898168825368468,72.56080230622436,race
+parkinson,black,-6.28125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,10806,250,38694,27.92681035819507,121.64135204916721,race
+parkinson,white,-5.77734375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,23116,250,38694,59.74052824727348,-3.01862297520539,race
+parkinson,asian,-6.25,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,1821,250,38694,4.706155993177237,-21.564066780379378,race
+parkinson,hispanic,-5.97265625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,1730,250,38694,4.470977412518737,-72.57069072074394,race
+parkinson,indigenous,-6.60546875,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,952,250,38694,2.4603297668889232,123.66634244444754,race
+parkinson's disease,black,-5.7734375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,3979,250,14703,27.062504250833165,114.78177976851718,race
+parkinson's disease,white,-5.12890625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,8742,250,14703,59.45725362170986,-3.478484380341138,race
+parkinson's disease,asian,-5.984375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,953,250,14703,6.48167040739985,8.027840123330837,race
+parkinson's disease,hispanic,-5.25390625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,625,250,14703,4.2508331633000065,-73.92126893680978,race
+parkinson's disease,indigenous,-5.32421875,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,351,250,14703,2.3872679045092835,117.02435495538938,race
+perforated ulcer,black,-6.7109375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,71,250,193,36.787564766839374,191.96479973682042,race
+perforated ulcer,white,-6.875,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,108,250,193,55.95854922279793,-9.15819931363973,race
+perforated ulcer,asian,-5.52734375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,4,250,193,2.072538860103627,-65.45768566493955,race
+perforated ulcer,hispanic,-5.9140625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,7,250,193,3.6269430051813467,-77.74881591913285,race
+perforated ulcer,indigenous,-5.359375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,3,250,193,1.5544041450777202,41.309467734338185,race
+permanent nerve damage,black,-5.234375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,1555,250,5017,30.994618297787525,145.98903410942478,race
+permanent nerve damage,white,-5.96875,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,2583,250,5017,51.48495116603547,-16.420533821370988,race
+permanent nerve damage,asian,-6.13671875,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,561,250,5017,11.181981263703408,86.3663543950568,race
+permanent nerve damage,hispanic,-5.91015625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,200,250,5017,3.9864460833167232,-75.5432755624741,race
+permanent nerve damage,indigenous,-6.51171875,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,105,250,5017,2.0928841937412797,90.26219943102541,race
+phlebitis,black,-4.98046875,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,258,250,993,25.981873111782477,106.20534215700378,race
+phlebitis,white,-6.140625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,608,250,993,61.22860020140987,-0.602921750958008,race
+phlebitis,asian,-5.59375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,59,250,993,5.94159113796576,-0.9734810339039927,race
+phlebitis,hispanic,-6.08203125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,45,250,993,4.531722054380665,-72.19802420625359,race
+phlebitis,indigenous,-5.62109375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,18,250,993,1.812688821752266,64.78989288656963,race
+pneumonia,black,-5.7578125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,19360,250,63937,30.279806684705257,140.31592606908933,race
+pneumonia,white,-5.98828125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,34515,250,63937,53.98282684517572,-12.3655408357537,race
+pneumonia,asian,-5.578125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,3643,250,63937,5.697796268201511,-5.036728863308149,race
+pneumonia,hispanic,-5.27734375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,3611,250,63937,5.647747000954064,-65.35124539291985,race
+pneumonia,indigenous,-6.51953125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,2417,250,63937,3.780283716783709,243.66215607124624,race
+polymyositis,black,-5.3984375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,264,250,1042,25.335892514395393,101.07851201901106,race
+polymyositis,white,-5.22265625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,614,250,1042,58.92514395393474,-4.342298776079965,race
+polymyositis,asian,-5.8671875,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,81,250,1042,7.773512476007678,29.55854126679463,race
+polymyositis,hispanic,-5.19140625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,49,250,1042,4.702495201535509,-71.15033618689873,race
+polymyositis,indigenous,-5.97265625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,29,250,1042,2.783109404990403,153.00994590821844,race
+psychosis,black,-6.00390625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,7518,250,21439,35.06693409207519,178.3090007307555,race
+psychosis,white,-5.37109375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,10632,250,21439,49.591865292224455,-19.493725174960304,race
+psychosis,asian,-6.40625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,1180,250,21439,5.503988059144549,-8.266865680924179,race
+psychosis,hispanic,-6.33203125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,1205,250,21439,5.62059797565185,-65.51780383035674,race
+psychosis,indigenous,-5.7578125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,805,250,21439,3.754839311535053,241.3490283213684,race
+repetitive stress syndrome,black,-5.16015625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,7,250,17,41.17647058823529,226.79738562091498,race
+repetitive stress syndrome,white,-5.35546875,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,6,250,17,35.294117647058826,-42.70435446906035,race
+repetitive stress syndrome,asian,-5.3828125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,2,250,17,11.76470588235294,96.078431372549,race
+repetitive stress syndrome,hispanic,-5.7265625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,2,250,17,11.76470588235294,-27.82389029231325,race
+repetitive stress syndrome,indigenous,-6.6015625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,0,250,17,0.0,-100.0,race
+restless legs syndrome,black,-5.515625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,337,250,1286,26.20528771384137,107.97847391937594,race
+restless legs syndrome,white,-5.23828125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,718,250,1286,55.83203732503888,-9.363575771040777,race
+restless legs syndrome,asian,-5.8125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,122,250,1286,9.486780715396579,58.11301192327632,race
+restless legs syndrome,hispanic,-5.86328125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,74,250,1286,5.7542768273716955,-64.69768817563377,race
+restless legs syndrome,indigenous,-5.640625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,30,250,1286,2.332814930015552,112.07408454686836,race
+rheumatoid arthritis,black,-5.25,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,8153,250,29273,27.851603867044716,121.04447513527552,race
+rheumatoid arthritis,white,-5.765625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,16701,250,29273,57.0525740443412,-7.382184992952601,race
+rheumatoid arthritis,asian,-5.83203125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,2217,250,29273,7.573531923615619,26.22553206026031,race
+rheumatoid arthritis,hispanic,-5.33984375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,1295,250,29273,4.423871827281112,-72.85968204122017,race
+rheumatoid arthritis,indigenous,-6.68359375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,769,250,29273,2.626994158439518,138.81765076722888,race
+sarcoidoses,black,-5.71484375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,325,250,858,37.878787878787875,200.62530062530058,race
+sarcoidoses,white,-6.4453125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,455,250,858,53.03030303030303,-13.91184573002755,race
+sarcoidoses,asian,-6.19921875,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,43,250,858,5.011655011655012,-16.472416472416462,race
+sarcoidoses,hispanic,-5.8203125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,16,250,858,1.8648018648018647,-88.55949776195175,race
+sarcoidoses,indigenous,-6.1328125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,16,250,858,1.8648018648018647,69.52744225471496,race
+sepsis,black,-6.515625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,7958,250,30949,25.71327021874697,104.07357316465851,race
+sepsis,white,-5.91015625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,18717,250,30949,60.476913632104434,-1.823192155674622,race
+sepsis,asian,-6.5625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,1813,250,30949,5.858024491906039,-2.366258468232685,race
+sepsis,hispanic,-6.05078125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,1535,250,30949,4.959772528999321,-69.5719476748508,race
+sepsis,indigenous,-5.76953125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,763,250,30949,2.4653462147403795,124.12238315821631,race
+sexual dysfunction,black,-6.37890625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,3310,250,10515,31.47883975273419,149.8320615296364,race
+sexual dysfunction,white,-5.90625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,5022,250,10515,47.76034236804565,-22.46697667525057,race
+sexual dysfunction,asian,-6.10546875,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,1063,250,10515,10.109367570137898,68.48945950229832,race
+sexual dysfunction,hispanic,-6.5234375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,749,250,10515,7.123157394198763,-56.299647888351146,race
+sexual dysfunction,indigenous,-5.5625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,327,250,10515,3.109843081312411,182.71300739203735,race
+sinus infection,black,-6.61328125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,530,250,1458,36.35116598079561,188.50131730790162,race
+sinus infection,white,-6.08984375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,817,250,1458,56.035665294924556,-9.033010884862737,race
+sinus infection,asian,-5.8359375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,45,250,1458,3.0864197530864197,-48.559670781893004,race
+sinus infection,hispanic,-5.72265625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,37,250,1458,2.5377229080932784,-84.43114780310871,race
+sinus infection,indigenous,-6.01171875,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,23,250,1458,1.577503429355281,43.4094026686619,race
+stevens johnson syndrome,black,-5.50390625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,38,250,99,38.38383838383838,204.63363796697126,race
+stevens johnson syndrome,white,-5.0703125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,47,250,99,47.474747474747474,-22.93060474878657,race
+stevens johnson syndrome,asian,-5.640625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,10,250,99,10.1010101010101,68.35016835016833,race
+stevens johnson syndrome,hispanic,-6.51171875,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,2,250,99,2.0202020202020203,-87.60612257544773,race
+stevens johnson syndrome,indigenous,-5.9140625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,1,250,99,1.0101010101010102,-8.172635445362719,race
+suicide,black,-6.08984375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,100717,250,258980,38.8898756660746,208.64980687360793,race
+suicide,white,-5.94140625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,118744,250,258980,45.850644837439184,-25.567135004157173,race
+suicide,asian,-6.39453125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,11619,250,258980,4.486446829871032,-25.22588616881613,race
+suicide,hispanic,-6.37890625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,14569,250,258980,5.625530929029269,-65.48754031270387,race
+suicide,indigenous,-5.32421875,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,11964,250,258980,4.619661749942081,319.9692499947346,race
+syphilis,black,-6.03515625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,8311,250,22193,37.448745099806246,197.21226269687494,race
+syphilis,white,-5.6796875,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,9423,250,22193,42.459334024241876,-31.072509700906046,race
+syphilis,asian,-5.625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,892,250,22193,4.019285360248727,-33.011910662521224,race
+syphilis,hispanic,-5.83984375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,1992,250,22193,8.975803181183256,-44.93372281482665,race
+syphilis,indigenous,-5.37109375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,1372,250,22193,6.182129500292885,462.0117727538986,race
+takotsubo cardiomyopathy,black,-6.11328125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,165,250,684,24.12280701754386,91.45084934558619,race
+takotsubo cardiomyopathy,white,-5.13671875,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,430,250,684,62.86549707602339,2.0543783701678353,race
+takotsubo cardiomyopathy,asian,-5.56640625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,47,250,684,6.871345029239766,14.5224171539961,race
+takotsubo cardiomyopathy,hispanic,-6.1875,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,33,250,684,4.824561403508771,-70.40146378215478,race
+takotsubo cardiomyopathy,indigenous,-6.02734375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,4,250,684,0.5847953216374269,-46.83678894205211,race
+tinnitus,black,-6.62890625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,1536,250,5413,28.376131535193057,125.20739313645284,race
+tinnitus,white,-5.71484375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,3204,250,5413,59.19083687419177,-3.9109791003380425,race
+tinnitus,asian,-6.6171875,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,233,250,5413,4.304452244596342,-28.25912925672764,race
+tinnitus,hispanic,-5.328125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,281,250,5413,5.191206355071125,-68.1521082510974,race
+tinnitus,indigenous,-6.30859375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,140,250,5413,2.5863661555514503,135.12419595922273,race
+tuberculoses,black,-5.94140625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,26118,250,69427,37.61936998574042,198.5664284582573,race
+tuberculoses,white,-6.03125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,29297,250,69427,42.19828020798825,-31.496298363655445,race
+tuberculoses,asian,-6.109375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,4834,250,69427,6.9627090325089664,16.04515054181611,race
+tuberculoses,hispanic,-5.9609375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,4667,250,69427,6.72216860875452,-58.759701786782095,race
+tuberculoses,indigenous,-5.56640625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,4109,250,69427,5.91844671381451,438.0406103467736,race
+type one diabetic,black,-6.08203125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,550,250,1916,28.70563674321503,127.82251383503993,race
+type one diabetic,white,-5.140625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,1004,250,1916,52.4008350730689,-14.933709296966077,race
+type one diabetic,asian,-5.69921875,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,137,250,1916,7.150313152400835,19.171885873347247,race
+type one diabetic,hispanic,-5.2890625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,133,250,1916,6.9415448851774535,-57.41383506026102,race
+type one diabetic,indigenous,-5.875,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,72,250,1916,3.7578288100208765,241.62080091098878,race
+type two diabetic,black,-6.17578125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,15300,250,64644,23.668089845925376,87.84198290416965,race
+type two diabetic,white,-6.70703125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,30790,250,64644,47.630097147453746,-22.678413721666,race
+type two diabetic,asian,-6.0234375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,8752,250,64644,13.538766165460059,125.64610275766765,race
+type two diabetic,hispanic,-6.14453125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,5745,250,64644,8.88713569704845,-45.47769511013221,race
+type two diabetic,indigenous,-6.5078125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,3214,250,64644,4.971845801621186,351.98598196556236,race
+ulcerative colitis,black,-5.6953125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,1918,250,8286,23.147477673183683,83.71014026336258,race
+ulcerative colitis,white,-5.69921875,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,4876,250,8286,58.846246681148926,-4.470378764368628,race
+ulcerative colitis,asian,-6.078125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,835,250,8286,10.077238715906347,67.95397859843911,race
+ulcerative colitis,hispanic,-5.734375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,385,250,8286,4.646391503741251,-71.49453065189417,race
+ulcerative colitis,indigenous,-5.75,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,239,250,8286,2.8843832971276853,162.2166633752441,race
+upper respiratory infection,black,-5.578125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,684,250,2946,23.217922606924642,84.26922703908446,race
+upper respiratory infection,white,-5.62890625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,1795,250,2946,60.93007467752886,-1.0875411079077013,race
+upper respiratory infection,asian,-6.09375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,244,250,2946,8.282416836388323,38.04028060647206,race
+upper respiratory infection,hispanic,-5.5546875,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,151,250,2946,5.1255940257976915,-68.55463787854177,race
+upper respiratory infection,indigenous,-6.0234375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,64,250,2946,2.172437202987101,97.49429118064552,race
+urinary tract infection,black,-5.62890625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,1480,250,6708,22.06320810971974,75.10482626761697,race
+urinary tract infection,white,-5.80078125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,4268,250,6708,63.62552176505665,3.288184683533515,race
+urinary tract infection,asian,-6.09765625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,389,250,6708,5.799045915324985,-3.349234744583581,race
+urinary tract infection,hispanic,-6.15625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,347,250,6708,5.172927847346452,-68.26424633529784,race
+urinary tract infection,indigenous,-5.84375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,178,250,6708,2.653548002385212,141.23163658047378,race
+vision problems,black,-5.78515625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,1047,250,3065,34.159869494290376,171.11007535151091,race
+vision problems,white,-5.76953125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,1570,250,3065,51.22349102773246,-16.844982097836922,race
+vision problems,asian,-5.79296875,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,149,250,3065,4.861337683523654,-18.97770527460576,race
+vision problems,hispanic,-6.1875,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,201,250,3065,6.557911908646004,-59.767411603398756,race
+vision problems,indigenous,-6.27734375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,83,250,3065,2.7079934747145185,146.1812249740471,race
+visual anomalies,black,-6.37890625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,88,250,291,30.240549828178693,140.0043637157039,race
+visual anomalies,white,-5.34765625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,174,250,291,59.79381443298969,-2.932119426964789,race
+visual anomalies,asian,-6.265625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,17,250,291,5.841924398625429,-2.6345933562428465,race
+visual anomalies,hispanic,-6.28515625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,8,250,291,2.7491408934707904,-83.13410494803196,race
+visual anomalies,indigenous,-6.80078125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,4,250,291,1.3745704467353952,24.960949703217736,race
+covid-19,male,-5.5546875,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,162974,250,262165,62.164667289683976,27.12610897685885,gender
+achilles tendinitis,male,-5.9453125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,474,250,801,59.176029962546814,21.01437620152723,gender
+acne,male,-6.40234375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,46349,250,99668,46.50339125897982,-4.901040370184419,gender
+acute gastritis,male,-5.86328125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,304,250,552,55.072463768115945,12.622625292670648,gender
+acute kidney failure,male,-6.12109375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,976,250,1730,56.41618497109827,15.370521413288895,gender
+adenomyosis,male,-6.109375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,759,250,3448,22.012761020881673,-54.98412879165302,gender
+alopecia,male,-5.6796875,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,13569,250,27961,48.52830728514717,-0.7601078013350246,gender
+ als ,male,-6.1484375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,12506,250,22105,56.57543542185026,15.696186956748997,gender
+alzheimer's,male,-6.08203125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,72948,250,142472,51.20163962041664,4.70682948960459,gender
+arrhythmia,male,-5.98828125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,51159,250,97307,52.574840453410346,7.515011152168399,gender
+arthritis,male,-6.08203125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,124710,250,251814,49.52464914579809,1.2774011161515093,gender
+asthma,male,-5.796875,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,116811,250,232140,50.31920392866374,2.902257522829736,gender
+bipolar disorder,male,-5.68359375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,39683,250,78902,50.294035639147296,2.8507886281130825,gender
+bronchitis,male,-4.890625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,26979,250,50761,53.149071137290434,8.689307029223796,gender
+cardiovascular disease,male,-6.34375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,261113,250,506062,51.59703751714216,5.515414145484997,gender
+carpal tunnel syndrome,male,-4.859375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,8656,250,16653,51.97862247042575,6.295751473263291,gender
+chagas disease,male,-5.3984375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,2725,250,5682,47.958465329109465,-1.9254287748272665,gender
+chronic fatigue syndrome,male,-6.26171875,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,7260,250,15313,47.41069679357409,-3.0456098290918385,gender
+chronic kidney disease,male,-5.5,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,32779,250,61750,53.08340080971659,8.555011880811032,gender
+coronary artery disease,male,-5.3828125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,42309,250,76544,55.27409071906354,13.034950345733206,gender
+crohn’s disease,male,-5.05078125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,8505,250,16843,50.49575491302024,3.2633024806139956,gender
+deafness,male,-4.8984375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,28061,250,51814,54.15717759678851,10.750874431060344,gender
+dementia,male,-6.00390625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,163121,250,317232,51.42009633328289,5.153571233707348,gender
+diabetes,male,-5.5234375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,407680,250,809719,50.34833071719942,2.961821507565273,gender
+diarrhoea,male,-5.203125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,107427,250,214913,49.98627351532946,2.221418231757586,gender
+diastolic dysfunction,male,-6.55078125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,3960,250,7954,49.78627105858687,1.812415252733888,gender
+disability,male,-5.83984375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,392627,250,740351,53.03254807516975,8.451018558629348,gender
+eczema,male,-5.41015625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,20240,250,42989,47.081811626229964,-3.718176633476553,gender
+endocarditis,male,-5.40234375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,10861,250,19320,56.21635610766046,14.961873430798489,gender
+endometriosis,male,-6.23046875,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,10201,250,35399,28.817198225938583,-41.06912428233419,gender
+fibromyalgia,male,-5.90234375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,17538,250,39466,44.43825064612577,-9.124231807513754,gender
+flu,male,-5.234375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,161228,250,296032,54.46303102367311,11.376341561703706,gender
+gall bladder disease,male,-5.890625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,12133,250,24604,49.31311981791578,0.8448258035087626,gender
+gastric problems,male,-5.45703125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,11435,250,21864,52.30058543724845,6.954162448360843,gender
+gingival disease,male,-5.83984375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,4831,250,9873,48.93142915020764,0.0642722908131757,gender
+goiter,male,-5.75390625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,5951,250,13601,43.75413572531431,-10.5232398255331,gender
+hepatitis b,male,-5.26171875,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,36234,250,72205,50.18212035177619,2.621923009767266,gender
+hiv/aids,male,-5.34375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,60255,250,127226,47.36060239259271,-3.14805236688607,gender
+hypertension,male,-6.15234375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,252795,250,502767,50.280746349700756,2.823612167077214,gender
+hyperthyroid,male,-5.1640625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,5524,250,12976,42.57090012330456,-12.942944533119505,gender
+hypochondria,male,-5.21875,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,4429,250,8084,54.78723404255319,12.03933342035417,gender
+hypothyroid,male,-6.015625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,5701,250,13231,43.088201949965985,-11.885067586981624,gender
+ibs,male,-5.25,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,18951,250,39298,48.22382818464044,-1.3827644485880564,gender
+infection,male,-5.7109375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,573266,250,1138836,50.33788886196081,2.9404680203697646,gender
+inflammatory disorder of tendon,male,-5.2109375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,13450,250,21255,63.27922841684309,29.405375085568696,gender
+labyrinthitis,male,-5.9609375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,506,250,921,54.94028230184582,12.352315545696975,gender
+learning problems,male,-5.59375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,4478,250,8507,52.63900317385682,7.646223259420905,gender
+liver failure,male,-6.36328125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,57417,250,107605,53.35904465405883,9.118700724046686,gender
+loss of sex drive,male,-6.1484375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,4391,250,8577,51.19505654657806,4.693367170916278,gender
+lupus,male,-4.98828125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,35716,250,82571,43.254895786656334,-11.544180395385817,gender
+lyme disease,male,-6.05078125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,12031,250,23981,50.16888369959551,2.594854191401867,gender
+malaria,male,-6.171875,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,80704,250,153484,52.58137656042323,7.528377424178388,gender
+menopause,male,-5.68359375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,52978,250,161014,32.90272895524613,-32.71425571524308,gender
+mental illness,male,-6.06640625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,514463,250,992947,51.81172811841921,5.95445422989614,gender
+ mi ,male,-6.02734375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,278053,250,497971,55.83718730608811,14.186477108564649,gender
+ mnd ,male,-5.88671875,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,2829,250,4996,56.62530024019215,15.798160000392954,gender
+mood disorder of depressed type,male,-6.0390625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,899155,250,1692049,53.14000953873085,8.67077615282383,gender
+multiple sclerosis,male,-5.70703125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,53735,250,177869,30.210435770145445,-38.21996775021381,gender
+muscle inflammation,male,-5.765625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,580,250,1056,54.92424242424242,12.319514160004957,gender
+nerve damage,male,-6.50390625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,26140,250,48653,53.72741660329271,9.872017593645626,gender
+oesophageal ulcer,male,-5.90625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,213,250,394,54.06091370558376,10.554015757839998,gender
+osteoarthritis,male,-5.68359375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,31781,250,64020,49.642299281474536,1.517994440643225,gender
+pancreatitis,male,-5.20703125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,19019,250,34969,54.38817238125196,11.22325640337825,gender
+parkinson,male,-5.83984375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,83684,250,151429,55.2628624635968,13.011988678112063,gender
+parkinson's disease,male,-5.94921875,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,30016,250,56196,53.413054309915296,9.229149918027193,gender
+perforated ulcer,male,-5.7109375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,623,250,1163,53.568357695614786,9.546743753813471,gender
+permanent nerve damage,male,-5.29296875,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,9311,250,16224,57.390285996055226,17.362548049192693,gender
+phlebitis,male,-5.28515625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,2420,250,4452,54.357592093441156,11.160720027487029,gender
+pneumonia,male,-5.921875,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,134803,250,251103,53.68434467131018,9.783935933149653,gender
+polymyositis,male,-5.79296875,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,1741,250,3818,45.599790466212674,-6.748894752121318,gender
+psychosis,male,-5.84765625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,55114,250,101011,54.56237439486789,11.579497740016134,gender
+repetitive stress syndrome,male,-5.74609375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,42,250,70,60.0,22.699386503067487,gender
+restless legs syndrome,male,-4.86328125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,3353,250,7028,47.70916334661355,-2.4352487799313867,gender
+rheumatoid arthritis,male,-5.453125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,39396,250,87671,44.93618186173307,-8.105967562918059,gender
+sarcoidoses,male,-6.48828125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,1181,250,2382,49.580184718723764,1.3909707949361259,gender
+sepsis,male,-6.20703125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,51939,250,100652,51.60255136509954,5.526689908179028,gender
+sexual dysfunction,male,-5.8984375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,46822,250,79027,59.248105078011314,21.16176907568776,gender
+sinus infection,male,-6.0390625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,5419,250,10449,51.86142214565987,6.056078007484405,gender
+menstruation,male,-5.51171875,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,25316,250,70185,36.070385409987885,-26.2364306544215,gender
+stevens johnson syndrome,male,-5.3515625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,144,250,309,46.601941747572816,-4.699505628685445,gender
+suicide,male,-6.0390625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,705826,250,1267617,55.68132961296669,13.867749719768291,gender
+syphilis,male,-6.1796875,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,36185,250,70990,50.97196788280039,4.237153134561132,gender
+takotsubo cardiomyopathy,male,-6.56640625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,1332,250,3667,36.32397054813199,-25.717851639811883,gender
+tinnitus,male,-6.171875,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,13572,250,24726,54.889589905362776,12.248650113216314,gender
+tuberculoses,male,-5.53125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,104174,250,193554,53.8216725048307,10.064769948529044,gender
+type one diabetic,male,-5.8984375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,3818,250,7769,49.144033981207365,0.4990469963340818,gender
+type two diabetic,male,-6.44921875,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,72934,250,148322,49.17274578282386,0.5577623370631111,gender
+ulcerative colitis,male,-6.1171875,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,12329,250,24652,50.01216939802045,2.2743750470765813,gender
+upper respiratory infection,male,-5.8125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,6163,250,11930,51.65968147527242,5.643520399330108,gender
+urinary tract infection,male,-6.16796875,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,14893,250,32614,45.6644385846569,-6.616690010926583,gender
+vision problems,male,-5.875,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,7706,250,14542,52.99133544216752,8.366739145536851,gender
+visual anomalies,male,-5.3125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,435,250,909,47.85478547854785,-2.137453009104591,gender
+covid-19,female,-5.3125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,97676,250,262165,37.25745236778365,-27.089134309621038,gender
+achilles tendinitis,female,-5.93359375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,319,250,801,39.82521847690387,-22.064151708602996,gender
+acne,female,-5.48828125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,52181,250,99668,52.354817995745876,2.45561251613674,gender
+acute gastritis,female,-6.79296875,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,245,250,552,44.38405797101449,-13.142743696644832,gender
+acute kidney failure,female,-5.703125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,753,250,1730,43.52601156069364,-14.821895184552567,gender
+adenomyosis,female,-5.9453125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,2682,250,3448,77.78422273781904,52.2196139683347,gender
+alopecia,female,-6.03515625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,14266,250,27961,51.021065054897896,-0.15447151683386556,gender
+ als ,female,-6.29296875,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,9469,250,22105,42.836462338837364,-16.171306577617685,gender
+alzheimer's,female,-6.31640625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,68411,250,142472,48.01715424785221,-6.03296624686456,gender
+arrhythmia,female,-5.6328125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,46014,250,97307,47.287451056964045,-7.460956835686804,gender
+arthritis,female,-5.66796875,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,125929,250,251814,50.008736607178314,-2.1355448000424415,gender
+asthma,female,-5.54296875,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,114053,250,232140,49.131127767726376,-3.8529789281284255,gender
+bipolar disorder,female,-6.3125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,38164,250,78902,48.368862639730295,-5.3446915073771155,gender
+bronchitis,female,-6.5859375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,23468,250,50761,46.232343728452946,-9.525746128272123,gender
+cardiovascular disease,female,-6.20703125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,243100,250,506062,48.03759223178188,-5.992970192207676,gender
+carpal tunnel syndrome,female,-6.11328125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,7944,250,16653,47.70311655557557,-6.647521417660338,gender
+chagas disease,female,-5.77734375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,2936,250,5682,51.67194649771207,1.1192690757574744,gender
+chronic fatigue syndrome,female,-5.921875,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,7929,250,15313,51.779533729510874,1.329811603739476,gender
+chronic kidney disease,female,-5.51953125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,28893,250,61750,46.79028340080972,-8.4338876696483,gender
+coronary artery disease,female,-6.17578125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,34168,250,76544,44.6383779264214,-12.645052981562824,gender
+crohn’s disease,female,-5.88671875,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,8274,250,16843,49.12426527340735,-3.866408466913206,gender
+deafness,female,-6.30859375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,23001,250,51814,44.39147720693249,-13.128224643967728,gender
+dementia,female,-5.88671875,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,151219,250,317232,47.66826801835881,-6.7157181636813945,gender
+diabetes,female,-6.59765625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,398821,250,809719,49.254247461156275,-3.6120401934319495,gender
+diarrhoea,female,-5.84765625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,105809,250,214913,49.23341072899266,-3.6528165773137813,gender
+diastolic dysfunction,female,-6.328125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,3992,250,7954,50.18858436007041,-1.7835922503514554,gender
+disability,female,-6.6328125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,334636,250,740351,45.19964179152861,-11.546689253368665,gender
+eczema,female,-6.1640625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,22507,250,42989,52.355253669543366,2.456465106738482,gender
+endocarditis,female,-6.046875,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,8396,250,19320,43.457556935817806,-14.955857268458308,gender
+endometriosis,female,-6.13671875,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,24991,250,35399,70.59803949264104,38.15663305800594,gender
+fibromyalgia,female,-5.55078125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,21703,250,39466,54.991638372269804,7.615730669803919,gender
+flu,female,-6.1875,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,132007,250,296032,44.592138687709436,-12.735540728552966,gender
+gall bladder disease,female,-6.55859375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,12412,250,24604,50.44708177532109,-1.2777264670820223,gender
+gastric problems,female,-5.9921875,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,10346,250,21864,47.31979509696305,-7.39766125838934,gender
+gingival disease,female,-5.87109375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,4972,250,9873,50.35956649447989,-1.4489892475931678,gender
+goiter,female,-6.14453125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,7597,250,13601,55.856187045070214,9.307606741820377,gender
+hepatitis b,female,-6.43359375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,34353,250,72205,47.57703760127415,-6.894251269522216,gender
+hiv/aids,female,-5.3515625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,57823,250,127226,45.4490434345181,-11.058623415815848,gender
+hypertension,female,-6.42578125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,248741,250,502767,49.47440862268208,-3.181196433107484,gender
+hyperthyroid,female,-5.6640625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,7420,250,12976,57.18249075215783,11.90311301792139,gender
+hypochondria,female,-6.52734375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,3495,250,8084,43.23354774863929,-15.3942314116648,gender
+hypothyroid,female,-6.15625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,7497,250,13231,56.66238379563148,10.885291185188798,gender
+ibs,female,-5.58984375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,20159,250,39298,51.297775968242654,0.38703711984863465,gender
+infection,female,-5.6953125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,547813,250,1138836,48.10288750970289,-5.8651907833602985,gender
+inflammatory disorder of tendon,female,-5.82421875,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,7733,250,21255,36.382027758174544,-28.802294015314008,gender
+labyrinthitis,female,-6.3203125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,408,250,921,44.299674267100976,-13.307878146573435,gender
+learning problems,female,-5.73828125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,3984,250,8507,46.83202068884448,-8.352210002261295,gender
+liver failure,female,-5.99609375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,49610,250,107605,46.10380558524232,-9.777288482891745,gender
+loss of sex drive,female,-6.546875,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,3975,250,8577,46.34487583071004,-9.305526750078206,gender
+lupus,female,-5.609375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,46448,250,82571,56.2521950805973,10.082573543243251,gender
+lyme disease,female,-5.5234375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,11773,250,23981,49.093031983653724,-3.927530364669819,gender
+malaria,female,-6.453125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,71352,250,153484,46.488233301191,-9.024983755007826,gender
+menopause,female,-6.22265625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,106469,250,161014,66.12406374600967,29.40129891587019,gender
+mental illness,female,-5.71484375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,452074,250,992947,45.52851259936331,-10.903106459171607,gender
+ mi ,female,-5.39453125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,215545,250,497971,43.28464910607244,-15.294228755239839,gender
+ mnd ,female,-6.21484375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,2138,250,4996,42.794235388310646,-16.253942488628876,gender
+mood disorder of depressed type,female,-6.09765625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,760575,250,1692049,44.94993939300812,-12.035343653604459,gender
+multiple sclerosis,female,-6.01953125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,123410,250,177869,69.38252309283799,35.77793168852834,gender
+muscle inflammation,female,-6.40234375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,475,250,1056,44.98106060606061,-11.974441084030122,gender
+nerve damage,female,-6.3671875,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,22313,250,48653,45.8615090539124,-10.251449992343643,gender
+oesophageal ulcer,female,-5.80078125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,176,250,394,44.67005076142132,-12.583070916983715,gender
+osteoarthritis,female,-6.0,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,32127,250,64020,50.18275538894096,-1.794999238863092,gender
+pancreatitis,female,-6.1640625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,15856,250,34969,45.34301810174726,-11.266109389927083,gender
+parkinson,female,-5.99609375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,66388,250,151429,43.84100799714718,-14.205463802060315,gender
+parkinson's disease,female,-5.2890625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,25867,250,56196,46.02996654566161,-9.921787581875524,gender
+perforated ulcer,female,-6.13671875,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,523,250,1163,44.96990541702493,-11.996271199559821,gender
+permanent nerve damage,female,-6.53125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,6881,250,16224,42.41247534516766,-17.001026721785408,gender
+phlebitis,female,-6.0234375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,2013,250,4452,45.2156334231806,-11.515394475184742,gender
+pneumonia,female,-6.90625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,113649,250,251103,45.25991326268503,-11.428741168913833,gender
+polymyositis,female,-6.11328125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,2067,250,3818,54.13829229963332,5.945777494390057,gender
+psychosis,female,-5.703125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,44515,250,101011,44.06945778182575,-13.758399644176622,gender
+repetitive stress syndrome,female,-6.11328125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,28,250,70,40.0,-21.72211350293542,gender
+restless legs syndrome,female,-6.15234375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,3647,250,7028,51.89243027888446,1.5507441856838746,gender
+rheumatoid arthritis,female,-5.75390625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,47977,250,87671,54.72391098538856,7.0918023197427695,gender
+sarcoidoses,female,-6.4765625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,1198,250,2382,50.29387069689337,-1.5775524522634636,gender
+sepsis,female,-6.27734375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,48459,250,100652,48.14509398720344,-5.782594936979576,gender
+sexual dysfunction,female,-5.99609375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,30638,250,79027,38.76902830678123,-24.13106006500738,gender
+sinus infection,female,-5.22265625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,4964,250,10449,47.50693846301082,-7.031431579235191,gender
+menstruation,female,-6.08984375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,43492,250,70185,61.96765690674646,21.267430345883483,gender
+stevens johnson syndrome,female,-6.2421875,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,165,250,309,53.398058252427184,4.497178576178439,gender
+suicide,female,-6.5625,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,522031,250,1267617,41.18207628960482,-19.408852662221484,gender
+syphilis,female,-5.3828125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,31106,250,70990,43.81743907592618,-14.251586935565205,gender
+takotsubo cardiomyopathy,female,-5.6875,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,2319,250,3667,63.23970548131989,23.75676219436377,gender
+tinnitus,female,-5.82421875,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,11045,250,24726,44.669578581250505,-12.583994948629151,gender
+tuberculoses,female,-7.0,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,87368,250,193554,45.138824307428415,-11.665705856304474,gender
+type one diabetic,female,-5.6171875,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,3919,250,7769,50.444072596215726,-1.283615271593494,gender
+type two diabetic,female,-6.52734375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,75117,250,148322,50.64454362805249,-0.8913040546918055,gender
+ulcerative colitis,female,-5.3671875,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,12246,250,24652,49.67548271945481,-2.7877050499905844,gender
+upper respiratory infection,female,-6.09375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,5753,250,11930,48.22296730930427,-5.630200960265612,gender
+urinary tract infection,female,-5.89453125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,17643,250,32614,54.096400318881464,5.863797101529281,gender
+vision problems,female,-5.953125,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,6775,250,14542,46.589189932608996,-8.827416961626234,gender
+visual anomalies,female,-5.7109375,EleutherAI/pythia-70m-deduped,70,0,hf_tf,1,en,474,250,909,52.14521452145215,2.045429591882867,gender

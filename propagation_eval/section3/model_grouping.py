@@ -32,6 +32,10 @@ api_model = ['gpt-35-turbo-0613', 'cohere']
 bio_comparison = ['meta-llama/Llama-2-7b-hf', 'epfl-llm/meditron-7b', 'mistralai/Mistral-7B-v0.1', 'BioMistral/BioMistral-7B']
 model_size = ['Qwen/Qwen1.5-7B', 'Qwen/Qwen1.5-7B-Chat', 'Qwen/Qwen1.5-72B', 'Qwen/Qwen1.5-72B-Chat',  'meta-llama/Llama-2-7b-hf', 'meta-llama/Llama-2-7b-chat-hf', 'meta-llama/Llama-2-70b-hf', 'meta-llama/Llama-2-70b-chat-hf']
 rlhf_llama = ['meta-llama/Llama-2-7b-hf', 'meta-llama/Llama-2-7b-chat-hf', 'allenai/tulu-2-7b', 'allenai/tulu-2-dpo-7b', 'meta-llama/Llama-2-70b-hf', 'meta-llama/Llama-2-70b-chat-hf', 'allenai/tulu-2-70b', 'allenai/tulu-2-dpo-70b']
+all_wild = ['Qwen/Qwen1.5-7B', 'Qwen/Qwen1.5-7B-Chat', 'Qwen/Qwen1.5-72B', 'Qwen/Qwen1.5-72B-Chat', 'mistralai/Mistral-7B-v0.1', 'mistralai/Mistral-7B-Instruct-v0.1', 'BioMistral/BioMistral-7B', 'HuggingFaceH4/zephyr-7b-beta', 'HuggingFaceH4/mistral-7b-sft-beta', 'meta-llama/Llama-2-7b-hf', 'meta-llama/Llama-2-7b-chat-hf', 'meta-llama/Llama-2-70b-hf', 'meta-llama/Llama-2-70b-chat-hf', 'epfl-llm/meditron-7b', 'epfl-llm/meditron-70b', 'allenai/tulu-2-7b', 'allenai/tulu-2-dpo-7b', 'allenai/tulu-2-70b', 'allenai/tulu-2-dpo-70b']
+rlfh_7b_llama = ['meta-llama/Llama-2-7b-hf', 'meta-llama/Llama-2-7b-chat-hf', 'allenai/tulu-2-7b', 'allenai/tulu-2-dpo-7b', 'epfl-llm/meditron-7b']
+rlfh_70b_llama = ['meta-llama/Llama-2-70b-hf', 'meta-llama/Llama-2-70b-chat-hf', 'allenai/tulu-2-70b', 'allenai/tulu-2-dpo-70b', 'epfl-llm/meditron-70b']
+rlhf_mistral = ['mistralai/Mistral-7B-v0.1', 'mistralai/Mistral-7B-Instruct-v0.1', 'HuggingFaceH4/zephyr-7b-beta', 'HuggingFaceH4/mistral-7b-sft-beta', 'BioMistral/BioMistral-7B']
 
 model_group = {
     'pythia': pythia,
@@ -43,5 +47,9 @@ model_group = {
     'api_model': api_model,
     'biomed': bio_comparison,
     'scaling_law': model_size,
-    'rlhf_llama': rlhf_llama
+    'rlhf_llama': rlhf_llama,
+    'all_wild': all_wild,
+    'rlfh_7b_llama': rlfh_7b_llama,
+    'rlfh_70b_llama': rlfh_70b_llama,
+    'rlhf_mistral': rlhf_mistral
 }
