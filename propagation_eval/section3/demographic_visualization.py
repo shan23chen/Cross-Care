@@ -3,9 +3,10 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 from model_grouping import model_group
+from collections import Counter
 
 # Define your categories and any other global configurations
-race_categories = ["asian", "black", "hispanic", "indigenous", "pacific islander"]
+race_categories = ["asian", "black", "white", "hispanic", "indigenous", "pacific islander"]
 gender_categories = ["male", "female", "non-binary"]
 demographic = 'race'  # Could be 'race' or 'gender'
 logits_dir = "../../logits_results"
@@ -65,9 +66,119 @@ def load_and_prepare_data(demographic, language):
                     results_rank_comb = pd.concat([results_rank_comb, row], ignore_index=True)
 
     results_rank_comb['prob_distribution'] = results_rank_comb['logits_ranking'].apply(softmax)
+    softmax_list = []
+    for i in results_rank_comb.iterrows():
+        demographic_rank = i[1]['demographic_rank']
+        logits_rank = i[1]['logits_ranking']
+        sorted_pairs = sorted(list(zip(demographic_rank, logits_rank)))
+        sorted_logits = [i[1] for i in sorted_pairs]
+        softmax_logits = list(softmax(sorted_logits))
+        softmax_list.append(str(softmax_logits))
+    results_rank_comb['sorted_softmax_logits'] = softmax_list
+    rank_df_valid = results_rank_comb[(results_rank_comb['model_name'] != 'EleutherAI/pile-t5-large') & (results_rank_comb['model_name'] != 'EleutherAI/pile-t5-base')]
 
-    return results_rank_comb
+    return rank_df_valid
 
+def generate_demo_ratio_df(rank_df_valid_4lang, demographic='race'):
+    lang_demo_ratio_dict = {}
+    for language in ['en', 'zh', 'es', 'fr']:
+        demo_ratio_plot_df = pd.DataFrame()
+        rank_df_valid = rank_df_valid_4lang[rank_df_valid_4lang['language'] == language]
+        for model_name, model_group in rank_df_valid.groupby(['model_name']):
+            # print(model_group)
+            softmax_logits_total = np.array([eval(i[1]['sorted_softmax_logits']) for i in model_group.iterrows()])
+            softmax_logits_disease_mean = np.sum(softmax_logits_total, axis=0)/softmax_logits_total.shape[0]
+            # print(softmax_logits_disease_mean)
+            demo_ratio_plot_df[model_name[0]] = softmax_logits_disease_mean
+        if demographic == 'race':
+            demo_ratio_plot_df['demographic'] = sorted(race_categories)
+        else:
+            demo_ratio_plot_df['demographic'] = sorted(gender_categories)
+        demo_ratio_plot_df.set_index('demographic', inplace=True)
+        lang_demo_ratio_dict[language] = demo_ratio_plot_df
+    return lang_demo_ratio_dict
+
+def generate_top_bot_df(dataframe, grouping, demographic_position='top'):
+    models_to_include = model_group[grouping]
+    filtered_df_4lang = dataframe[dataframe['model_name'].isin(models_to_include)].copy()
+    if demographic_position == 'top':
+        target_position = 0
+    elif demographic_position == 'bottom':
+        target_position = -1
+    elif demographic_position == 'second_bottom':
+        target_position = -2
+    else:
+        raise ValueError("demographic_position must be 'top', 'bottom', or 'second_bottom'")
+    filtered_df_4lang['target_demographic'] = filtered_df_4lang['demographic_rank'].apply(
+        lambda x: x[target_position] if isinstance(x, list) and len(x) > abs(target_position) else None
+    )
+    
+    lang_top_bot_dict = {}
+    for lang in ['en', 'zh', 'es', 'fr']:
+        filtered_df = filtered_df_4lang[filtered_df_4lang['language'] == lang]
+        top_bot_dict = {}
+        for model in models_to_include:
+            # max_list = []
+            # min_list = []
+            temp_dict = dict(Counter(filtered_df[filtered_df['model_name'] == model]['target_demographic']))
+            temp_dict = dict(sorted(temp_dict.items()))
+            top_bot_dict[model] = temp_dict
+        top_bot_df = pd.DataFrame(top_bot_dict)
+        lang_top_bot_dict[lang] = top_bot_df
+    return lang_top_bot_dict
+
+def full_language_visualization(grouping, model_dist_dict, demographic='race', hf_mode='hf', plot_mode='ratio', rotation=0):
+    models = model_group[grouping] 
+    fig, ax = plt.subplots(constrained_layout=True)
+    fig.set_figheight(5)
+    fig.set_figwidth(15)
+    x_pos = np.array(list(range(0, 2*len(model_dist_dict['en'][models].columns), 2))).astype(np.float32)
+    # print(x_pos)  
+
+    labels = list(model_dist_dict['en'].index)
+    colors = ['firebrick', 'blue', 'green', 'orange', 'purple', 'gray'][:len(labels)]
+    # print(labels)
+
+    for language in ['en', 'zh', 'es', 'fr']:
+        rows = 0
+        model_dist_df = model_dist_dict[language][models]
+        for i in model_dist_df.iterrows():
+            # print(i[1].values)
+            ax.bar(x_pos, i[1].values, bottom=model_dist_df.iloc[:rows].sum(axis=0), color=colors[rows], width=0.3)
+            rows += 1
+        x_pos += 0.4
+    
+    lang_labels_pos = []
+    start = 0
+    for i in range(len(x_pos)):
+        temp = []
+        lang_start = start
+        for _ in range(4):
+            temp.append(lang_start)
+            lang_start += 0.4
+        lang_labels_pos += temp
+        start += 2
+    # print(lang_labels_pos)
+    
+    model_labels = []
+    for name in models:
+        try:
+            model_labels.append(name.split('/')[1])
+        except:
+            model_labels.append(name)
+            
+    ax.set_xlabel('model name')
+    ax.xaxis.set_label_coords(0.5,-0.15)
+    ax.set_ylabel('demographic count across disesases')
+    sec_x = ax.secondary_xaxis('top')
+    sec_x.set_xticks(lang_labels_pos, ['en', 'zh', 'es', 'fr']*len(models))
+    ax.set_xticks(np.array(range(0, 2*len(model_dist_dict[language][models].columns), 2))+0.6, model_labels, rotation=rotation)
+    # ax.set_xticks(lang_labels_pos, ['en', 'zh', 'es', 'fr']*len(models), minor=True)
+    ax.set_title(f'{demographic} distribution for each {grouping} model across diseases ({hf_mode} America)')
+    ax.legend(loc='upper center', bbox_to_anchor=(0.5, -0.05), labels=labels, labelcolor=colors, ncols=6)
+    plt.show()
+    fig.savefig(f'{grouping}_{demographic}_{hf_mode}_{plot_mode}_distribution.png')
+    
 def visualize_demographic_rankings_filtered(dataframe, grouping, demographic_position='top'):
     """
     Visualizes the count of times each demographic is ranked at the specified position (top, bottom, or second_bottom)
