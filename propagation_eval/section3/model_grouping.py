@@ -20,7 +20,7 @@ all_models = ['EleutherAI/pythia-70m-deduped', 'state-spaces/mamba-130m',
 
 #just eng models
 pythia = ['EleutherAI/pythia-70m-deduped', 'EleutherAI/pythia-160m-deduped', 'EleutherAI/pythia-410m-deduped', 'EleutherAI/pythia-1b-deduped', 'EleutherAI/pythia-2.8b-deduped', 'EleutherAI/pythia-6.9b-deduped', 'EleutherAI/pythia-12b-deduped']
-mamba = ['state-spaces/mamba-130m', 'state-spaces/mamba-370m', 'state-spaces/mamba-790m', 'state-spaces/mamba-1.4b', 'state-spaces/mamba-2.8b-slimpj', 'state-spaces/mamba-2.8b']
+mamba = ['state-spaces/mamba-130m', 'state-spaces/mamba-370m', 'state-spaces/mamba-790m', 'state-spaces/mamba-1.4b', 'state-spaces/mamba-2.8b']
 t5 = ['EleutherAI/pile-t5-base', 'EleutherAI/pile-t5-large', 'EleutherAI/pile-t5-xl']
 #multi-lingual models
 qwen = ['Qwen/Qwen1.5-7B', 'Qwen/Qwen1.5-7B-Chat', 'Qwen/Qwen1.5-72B', 'Qwen/Qwen1.5-72B-Chat']
