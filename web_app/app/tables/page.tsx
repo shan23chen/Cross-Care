@@ -50,6 +50,7 @@ const DataSourceOptions = {
   Github: 'github',
   Wikipedia: 'wikipedia', // Change the URL to your custom data source endpoint
   StackExchange: 'stackexchange',
+  Pile: 'pile',
 };
 
 const TablePage = () => {
@@ -138,7 +139,7 @@ const TablePage = () => {
   ]);
 
   const sortKeys = {
-    [DataCategories.TotalCounts]: ['disease', '0'],
+    [DataCategories.TotalCounts]: ['disease', 'real', '0'],
     [DataCategories.GenderCounts]: ['disease', 'male', 'female'],
     [DataCategories.RacialCounts]: [
       'disease',
@@ -197,7 +198,6 @@ const TablePage = () => {
   const fetchSortedData = async () => {
     const selectedDiseasesString = selectedDiseases.join(',');
     if (selectedCategory === DataCategories.TotalCounts) {
-      console.log("HERE")
       try {
         const response = await fetch(
           `http://127.0.0.1:5000/get-sorted-data?category=${selectedCategory}&selectedWindow=${selectedWindow}&sortKey=${sortKey}&sortOrder=${sortOrder}&page=${currentPage}&per_page=${pageSize}&selectedDiseases=${selectedDiseasesString}&dataSource=pile`
@@ -206,7 +206,6 @@ const TablePage = () => {
           const data = await response.json();
           setDataSize(data[0]);
           const sortedData = data[1];
-          console.log('Fetched Data:', sortedData);
           setDataToShow(sortedData);
         } else {
           console.error('Server error:', response.status);
@@ -224,7 +223,6 @@ const TablePage = () => {
           const data = await response.json();
           setDataSize(data[0]);
           const sortedData = data[1];
-          console.log('Fetched Data:', sortedData);
           setDataToShow(sortedData);
         } else {
           console.error('Server error:', response.status);
@@ -417,30 +415,42 @@ const TablePage = () => {
               </MultiSelect>
 
             {/* Window Dropdown */}
-            {selectedCategory !== DataCategories.TotalCounts && <Select
-              value={selectedWindow}
-              onValueChange={setSelectedWindow}
-              style={{ flex: '20%' , marginLeft: '40px'}}
-            >
-              {Object.entries(WindowOptions).map(([key, value]) => (
-                <SelectItem key={key} value={value}>
-                  {key}
-                </SelectItem>
-              ))}
-            </Select>}
+            {selectedCategory !== DataCategories.TotalCounts && (
+                <Select
+                  value={selectedWindow}
+                  onValueChange={setSelectedWindow}
+                  style={{
+                    flex: '20%',
+                    marginLeft: '40px',
+                    opacity: dataSource === DataSourceOptions.Pile ? 0.5 : 1,  // Shadowed effect when disabled
+                    pointerEvents: dataSource === DataSourceOptions.Pile ? 'none' : 'auto',  // Disables interaction
+                  }}
+                >
+                  {Object.entries(WindowOptions).map(([key, value]) => (
+                    <SelectItem key={key} value={value}>
+                      {key}
+                    </SelectItem>
+                  ))}
+                </Select>
+            )}
 
             {/* Data Source Dropdown */}
-            {selectedCategory !== DataCategories.TotalCounts && <Select
-              value={dataSource}
-              onValueChange={setDataSource}
-              style={{ flex: '20%' , marginLeft: '40px'}}
-            >
-              {Object.entries(DataSourceOptions).map(([key, value]) => (
-                <SelectItem key={key} value={value}>
-                  {key}
-                </SelectItem>
-              ))}
-            </Select>}
+            {selectedCategory !== DataCategories.TotalCounts && (
+                <Select
+                  value={dataSource}
+                  onValueChange={(newDataSource) => {
+                    setDataSource(newDataSource);
+                  }}
+                  style={{ flex: '20%', marginLeft: '40px' }}
+                >
+                  {Object.entries(DataSourceOptions).map(([key, value]) => (
+                    <SelectItem key={key} value={value}>
+                      {key}
+                    </SelectItem>
+                  ))}
+                </Select>
+            )}
+
 
               {renderDownloadButton(() => downloadJsonData())}
             </div>

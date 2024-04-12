@@ -490,7 +490,7 @@ def load_json(file_path):
         return json.load(file)
 
 # Load the dataset and the dictionary
-# dataset = load_json('./total_counts.json')  #
+dataset = load_json('./total_counts.json')  #
 
 # Function to replace numeric disease keys with their corresponding names
 def replace_disease_names(dataset, dictionary):
@@ -502,10 +502,10 @@ def replace_disease_names(dataset, dictionary):
             entry["disease"] = dictionary[disease_key][0]
     return dataset
 
-# Apply the replacement function to your dataset
-# updated_dataset = replace_disease_names(dataset, medical_keywords_dict)
+#Apply the replacement function to your dataset
+updated_dataset = replace_disease_names(dataset, medical_keywords_dict)
 
-# Print or return the updated dataset
-# # Write the results to a JSON file
-# with open("total_counts_sub.json", "w") as outfile:
-#     json.dump(updated_dataset, outfile)
+#Print or return the updated dataset
+# Write the results to a JSON file
+with open("total_counts_sub.json", "w") as outfile:
+    json.dump(updated_dataset, outfile)

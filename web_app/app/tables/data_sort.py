@@ -89,7 +89,10 @@ def get_sorted_data():
         if category == "total":
             data_file_path = os.path.join(current_directory, f'../data/{selectedDataSource}/total_counts.json')
         else:
-            data_file_path = os.path.join(current_directory, f'../data/{selectedDataSource}/{selectedWindow}_{category}_counts.json')
+            if selectedDataSource == "pile":
+                data_file_path = os.path.join(current_directory, f'../data/{selectedDataSource}/total_{category}_counts.json')
+            else:
+                data_file_path = os.path.join(current_directory, f'../data/{selectedDataSource}/{selectedWindow}_{category}_counts.json')
         # Load the data from the correct file
         with open(data_file_path, "r") as file:
             category_data = json.load(file)
