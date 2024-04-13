@@ -3,6 +3,7 @@ from flask_cors import CORS  # Import CORS
 import json
 import os
 import logging
+import csv
 
 from datetime import datetime
 import calendar
@@ -13,6 +14,28 @@ CORS(app)  # Enable CORS for all routes
 # Get the directory where this script is located
 current_directory = os.path.dirname(os.path.abspath(__file__))
 
+def parse_csv(filepath):
+    data = []
+    with open(filepath, newline='', encoding='utf-8') as csvfile:
+        reader = csv.DictReader(csvfile)
+        demographics = ['white', 'black', 'hispanic', 'asian', 'indiginous', 'male', 'female']
+        for row in reader:
+            for demo in demographics:
+                if row[demo]:  # Check if the value exists
+                    data.append({
+                        'disease': row['disease'],
+                        'count': int(row[demo].replace(",", "")),  # Remove commas and convert to int
+                        'demographic': demo
+                    })
+    return data
+
+@app.route('/get-prevalence',  methods=["GET"])
+def get_prevalence():
+    # Path to your CSV file
+    filepath = '../data/real_prevalence.csv'
+    data = parse_csv(filepath)
+    print(data)
+    return jsonify(data)
 
 # Function to sort data
 def sort_data(data, sort_key, sort_order):
