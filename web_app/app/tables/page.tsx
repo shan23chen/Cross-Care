@@ -181,7 +181,7 @@ const TablePage = () => {
       if (response.ok) {
         const names = await response.json();
         setDiseaseNames(names);
-        // Set the first 10 diseases as default selected diseases
+        // Set the first 15 diseases as default selected diseases
         const initialDiseases = ["arthritis", "asthma", "bronchitis", "cardiovascular disease", "chronic kidney disease", "coronary artery disease", "covid-19", "deafness", "diabetes", "hypertension", "liver failure", "mental illness", "mi", "perforated ulcer", "visual anomalies"]
         setSelectedDiseases(initialDiseases);
         console.log(names)
@@ -652,7 +652,7 @@ const TablePage = () => {
                           </span>
                           {findDiseaseWithDemographic(prevalenceData, item.disease, "male") && (
                             <span style={{ color: '#3c84f4', opacity: 0.7 }} title="Real world prevalence">
-                              {' / ' + findDiseaseWithDemographic(prevalenceData, item.disease, "male").count}
+                              {' | ' + findDiseaseWithDemographic(prevalenceData, item.disease, "male").count}
                             </span>
                           )}
                         </TableCell>
@@ -663,7 +663,7 @@ const TablePage = () => {
                           </span>
                           {findDiseaseWithDemographic(prevalenceData, item.disease, "female") && (
                             <span style={{ color: '#3c84f4', opacity: 0.7 }} title="Real world prevalence">
-                              {' / ' + findDiseaseWithDemographic(prevalenceData, item.disease, "female").count}
+                              {' | ' + findDiseaseWithDemographic(prevalenceData, item.disease, "female").count}
                             </span>
                           )}
                         </TableCell>
@@ -677,9 +677,9 @@ const TablePage = () => {
                           <span title="Dataset count">
                             {item['white/caucasian']}
                           </span>
-                          {findDiseaseWithDemographic(prevalenceData, item.disease, "white") && (
+                          {findDiseaseWithDemographic(prevalenceData, item.disease, "white/caucasian") && (
                             <span style={{ color: '#3c84f4', opacity: 0.7 }} title="Real world prevalence">
-                              {' / ' + findDiseaseWithDemographic(prevalenceData, item.disease, "white").count}
+                              {' | ' + findDiseaseWithDemographic(prevalenceData, item.disease, "white/caucasian").count}
                             </span>
                           )}
                         </TableCell>
@@ -687,9 +687,9 @@ const TablePage = () => {
                           <span title="Dataset count">
                             {item['black/african american']}
                           </span>
-                          {findDiseaseWithDemographic(prevalenceData, item.disease, "black") && (
+                          {findDiseaseWithDemographic(prevalenceData, item.disease, "black/african american") && (
                             <span style={{ color: '#3c84f4', opacity: 0.7 }} title="Real world prevalence">
-                              {' / ' + findDiseaseWithDemographic(prevalenceData, item.disease, "black").count}
+                              {' | ' + findDiseaseWithDemographic(prevalenceData, item.disease, "black/african american").count}
                             </span>
                           )}
                         </TableCell>
@@ -699,7 +699,7 @@ const TablePage = () => {
                           </span>
                           {findDiseaseWithDemographic(prevalenceData, item.disease, "asian") && (
                             <span style={{ color: '#3c84f4', opacity: 0.7 }} title="Real world prevalence">
-                              {' / ' + findDiseaseWithDemographic(prevalenceData, item.disease, "asian").count}
+                              {' | ' + findDiseaseWithDemographic(prevalenceData, item.disease, "asian").count}
                             </span>
                           )}
                         </TableCell>
@@ -707,9 +707,9 @@ const TablePage = () => {
                           <span title="Dataset count">
                             {item['hispanic/latino']}
                           </span>
-                          {findDiseaseWithDemographic(prevalenceData, item.disease, "hispanic") && (
+                          {findDiseaseWithDemographic(prevalenceData, item.disease, "hispanic/latino") && (
                             <span style={{ color: '#3c84f4', opacity: 0.7 }} title="Real world prevalence">
-                              {' / ' + findDiseaseWithDemographic(prevalenceData, item.disease, "hispanic").count}
+                              {' | ' + findDiseaseWithDemographic(prevalenceData, item.disease, "hispanic/latino").count}
                             </span>
                           )}
                         </TableCell>
@@ -720,9 +720,9 @@ const TablePage = () => {
                           <span title="Dataset count">
                             {item['native american/indigenous']}
                           </span>
-                          {findDiseaseWithDemographic(prevalenceData, item.disease, "indiginous") && (
+                          {findDiseaseWithDemographic(prevalenceData, item.disease, "native american/indigenous") && (
                             <span style={{ color: '#3c84f4', opacity: 0.7 }} title="Real world prevalence">
-                              {' / ' + findDiseaseWithDemographic(prevalenceData, item.disease, "indiginous").count}
+                              {' | ' + findDiseaseWithDemographic(prevalenceData, item.disease, "native american/indigenous").count}
                             </span>
                           )}
                         </TableCell>

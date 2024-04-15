@@ -18,7 +18,7 @@ def parse_csv(filepath):
     data = []
     with open(filepath, newline='', encoding='utf-8') as csvfile:
         reader = csv.DictReader(csvfile)
-        demographics = ['white', 'black', 'hispanic', 'asian', 'indiginous', 'male', 'female']
+        demographics = ['white/caucasian', 'black/african american', 'hispanic/latino', 'asian', 'native american/indigenous', 'male', 'female']
         for row in reader:
             for demo in demographics:
                 if row[demo]:  # Check if the value exists
@@ -29,12 +29,41 @@ def parse_csv(filepath):
                     })
     return data
 
+def filter_by_demographic(sorted_data, demographic):
+    try:
+        print("Demographuic: ", demographic)
+        if demographic == "gender":
+            selectedDemographic = ("male", "female")
+        else: 
+            selectedDemographic = ('white/caucasian', 'black/african american', 'hispanic/latino', 'asian', 'native american/indigenous')
+        # Define a lambda function for filtering
+        filter_func = (
+            lambda item: item.get("demographic", "").lower()
+            in selectedDemographic
+        )
+
+        # Use the filter function with the lambda to filter the data
+        filtered_data = list(filter(filter_func, sorted_data))
+        return filtered_data
+    except Exception as e:
+        logging.error("An error occurred in filter_by_demographic:", exc_info=True)
+        return []  
+
+
 @app.route('/get-prevalence',  methods=["GET"])
 def get_prevalence():
-    # Path to your CSV file
+    category = request.args.get("category", None)
+    selectedDiseases = request.args.get("selectedDiseases", None)
+    
     filepath = '../data/real_prevalence.csv'
     data = parse_csv(filepath)
-    print(data)
+    
+    if category:
+        data = filter_by_demographic(data, category)
+
+    if selectedDiseases != None and selectedDiseases != "":
+        data = filter_by_disease(data, selectedDiseases)
+    
     return jsonify(data)
 
 # Function to sort data
@@ -226,17 +255,21 @@ def get_chart_data():
         sort_order = request.args.get("sortOrder", "asc")
         selectedDiseases = request.args.get("selectedDiseases", None)
         selectedDataSource = request.args.get("dataSource", "arxiv")
-        print("request.args")
-        print(request.args)
+
         # Construct the path to the correct data file based on category
         if category == "total":
             data_file_path = os.path.join(
                 current_directory, f"../data/{selectedDataSource}/total_counts.json"
             )
         else:
-            data_file_path = os.path.join(
-                current_directory, f"../data/{selectedDataSource}/{selectedWindow}_{category}_counts.json"
-            )
+            if selectedDataSource == 'pile':
+                data_file_path = os.path.join(
+                    current_directory, f"../data/{selectedDataSource}/total_{category}_counts.json"
+                )
+            else:
+                data_file_path = os.path.join(
+                    current_directory, f"../data/{selectedDataSource}/{selectedWindow}_{category}_counts.json"
+                )
 
         # Load the data from the correct file
         with open(data_file_path, "r") as file:
