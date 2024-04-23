@@ -3,7 +3,7 @@
 import React, { Component } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { postData } from '../data/postData'; 
+import { postData } from '../data/post_images/postData'; 
 
 export default class GridDisplay extends Component {
     render() {
@@ -34,7 +34,7 @@ export default class GridDisplay extends Component {
                             <h4 className='text-2xl font-bold pt-1 text-black'>{item.heading2}</h4>
                             <div className="flex items-end" style={{justifyContent:'space-between'}}>
                                 <div>
-                                    <h3 className='text-base font-normal pt-6 pb-2 opacity-75'>{item.name}</h3>
+                                    <h3 className='text-base font-normal pt-6 pb-2 opacity-75'>{item.authors}</h3>
                                     <h3 className='text-base font-normal pb-1 opacity-75'>{item.date}</h3>
                                 </div>
                                 <div>

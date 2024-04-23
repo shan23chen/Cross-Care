@@ -11,9 +11,9 @@ const navigation = [
   { name: 'Tables', href: '/tables' },
   { name: 'Charts', href: '/charts' },
   { name: 'Trends', href: '/trends' },
-  { name: 'Docs', href: '/docs' },
   { name: 'Blog', href: '/blog' },
   { name: 'Downloads', href: '/downloads' },
+  { name: 'Docs', href: '/docs' },
   { name: 'Contact', href: '/contact-us' }
 ];
 

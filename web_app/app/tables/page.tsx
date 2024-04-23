@@ -21,6 +21,9 @@ import {
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Joyride, { CallBackProps, STATUS, Step } from 'react-joyride';
+import ArrowDownwardIcon from '@mui/icons-material/ArrowDownward';
+import ArrowUpwardIcon from '@mui/icons-material/ArrowUpward';
+import FileDownloadIcon from '@mui/icons-material/FileDownload';
 import {
   faChevronLeft,
   faChevronRight,
@@ -50,7 +53,7 @@ const DataSourceOptions = {
   Github: 'github',
   Wikipedia: 'wikipedia', // Change the URL to your custom data source endpoint
   StackExchange: 'stackexchange',
-  Pile: 'pile',
+  Pile: 'pile'
 };
 
 const TablePage = () => {
@@ -182,9 +185,25 @@ const TablePage = () => {
         const names = await response.json();
         setDiseaseNames(names);
         // Set the first 15 diseases as default selected diseases
-        const initialDiseases = ["arthritis", "asthma", "bronchitis", "cardiovascular disease", "chronic kidney disease", "coronary artery disease", "covid-19", "deafness", "diabetes", "hypertension", "liver failure", "mental illness", "mi", "perforated ulcer", "visual anomalies"]
+        const initialDiseases = [
+          'arthritis',
+          'asthma',
+          'bronchitis',
+          'cardiovascular disease',
+          'chronic kidney disease',
+          'coronary artery disease',
+          'covid-19',
+          'deafness',
+          'diabetes',
+          'hypertension',
+          'liver failure',
+          'mental illness',
+          'mi',
+          'perforated ulcer',
+          'visual anomalies'
+        ];
         setSelectedDiseases(initialDiseases);
-        console.log(names)
+        console.log(names);
       } else {
         console.error('Server error:', response.status);
       }
@@ -195,21 +214,18 @@ const TablePage = () => {
 
   const fetchPrevalence = async () => {
     try {
-      const response = await fetch(
-        `http://127.0.0.1:5000/get-prevalence`
-      );
+      const response = await fetch(`http://127.0.0.1:5000/get-prevalence`);
       if (response.ok) {
         const data = await response.json();
-        setPrevalenceData(data)
-        console.log(data)
-        
+        setPrevalenceData(data);
+        console.log(data);
       } else {
         console.error('Server error:', response.status);
       }
     } catch (error) {
       console.error('Network error:', error);
     }
-  }
+  };
 
   useEffect(() => {
     fetchPrevalence();
@@ -235,8 +251,7 @@ const TablePage = () => {
       } catch (error) {
         console.error('Network error:', error);
       }
-    }
-    else{
+    } else {
       try {
         const response = await fetch(
           `http://127.0.0.1:5000/get-sorted-data?category=${selectedCategory}&selectedWindow=${selectedWindow}&sortKey=${sortKey}&sortOrder=${sortOrder}&page=${currentPage}&per_page=${pageSize}&selectedDiseases=${selectedDiseasesString}&dataSource=${dataSource}`
@@ -342,12 +357,11 @@ const TablePage = () => {
         style={{
           backgroundColor: 'white',
           color: 'black',
-          flex: '20px',
           marginLeft: '10px'
         }}
         className="btn mt-4"
       >
-        <FontAwesomeIcon icon={faDownload} />
+        <FileDownloadIcon/>
       </button>
     );
   };
@@ -356,9 +370,12 @@ const TablePage = () => {
     setIsClient(true);
   }, []);
 
-
   const findDiseaseWithDemographic = (data, diseaseName, demographic) => {
-    return data.find(item => item.disease.toLowerCase() === diseaseName.toLowerCase() && item.demographic.toLowerCase() === demographic.toLowerCase());
+    return data.find(
+      (item) =>
+        item.disease.toLowerCase() === diseaseName.toLowerCase() &&
+        item.demographic.toLowerCase() === demographic.toLowerCase()
+    );
   };
 
   return (
@@ -423,8 +440,7 @@ const TablePage = () => {
               style={{
                 display: 'flex',
                 justifyContent: 'space-between',
-                alignItems: 'center',
-                flex: '70%'
+                alignItems: 'center'
               }}
             >
               {/* Disease Multiselect */}
@@ -441,16 +457,17 @@ const TablePage = () => {
                 ))}
               </MultiSelect>
 
-            {/* Window Dropdown */}
-            {selectedCategory !== DataCategories.TotalCounts && (
+              {/* Window Dropdown */}
+              {selectedCategory !== DataCategories.TotalCounts && (
                 <Select
                   value={selectedWindow}
                   onValueChange={setSelectedWindow}
                   style={{
                     flex: '20%',
                     marginLeft: '40px',
-                    opacity: dataSource === DataSourceOptions.Pile ? 0.3 : 1,  // Shadowed effect when disabled
-                    pointerEvents: dataSource === DataSourceOptions.Pile ? 'none' : 'auto',  // Disables interaction
+                    opacity: dataSource === DataSourceOptions.Pile ? 0.3 : 1, // Shadowed effect when disabled
+                    pointerEvents:
+                      dataSource === DataSourceOptions.Pile ? 'none' : 'auto' // Disables interaction
                   }}
                 >
                   {Object.entries(WindowOptions).map(([key, value]) => (
@@ -459,10 +476,10 @@ const TablePage = () => {
                     </SelectItem>
                   ))}
                 </Select>
-            )}
+              )}
 
-            {/* Data Source Dropdown */}
-            {selectedCategory !== DataCategories.TotalCounts && (
+              {/* Data Source Dropdown */}
+              {selectedCategory !== DataCategories.TotalCounts && (
                 <Select
                   value={dataSource}
                   onValueChange={(newDataSource) => {
@@ -476,15 +493,33 @@ const TablePage = () => {
                     </SelectItem>
                   ))}
                 </Select>
-            )}
+              )}
 
-
-              {renderDownloadButton(() => downloadJsonData())}
+              <button
+                onClick={() => downloadJsonData()}
+                style={{
+                  backgroundColor: 'white',
+                  color: 'black',
+                  marginLeft: '10px'
+                }}
+                className="btn mt-4"
+              >
+                <FileDownloadIcon />
+              </button>
             </div>
-            <div style={{ color: '#3c84f4',  opacity: 0.7, fontSize: '13px', padding: '5px', margin: '5px', borderRadius: '5px' }}>
+            <div
+              style={{
+                color: '#3c84f4',
+                opacity: 0.7,
+                fontSize: '13px',
+                padding: '5px',
+                margin: '5px',
+                borderRadius: '5px'
+              }}
+            >
               <p>* numbers in blue are related to real world prevalence.</p>
             </div>
-            
+
             <Table className="mt-4">
               <TableHead>
                 <TableRow>
@@ -492,9 +527,11 @@ const TablePage = () => {
                     Disease
                     {sortKey === 'disease' && (
                       <span style={{ marginLeft: '8px' }}>
-                        <FontAwesomeIcon
-                          icon={sortOrder === 'asc' ? faArrowDown : faArrowUp}
-                        />
+                        {sortOrder === 'asc' ? (
+                          <ArrowDownwardIcon />
+                        ) : (
+                          <ArrowUpwardIcon />
+                        )}
                       </span>
                     )}
                   </TableHeaderCell>
@@ -506,9 +543,11 @@ const TablePage = () => {
                       Counts
                       {sortKey === '0' && (
                         <span style={{ marginLeft: '8px' }}>
-                          <FontAwesomeIcon
-                            icon={sortOrder === 'asc' ? faArrowDown : faArrowUp}
-                          />
+                          {sortOrder === 'asc' ? (
+                            <ArrowDownwardIcon />
+                          ) : (
+                            <ArrowUpwardIcon />
+                          )}
                         </span>
                       )}
                     </TableHeaderCell>
@@ -522,11 +561,11 @@ const TablePage = () => {
                         Male
                         {sortKey === 'male' && (
                           <span style={{ marginLeft: '8px' }}>
-                            <FontAwesomeIcon
-                              icon={
-                                sortOrder === 'asc' ? faArrowDown : faArrowUp
-                              }
-                            />
+                            {sortOrder === 'asc' ? (
+                              <ArrowDownwardIcon />
+                            ) : (
+                              <ArrowUpwardIcon />
+                            )}
                           </span>
                         )}
                       </TableHeaderCell>
@@ -537,11 +576,11 @@ const TablePage = () => {
                         Female
                         {sortKey === 'female' && (
                           <span style={{ marginLeft: '8px' }}>
-                            <FontAwesomeIcon
-                              icon={
-                                sortOrder === 'asc' ? faArrowDown : faArrowUp
-                              }
-                            />
+                            {sortOrder === 'asc' ? (
+                              <ArrowDownwardIcon />
+                            ) : (
+                              <ArrowUpwardIcon />
+                            )}
                           </span>
                         )}
                       </TableHeaderCell>
@@ -555,11 +594,11 @@ const TablePage = () => {
                         White/Caucasian
                         {sortKey === 'white/caucasian' && (
                           <span style={{ marginLeft: '8px' }}>
-                            <FontAwesomeIcon
-                              icon={
-                                sortOrder === 'asc' ? faArrowDown : faArrowUp
-                              }
-                            />
+                            {sortOrder === 'asc' ? (
+                              <ArrowDownwardIcon />
+                            ) : (
+                              <ArrowUpwardIcon />
+                            )}
                           </span>
                         )}
                       </TableHeaderCell>
@@ -569,11 +608,11 @@ const TablePage = () => {
                         Black/African American
                         {sortKey === 'black/african american' && (
                           <span style={{ marginLeft: '8px' }}>
-                            <FontAwesomeIcon
-                              icon={
-                                sortOrder === 'asc' ? faArrowDown : faArrowUp
-                              }
-                            />
+                            {sortOrder === 'asc' ? (
+                              <ArrowDownwardIcon />
+                            ) : (
+                              <ArrowUpwardIcon />
+                            )}
                           </span>
                         )}
                       </TableHeaderCell>
@@ -581,11 +620,11 @@ const TablePage = () => {
                         Asian
                         {sortKey === 'asian' && (
                           <span style={{ marginLeft: '8px' }}>
-                            <FontAwesomeIcon
-                              icon={
-                                sortOrder === 'asc' ? faArrowDown : faArrowUp
-                              }
-                            />
+                            {sortOrder === 'asc' ? (
+                              <ArrowDownwardIcon />
+                            ) : (
+                              <ArrowUpwardIcon />
+                            )}
                           </span>
                         )}
                       </TableHeaderCell>
@@ -595,11 +634,11 @@ const TablePage = () => {
                         Hispanic/Latino
                         {sortKey === 'hispanic/latino' && (
                           <span style={{ marginLeft: '8px' }}>
-                            <FontAwesomeIcon
-                              icon={
-                                sortOrder === 'asc' ? faArrowDown : faArrowUp
-                              }
-                            />
+                            {sortOrder === 'asc' ? (
+                              <ArrowDownwardIcon />
+                            ) : (
+                              <ArrowUpwardIcon />
+                            )}
                           </span>
                         )}
                       </TableHeaderCell>
@@ -609,11 +648,11 @@ const TablePage = () => {
                         Pacific Islander
                         {sortKey === 'pacific islander' && (
                           <span style={{ marginLeft: '8px' }}>
-                            <FontAwesomeIcon
-                              icon={
-                                sortOrder === 'asc' ? faArrowDown : faArrowUp
-                              }
-                            />
+                            {sortOrder === 'asc' ? (
+                              <ArrowDownwardIcon />
+                            ) : (
+                              <ArrowUpwardIcon />
+                            )}
                           </span>
                         )}
                       </TableHeaderCell>
@@ -624,11 +663,11 @@ const TablePage = () => {
                         Native American/Indigenous
                         {sortKey === 'native american/indigenous' && (
                           <span style={{ marginLeft: '8px' }}>
-                            <FontAwesomeIcon
-                              icon={
-                                sortOrder === 'asc' ? faArrowDown : faArrowUp
-                              }
-                            />
+                            {sortOrder === 'asc' ? (
+                              <ArrowDownwardIcon />
+                            ) : (
+                              <ArrowUpwardIcon />
+                            )}
                           </span>
                         )}
                       </TableHeaderCell>
@@ -645,41 +684,70 @@ const TablePage = () => {
                     )}
                     {selectedCategory === DataCategories.GenderCounts && (
                       <>
-                      
                         <TableCell className="text-right">
-                          <span title="Dataset count">
-                            {item.male}
-                          </span>
-                          {findDiseaseWithDemographic(prevalenceData, item.disease, "male") && (
-                            <span style={{ color: '#3c84f4', opacity: 0.7 }} title="Real world prevalence">
-                              {' | ' + findDiseaseWithDemographic(prevalenceData, item.disease, "male").count}
+                          <span title="Dataset count">{item.male}</span>
+                          {findDiseaseWithDemographic(
+                            prevalenceData,
+                            item.disease,
+                            'male'
+                          ) && (
+                            <span
+                              style={{ color: '#3c84f4', opacity: 0.7 }}
+                              title="Real world prevalence"
+                            >
+                              {' | ' +
+                                findDiseaseWithDemographic(
+                                  prevalenceData,
+                                  item.disease,
+                                  'male'
+                                ).count}
                             </span>
                           )}
                         </TableCell>
 
                         <TableCell className="text-right">
-                          <span title="Dataset count">
-                            {item.female}
-                          </span>
-                          {findDiseaseWithDemographic(prevalenceData, item.disease, "female") && (
-                            <span style={{ color: '#3c84f4', opacity: 0.7 }} title="Real world prevalence">
-                              {' | ' + findDiseaseWithDemographic(prevalenceData, item.disease, "female").count}
+                          <span title="Dataset count">{item.female}</span>
+                          {findDiseaseWithDemographic(
+                            prevalenceData,
+                            item.disease,
+                            'female'
+                          ) && (
+                            <span
+                              style={{ color: '#3c84f4', opacity: 0.7 }}
+                              title="Real world prevalence"
+                            >
+                              {' | ' +
+                                findDiseaseWithDemographic(
+                                  prevalenceData,
+                                  item.disease,
+                                  'female'
+                                ).count}
                             </span>
                           )}
                         </TableCell>
-
                       </>
                     )}
                     {selectedCategory === DataCategories.RacialCounts && (
                       <>
-
                         <TableCell className="text-right">
                           <span title="Dataset count">
                             {item['white/caucasian']}
                           </span>
-                          {findDiseaseWithDemographic(prevalenceData, item.disease, "white/caucasian") && (
-                            <span style={{ color: '#3c84f4', opacity: 0.7 }} title="Real world prevalence">
-                              {' | ' + findDiseaseWithDemographic(prevalenceData, item.disease, "white/caucasian").count}
+                          {findDiseaseWithDemographic(
+                            prevalenceData,
+                            item.disease,
+                            'white/caucasian'
+                          ) && (
+                            <span
+                              style={{ color: '#3c84f4', opacity: 0.7 }}
+                              title="Real world prevalence"
+                            >
+                              {' | ' +
+                                findDiseaseWithDemographic(
+                                  prevalenceData,
+                                  item.disease,
+                                  'white/caucasian'
+                                ).count}
                             </span>
                           )}
                         </TableCell>
@@ -687,19 +755,41 @@ const TablePage = () => {
                           <span title="Dataset count">
                             {item['black/african american']}
                           </span>
-                          {findDiseaseWithDemographic(prevalenceData, item.disease, "black/african american") && (
-                            <span style={{ color: '#3c84f4', opacity: 0.7 }} title="Real world prevalence">
-                              {' | ' + findDiseaseWithDemographic(prevalenceData, item.disease, "black/african american").count}
+                          {findDiseaseWithDemographic(
+                            prevalenceData,
+                            item.disease,
+                            'black/african american'
+                          ) && (
+                            <span
+                              style={{ color: '#3c84f4', opacity: 0.7 }}
+                              title="Real world prevalence"
+                            >
+                              {' | ' +
+                                findDiseaseWithDemographic(
+                                  prevalenceData,
+                                  item.disease,
+                                  'black/african american'
+                                ).count}
                             </span>
                           )}
                         </TableCell>
                         <TableCell className="text-right">
-                          <span title="Dataset count">
-                            {item['asian']}
-                          </span>
-                          {findDiseaseWithDemographic(prevalenceData, item.disease, "asian") && (
-                            <span style={{ color: '#3c84f4', opacity: 0.7 }} title="Real world prevalence">
-                              {' | ' + findDiseaseWithDemographic(prevalenceData, item.disease, "asian").count}
+                          <span title="Dataset count">{item['asian']}</span>
+                          {findDiseaseWithDemographic(
+                            prevalenceData,
+                            item.disease,
+                            'asian'
+                          ) && (
+                            <span
+                              style={{ color: '#3c84f4', opacity: 0.7 }}
+                              title="Real world prevalence"
+                            >
+                              {' | ' +
+                                findDiseaseWithDemographic(
+                                  prevalenceData,
+                                  item.disease,
+                                  'asian'
+                                ).count}
                             </span>
                           )}
                         </TableCell>
@@ -707,9 +797,21 @@ const TablePage = () => {
                           <span title="Dataset count">
                             {item['hispanic/latino']}
                           </span>
-                          {findDiseaseWithDemographic(prevalenceData, item.disease, "hispanic/latino") && (
-                            <span style={{ color: '#3c84f4', opacity: 0.7 }} title="Real world prevalence">
-                              {' | ' + findDiseaseWithDemographic(prevalenceData, item.disease, "hispanic/latino").count}
+                          {findDiseaseWithDemographic(
+                            prevalenceData,
+                            item.disease,
+                            'hispanic/latino'
+                          ) && (
+                            <span
+                              style={{ color: '#3c84f4', opacity: 0.7 }}
+                              title="Real world prevalence"
+                            >
+                              {' | ' +
+                                findDiseaseWithDemographic(
+                                  prevalenceData,
+                                  item.disease,
+                                  'hispanic/latino'
+                                ).count}
                             </span>
                           )}
                         </TableCell>
@@ -720,9 +822,21 @@ const TablePage = () => {
                           <span title="Dataset count">
                             {item['native american/indigenous']}
                           </span>
-                          {findDiseaseWithDemographic(prevalenceData, item.disease, "native american/indigenous") && (
-                            <span style={{ color: '#3c84f4', opacity: 0.7 }} title="Real world prevalence">
-                              {' | ' + findDiseaseWithDemographic(prevalenceData, item.disease, "native american/indigenous").count}
+                          {findDiseaseWithDemographic(
+                            prevalenceData,
+                            item.disease,
+                            'native american/indigenous'
+                          ) && (
+                            <span
+                              style={{ color: '#3c84f4', opacity: 0.7 }}
+                              title="Real world prevalence"
+                            >
+                              {' | ' +
+                                findDiseaseWithDemographic(
+                                  prevalenceData,
+                                  item.disease,
+                                  'native american/indigenous'
+                                ).count}
                             </span>
                           )}
                         </TableCell>

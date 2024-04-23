@@ -21,6 +21,7 @@ import {
   CalendarIcon
 } from '@tremor/react';
 
+import FileDownloadIcon from '@mui/icons-material/FileDownload';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDownload, faInfoCircle } from '@fortawesome/free-solid-svg-icons';
 import Joyride, { CallBackProps, STATUS, Step } from 'react-joyride';
@@ -263,7 +264,7 @@ const ChartPage = () => {
         className="btn mt-4"
         title="Download JSON Data"
       >
-        <FontAwesomeIcon icon={faDownload} />
+        <FileDownloadIcon />
       </button>
     );
   };

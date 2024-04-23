@@ -20,6 +20,7 @@ import {
 } from '@tremor/react';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import FileDownloadIcon from '@mui/icons-material/FileDownload';
 import { faDownload, faInfoCircle } from '@fortawesome/free-solid-svg-icons';
 import Joyride, { CallBackProps, STATUS, Step } from 'react-joyride';
 
@@ -486,7 +487,7 @@ const ChartPage = () => {
                 }}
                 className="btn mt-4"
               >
-                <FontAwesomeIcon icon={faDownload} />
+                <FileDownloadIcon />
               </button>
             </div>
             <BarChart
@@ -553,7 +554,7 @@ const ChartPage = () => {
                   }}
                   className="btn mt-4"
                 >
-                  <FontAwesomeIcon icon={faDownload} />
+                  <FileDownloadIcon />
                 </button>
               </div>
               <BarChart
