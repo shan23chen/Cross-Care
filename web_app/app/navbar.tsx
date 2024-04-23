@@ -14,7 +14,7 @@ const navigation = [
   { name: 'Docs', href: '/docs' },
   { name: 'Blog', href: '/blog' },
   { name: 'Downloads', href: '/downloads' },
-  { name: 'Contact', href: '/contact' }
+  { name: 'Contact', href: '/contact-us' }
 ];
 
 function classNames(...classes: string[]) {

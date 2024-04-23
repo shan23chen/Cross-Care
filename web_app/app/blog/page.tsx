@@ -38,8 +38,8 @@ export default class GridDisplay extends Component {
                                     <h3 className='text-base font-normal pb-1 opacity-75'>{item.date}</h3>
                                 </div>
                                 <div>
-                                <Link href={`../posts/${item.slug}`}>
-                                  <h3 className="bg-blue-600 text-white py-3 px-5 text-sm rounded-full">
+                                <Link href={`../blog/${item.slug}`}>
+                                  <h3 className="bg-black text-white py-3 px-5 text-sm rounded-full">
                                     {item.time} read
                                   </h3>
                                 </Link>
