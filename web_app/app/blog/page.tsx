@@ -3,75 +3,15 @@
 import React, { Component } from "react";
 import Link from "next/link";
 import Image from "next/image";
-
-// CAROUSEL DATA TURNED INTO GRID DATA
-interface DataType {
-    time: string;
-    heading: string;
-    heading2: string;
-    date: string;
-    imgSrc: string;
-    name: string;
-}
-
-const postData: DataType[] = [
-  {
-      time: "5 min",
-      heading: 'We Launch Delia',
-      heading2: 'Webflow this Week!',
-      name: "Published on Startupon",
-      date: 'August 19, 2021',
-      imgSrc: '/article.png',
-  },
-  {
-      time: "5 min",
-      heading: 'We Launch Delia',
-      heading2: 'Webflow this Week!',
-      name: "Published on Startupon",
-      date: 'August 19, 2021',
-      imgSrc: '/article2.png',
-  },
-  {
-      time: "5 min",
-      heading: 'We Launch Delia',
-      heading2: 'Webflow this Week!',
-      name: "Published on Startupon",
-      date: 'August 19, 2021',
-      imgSrc: '/article3.png',
-  },
-  {
-      time: "5 min",
-      heading: 'We Launch Delia',
-      heading2: 'Webflow this Week!',
-      name: "Published on Startupon",
-      date: 'August 19, 2021',
-      imgSrc: '/article.png',
-  },
-  {
-      time: "5 min",
-      heading: 'We Launch Delia',
-      heading2: 'Webflow this Week!',
-      name: "Published on Startupon",
-      date: 'August 19, 2021',
-      imgSrc: '/article2.png',
-  },
-  {
-      time: "5 min",
-      heading: 'We Launch Delia',
-      heading2: 'Webflow this Week!',
-      name: "Published on Startupon",
-      date: 'August 19, 2021',
-      imgSrc: '/article3.png',
-  }
-]
+import { postData } from '../data/postData'; 
 
 export default class GridDisplay extends Component {
     render() {
         return (
-            <div className="bg-lightgrey py-20" id="blog-section">
+            <div className="bg-lightgrey py-4" id="blog-section">
                 <div className='mx-auto max-w-7xl sm:py-4 lg:px-8 '>
                   
-                    <div className="text-center">
+                    <div className="text-center mb-4">
                         <h1 className="font-heading text-2xl sm:text-4xl md:text-7xl lg:text-6xl"
                             style={{
                               WebkitTextStroke: '2px black', // for Chrome, Safari
@@ -83,24 +23,28 @@ export default class GridDisplay extends Component {
                         <h3 className="text-4xl sm:text-6xl font-bold">Our latest posts.</h3>
                     </div>
 
-                    <div className="grid grid-cols-3 gap-4">
+                    <div className="grid grid-cols-3 gap-4 pt-4">
                         {postData.map((item, i) => (
-                            <div key={i} className='bg-white m-3 p-3 my-10 shadow-lg rounded-3xl relative'>
+                            <div key={i} className='bg-white m-3 p-3 shadow-lg rounded-3xl relative'>
                             <div className="relative">
-                                <Image src={item.imgSrc} alt="Article image" width={400} height={300} className="m-auto" />
-                                <Link className="bottom-0" href="/">
-                                  <h3 className="absolute bottom-0 right-0 bg-blue-600 text-white py-3 px-5 text-sm rounded-full m-2 mb-0">
-                                    {item.time} read
-                                  </h3>
-                                </Link>
+                                <Image src={item.imgSrc} alt="Article image" width={400} height={300} className="m-2" />
                             </div>
                            
                             <h4 className='text-2xl font-bold pt-6 text-black'>{item.heading}</h4>
                             <h4 className='text-2xl font-bold pt-1 text-black'>{item.heading2}</h4>
-                            <div>
-                                <h3 className='text-base font-normal pt-6 pb-2 opacity-75'>{item.name}</h3>
-                                <h3 className='text-base font-normal pb-1 opacity-75'>{item.date}</h3>
-                            </div>
+                            <div className="flex items-end" style={{justifyContent:'space-between'}}>
+                                <div>
+                                    <h3 className='text-base font-normal pt-6 pb-2 opacity-75'>{item.name}</h3>
+                                    <h3 className='text-base font-normal pb-1 opacity-75'>{item.date}</h3>
+                                </div>
+                                <div>
+                                <Link href={`../posts/${item.slug}`}>
+                                  <h3 className="bg-blue-600 text-white py-3 px-5 text-sm rounded-full">
+                                    {item.time} read
+                                  </h3>
+                                </Link>
+                                </div>
+                             </div>
                         </div>
                         
                         ))}
