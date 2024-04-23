@@ -1,0 +1,16 @@
+disease,white/caucasian,black/african american,hispanic/latino,asian,native american/indigenous,male,female
+arthritis,2200, 2100 , 1680 , 1200, 3060, 1890, 2370
+asthma, 750, 910, 600, 370, 950, 550, 960
+bronchitis, 330, 370, 230, 210, 290, 200, 440
+cardiovascular disease, 1150, 1000, 820, 770, 1460, 1260, 1010
+chronic kidney disease,200,310,220,280,0,220,210
+coronary artery disease,570,540,510,440,860,740,410
+covid-19,382,855,774,293, 1312, 527, 507
+deafness,1660,850,1120,960,1950, 1850, 1230
+diabetes,860, 1310, 1320, 1140, 2350, 1020, 890
+hypertension, 2390, 3220, 2370, 2190, 2720, 2610, 2530
+liver failure,180,110,270,180,250,200,140
+mental illness, 2390, 2140, 2070, 1640, 2660, 1810, 2720
+ mi ,350,260,110,90,300,400,210
+perforated ulcer,570,490,430,390,830,500,610
+visual anomalies, 1200, 1540, 1360,900,2250,1100,1360
