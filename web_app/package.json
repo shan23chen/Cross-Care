@@ -8,6 +8,8 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
     "@fortawesome/fontawesome-svg-core": "^6.5.1",
     "@fortawesome/free-brands-svg-icons": "^6.5.1",
     "@fortawesome/free-solid-svg-icons": "^6.5.1",
@@ -15,6 +17,9 @@
     "@gilbarbara/components": "^0.11.2",
     "@headlessui/react": "^1.7.17",
     "@heroicons/react": "^2.0.18",
+    "@mui/icons-material": "^5.15.15",
+    "@mui/material": "^5.15.15",
+    "@mui/styled-engine-sc": "^6.0.0-alpha.18",
     "@tremor/react": "^3.10.0",
     "@types/js-cookie": "^3.0.5",
     "@types/node": "20.8.9",
@@ -29,6 +34,7 @@
     "js-cookie": "^3.0.5",
     "next": "14.0.0",
     "next-auth": "5.0.0-beta.3",
+    "nodemailer": "^6.9.13",
     "postcss": "^8.4.31",
     "prettier": "^3.0.3",
     "prism-react-renderer": "^2.3.1",
@@ -38,8 +44,10 @@
     "react-dom": "18.2.0",
     "react-icons": "^4.12.0",
     "react-joyride": "^2.7.2",
+    "react-slick": "^0.30.2",
     "react-tooltip": "^5.26.0",
     "server-only": "^0.0.1",
+    "styled-components": "^6.1.8",
     "tailwindcss": "^3.3.5",
     "typescript": "5.2.2"
   },

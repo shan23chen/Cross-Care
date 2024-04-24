@@ -20,6 +20,7 @@ import {
 } from '@tremor/react';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import FileDownloadIcon from '@mui/icons-material/FileDownload';
 import { faDownload, faInfoCircle } from '@fortawesome/free-solid-svg-icons';
 import Joyride, { CallBackProps, STATUS, Step } from 'react-joyride';
 
@@ -43,7 +44,8 @@ const DataSourceOptions = {
   Arxiv: 'arxiv',
   Github: 'github',
   Wikipedia: 'wikipedia', // Change the URL to your custom data source endpoint
-  StackExchange: 'stackexchange'
+  StackExchange: 'stackexchange',
+  Pile: 'pile'
 };
 
 const ChartPage = () => {
@@ -111,19 +113,7 @@ const ChartPage = () => {
   };
 
   const initialDiseaseList = [
-    'lupus',
-    'mental illness',
-    'suicide',
-    'ibs',
-    'tuberculoses',
-    'diabetes',
-    'sarcoidoses',
-    'pneumonia',
-    ' mi ',
-    'covid-19',
-    'dementia',
-    'multiple sclerosis',
-    'infection'
+    "arthritis", "asthma", "bronchitis", "cardiovascular disease", "chronic kidney disease", "coronary artery disease", "covid-19", "deafness", "diabetes", "hypertension", "liver failure", "mental illness", "mi", "perforated ulcer", "visual anomalies"
   ];
 
   const [currentPage, setCurrentPage] = useState(1);
@@ -165,6 +155,7 @@ const ChartPage = () => {
       );
       if (response.ok) {
         const fetchedData = await response.json();
+        console.log("Data to show: ", fetchedData);
         setDataToShow(fetchedData); // Set transformed data
       } else {
         console.error('Server error:', response.status);
@@ -189,16 +180,44 @@ const ChartPage = () => {
 
   const [additionalChartData, setAdditionalChartData] = useState([]);
 
+  const transformData = (data) => {
+    const groupedByDisease = {};
+  
+    data.forEach(item => {
+      const { count, demographic, disease } = item;
+  
+      if (!groupedByDisease[disease]) {
+        groupedByDisease[disease] = { disease: disease };  
+      }
+  
+      // Initialize the demographic count if it does not exist
+      if (!groupedByDisease[disease][demographic]) {
+        groupedByDisease[disease][demographic] = 0;
+      }
+  
+      // Sum the counts for each demographic
+      groupedByDisease[disease][demographic] = count;
+    });
+  
+    // Convert the groupedByDisease object into an array of objects
+    return Object.values(groupedByDisease);
+  };
+  
+  
+  
   const fetchAdditionalChartData = async () => {
     const selectedDiseasesString = selectedDiseases.join(',');
     try {
       const response = await fetch(
-        `http://127.0.0.1:5000/get-additional-chart-data?category=${selectedCategory}&sortKey=${sortKey}&sortOrder=${sortOrder}&page=${currentPage}&per_page=${pageSize}&selectedDiseases=${selectedDiseasesString}&dataSource=${dataSource}`
+        `http://127.0.0.1:5000/get-prevalence?category=${selectedCategory}&selectedDiseases=${selectedDiseasesString}`
       );
       if (response.ok) {
         const fetchedData = await response.json();
-        setAdditionalChartData(fetchedData);
-        console.log('Additional Chart Data:', additionalChartData);
+        console.log('Additional Chart Data:', fetchedData);
+        const transformedData = transformData(fetchedData);
+        console.log('Transformed Data:', transformedData);
+        setAdditionalChartData(transformedData);
+
       } else {
         console.error('Server error:', response.status);
       }
@@ -389,7 +408,7 @@ const ChartPage = () => {
                 value={selectedDiseases}
                 onValueChange={setSelectedDiseases}
                 placeholder="Select Diseases"
-                style={{ flex: '30%' }}
+                style={{ flex: '30%', marginRight: '20px'}}
               >
                 {diseaseNames.map((disease) => (
                   <MultiSelectItem key={disease} value={disease}>
@@ -399,17 +418,25 @@ const ChartPage = () => {
               </MultiSelect>
 
               {/* Window Dropdown */}
-              <Select
-                value={selectedWindow}
-                onValueChange={setSelectedWindow}
-                style={{ marginLeft: '15px', marginRight: '15px', flex: '20%' }}
-              >
-                {Object.entries(WindowOptions).map(([key, value]) => (
-                  <SelectItem key={key} value={value}>
-                    {key}
-                  </SelectItem>
-                ))}
-              </Select>
+              {selectedCategory !== DataCategories.TotalCounts && (
+                  <Select
+                    value={selectedWindow}
+                    onValueChange={setSelectedWindow}
+                    style={{
+                      flex: '20%',
+                      marginLeft: '20px',
+                      marginRight: '20px',
+                      opacity: dataSource === DataSourceOptions.Pile ? 0.3 : 1,  // Shadowed effect when disabled
+                      pointerEvents: dataSource === DataSourceOptions.Pile ? 'none' : 'auto',  // Disables interaction
+                    }}
+                  >
+                    {Object.entries(WindowOptions).map(([key, value]) => (
+                      <SelectItem key={key} value={value}>
+                        {key}
+                      </SelectItem>
+                    ))}
+                  </Select>
+              )}
 
               {/* Sort Key Dropdown */}
               <Select
@@ -460,7 +487,7 @@ const ChartPage = () => {
                 }}
                 className="btn mt-4"
               >
-                <FontAwesomeIcon icon={faDownload} />
+                <FileDownloadIcon />
               </button>
             </div>
             <BarChart
@@ -489,10 +516,9 @@ const ChartPage = () => {
                   <Tab>Racial Counts</Tab>
                 </TabList>
               </TabGroup>
-              <Title>Relative Representation</Title>
+              <Title>Real World Representativeness</Title>
               <Subtitle>
-                Percentage difference in counts compared to population census
-                estimates.
+                The actual occurrence rate of a condition or characteristic within a specific population, observed in everyday, non-experimental settings.
               </Subtitle>
 
               <div
@@ -517,44 +543,6 @@ const ChartPage = () => {
                   ))}
                 </MultiSelect>
 
-                {/* Sort Key Dropdown */}
-                <Select
-                  value={sortKey}
-                  onValueChange={setSortKey}
-                  style={{ flex: '20%', marginLeft: '20px' }}
-                >
-                  {renderSortKeyOptions()}
-                </Select>
-
-                {/* Data Source Dropdown */}
-                <Select
-                  value={dataSource}
-                  onValueChange={setDataSource}
-                  style={{ flex: '20%', marginLeft: '40px' }}
-                >
-                  {Object.entries(DataSourceOptions).map(([key, value]) => (
-                    <SelectItem key={key} value={value}>
-                      {key}
-                    </SelectItem>
-                  ))}
-                </Select>
-
-                {/* Sort Order Button */}
-                <button
-                  onClick={() =>
-                    setSortOrder(sortOrder === 'asc' ? 'desc' : 'asc')
-                  }
-                  className="btn mt4"
-                  style={{
-                    marginTop: '0px',
-                    flex: '20%',
-                    marginLeft: '20px',
-                    alignSelf: 'center'
-                  }}
-                >
-                  {sortOrder === 'asc' ? 'Ascending' : 'Descending'}
-                </button>
-
                 {/* Download Button with Icon */}
                 <button
                   onClick={() => downloadJsonData('additionalChartData')}
@@ -566,7 +554,7 @@ const ChartPage = () => {
                   }}
                   className="btn mt-4"
                 >
-                  <FontAwesomeIcon icon={faDownload} />
+                  <FileDownloadIcon />
                 </button>
               </div>
               <BarChart
