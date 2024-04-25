@@ -1,0 +1,1955 @@
+[
+    {
+        "co-occurrence": [
+            "male",
+            "hiv/aids"
+        ],
+        "count": 96657
+    },
+    {
+        "co-occurrence": [
+            "female",
+            "hiv/aids"
+        ],
+        "count": 25302
+    },
+    {
+        "co-occurrence": [
+            "non-binary",
+            "hiv/aids"
+        ],
+        "count": 1769
+    },
+    {
+        "co-occurrence": [
+            "male",
+            "covid-19"
+        ],
+        "count": 4901
+    },
+    {
+        "co-occurrence": [
+            "female",
+            "covid-19"
+        ],
+        "count": 5854
+    },
+    {
+        "co-occurrence": [
+            "non-binary",
+            "covid-19"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "male",
+            "takotsubo cardiomyopathy"
+        ],
+        "count": 1968
+    },
+    {
+        "co-occurrence": [
+            "female",
+            "takotsubo cardiomyopathy"
+        ],
+        "count": 36411
+    },
+    {
+        "co-occurrence": [
+            "non-binary",
+            "takotsubo cardiomyopathy"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "male",
+            "tuberculoses"
+        ],
+        "count": 59827
+    },
+    {
+        "co-occurrence": [
+            "female",
+            "tuberculoses"
+        ],
+        "count": 375666
+    },
+    {
+        "co-occurrence": [
+            "non-binary",
+            "tuberculoses"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "male",
+            "endocarditis"
+        ],
+        "count": 588
+    },
+    {
+        "co-occurrence": [
+            "female",
+            "endocarditis"
+        ],
+        "count": 1803
+    },
+    {
+        "co-occurrence": [
+            "non-binary",
+            "endocarditis"
+        ],
+        "count": 42
+    },
+    {
+        "co-occurrence": [
+            "male",
+            "syphilis"
+        ],
+        "count": 120696
+    },
+    {
+        "co-occurrence": [
+            "female",
+            "syphilis"
+        ],
+        "count": 382420
+    },
+    {
+        "co-occurrence": [
+            "non-binary",
+            "syphilis"
+        ],
+        "count": 3726
+    },
+    {
+        "co-occurrence": [
+            "male",
+            "hypertension"
+        ],
+        "count": 2131368
+    },
+    {
+        "co-occurrence": [
+            "female",
+            "hypertension"
+        ],
+        "count": 322182
+    },
+    {
+        "co-occurrence": [
+            "non-binary",
+            "hypertension"
+        ],
+        "count": 480
+    },
+    {
+        "co-occurrence": [
+            "male",
+            "sarcoidoses"
+        ],
+        "count": 392
+    },
+    {
+        "co-occurrence": [
+            "female",
+            "sarcoidoses"
+        ],
+        "count": 196
+    },
+    {
+        "co-occurrence": [
+            "non-binary",
+            "sarcoidoses"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "male",
+            "hepatitis b"
+        ],
+        "count": 21
+    },
+    {
+        "co-occurrence": [
+            "female",
+            "hepatitis b"
+        ],
+        "count": 406
+    },
+    {
+        "co-occurrence": [
+            "non-binary",
+            "hepatitis b"
+        ],
+        "count": 257
+    },
+    {
+        "co-occurrence": [
+            "male",
+            "ulcerative colitis"
+        ],
+        "count": 19664
+    },
+    {
+        "co-occurrence": [
+            "female",
+            "ulcerative colitis"
+        ],
+        "count": 6604
+    },
+    {
+        "co-occurrence": [
+            "non-binary",
+            "ulcerative colitis"
+        ],
+        "count": 7
+    },
+    {
+        "co-occurrence": [
+            "male",
+            "crohn\u2019s disease"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "female",
+            "crohn\u2019s disease"
+        ],
+        "count": 496
+    },
+    {
+        "co-occurrence": [
+            "non-binary",
+            "crohn\u2019s disease"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "male",
+            "chagas disease"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "female",
+            "chagas disease"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "non-binary",
+            "chagas disease"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "male",
+            "3545003.0"
+        ],
+        "count": 20326
+    },
+    {
+        "co-occurrence": [
+            "female",
+            "3545003.0"
+        ],
+        "count": 5080
+    },
+    {
+        "co-occurrence": [
+            "non-binary",
+            "3545003.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "male",
+            "3716002.0"
+        ],
+        "count": 93492
+    },
+    {
+        "co-occurrence": [
+            "female",
+            "3716002.0"
+        ],
+        "count": 11554
+    },
+    {
+        "co-occurrence": [
+            "non-binary",
+            "3716002.0"
+        ],
+        "count": 7
+    },
+    {
+        "co-occurrence": [
+            "male",
+            "3723001.0"
+        ],
+        "count": 94928
+    },
+    {
+        "co-occurrence": [
+            "female",
+            "3723001.0"
+        ],
+        "count": 476374
+    },
+    {
+        "co-occurrence": [
+            "non-binary",
+            "3723001.0"
+        ],
+        "count": 34
+    },
+    {
+        "co-occurrence": [
+            "male",
+            "4308002.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "female",
+            "4308002.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "non-binary",
+            "4308002.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "male",
+            "6142004.0"
+        ],
+        "count": 23719100
+    },
+    {
+        "co-occurrence": [
+            "female",
+            "6142004.0"
+        ],
+        "count": 93960
+    },
+    {
+        "co-occurrence": [
+            "non-binary",
+            "6142004.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "male",
+            "6471006.0"
+        ],
+        "count": 3804912
+    },
+    {
+        "co-occurrence": [
+            "female",
+            "6471006.0"
+        ],
+        "count": 3093624
+    },
+    {
+        "co-occurrence": [
+            "non-binary",
+            "6471006.0"
+        ],
+        "count": 39096
+    },
+    {
+        "co-occurrence": [
+            "male",
+            "7973008.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "female",
+            "7973008.0"
+        ],
+        "count": 40
+    },
+    {
+        "co-occurrence": [
+            "non-binary",
+            "7973008.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "male",
+            "8357008.0"
+        ],
+        "count": 33975
+    },
+    {
+        "co-occurrence": [
+            "female",
+            "8357008.0"
+        ],
+        "count": 13856
+    },
+    {
+        "co-occurrence": [
+            "non-binary",
+            "8357008.0"
+        ],
+        "count": 132
+    },
+    {
+        "co-occurrence": [
+            "male",
+            "menstruation"
+        ],
+        "count": 71554
+    },
+    {
+        "co-occurrence": [
+            "female",
+            "menstruation"
+        ],
+        "count": 378974
+    },
+    {
+        "co-occurrence": [
+            "non-binary",
+            "menstruation"
+        ],
+        "count": 875
+    },
+    {
+        "co-occurrence": [
+            "male",
+            "9829001.0"
+        ],
+        "count": 232
+    },
+    {
+        "co-occurrence": [
+            "female",
+            "9829001.0"
+        ],
+        "count": 13575
+    },
+    {
+        "co-occurrence": [
+            "non-binary",
+            "9829001.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "male",
+            "10743008.0"
+        ],
+        "count": 10207
+    },
+    {
+        "co-occurrence": [
+            "female",
+            "10743008.0"
+        ],
+        "count": 18519
+    },
+    {
+        "co-occurrence": [
+            "non-binary",
+            "10743008.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "male",
+            "11381005.0"
+        ],
+        "count": 759654
+    },
+    {
+        "co-occurrence": [
+            "female",
+            "11381005.0"
+        ],
+        "count": 168948
+    },
+    {
+        "co-occurrence": [
+            "non-binary",
+            "11381005.0"
+        ],
+        "count": 99
+    },
+    {
+        "co-occurrence": [
+            "male",
+            "11654001.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "female",
+            "11654001.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "non-binary",
+            "11654001.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "male",
+            "13746004.0"
+        ],
+        "count": 59934
+    },
+    {
+        "co-occurrence": [
+            "female",
+            "13746004.0"
+        ],
+        "count": 96362
+    },
+    {
+        "co-occurrence": [
+            "non-binary",
+            "13746004.0"
+        ],
+        "count": 476
+    },
+    {
+        "co-occurrence": [
+            "male",
+            "34486009.0"
+        ],
+        "count": 15936
+    },
+    {
+        "co-occurrence": [
+            "female",
+            "34486009.0"
+        ],
+        "count": 50541
+    },
+    {
+        "co-occurrence": [
+            "non-binary",
+            "34486009.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "male",
+            "40930008.0"
+        ],
+        "count": 132672
+    },
+    {
+        "co-occurrence": [
+            "female",
+            "40930008.0"
+        ],
+        "count": 55020
+    },
+    {
+        "co-occurrence": [
+            "non-binary",
+            "40930008.0"
+        ],
+        "count": 84
+    },
+    {
+        "co-occurrence": [
+            "male",
+            "14669001.0"
+        ],
+        "count": 35
+    },
+    {
+        "co-occurrence": [
+            "female",
+            "14669001.0"
+        ],
+        "count": 198
+    },
+    {
+        "co-occurrence": [
+            "non-binary",
+            "14669001.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "male",
+            "15188001.0"
+        ],
+        "count": 205827
+    },
+    {
+        "co-occurrence": [
+            "female",
+            "15188001.0"
+        ],
+        "count": 75036
+    },
+    {
+        "co-occurrence": [
+            "non-binary",
+            "15188001.0"
+        ],
+        "count": 666
+    },
+    {
+        "co-occurrence": [
+            "male",
+            "18193002.0"
+        ],
+        "count": 27081
+    },
+    {
+        "co-occurrence": [
+            "female",
+            "18193002.0"
+        ],
+        "count": 4800
+    },
+    {
+        "co-occurrence": [
+            "non-binary",
+            "18193002.0"
+        ],
+        "count": 89
+    },
+    {
+        "co-occurrence": [
+            "male",
+            "18718003.0"
+        ],
+        "count": 4964
+    },
+    {
+        "co-occurrence": [
+            "female",
+            "18718003.0"
+        ],
+        "count": 5534
+    },
+    {
+        "co-occurrence": [
+            "non-binary",
+            "18718003.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "male",
+            "21134002.0"
+        ],
+        "count": 490152
+    },
+    {
+        "co-occurrence": [
+            "female",
+            "21134002.0"
+        ],
+        "count": 737256
+    },
+    {
+        "co-occurrence": [
+            "non-binary",
+            "21134002.0"
+        ],
+        "count": 24414
+    },
+    {
+        "co-occurrence": [
+            "male",
+            "396275006.0"
+        ],
+        "count": 12576
+    },
+    {
+        "co-occurrence": [
+            "female",
+            "396275006.0"
+        ],
+        "count": 20332
+    },
+    {
+        "co-occurrence": [
+            "non-binary",
+            "396275006.0"
+        ],
+        "count": 1
+    },
+    {
+        "co-occurrence": [
+            "male",
+            "22298006.0"
+        ],
+        "count": 1767254
+    },
+    {
+        "co-occurrence": [
+            "female",
+            "22298006.0"
+        ],
+        "count": 500583
+    },
+    {
+        "co-occurrence": [
+            "non-binary",
+            "22298006.0"
+        ],
+        "count": 644
+    },
+    {
+        "co-occurrence": [
+            "male",
+            "23502006.0"
+        ],
+        "count": 610
+    },
+    {
+        "co-occurrence": [
+            "female",
+            "23502006.0"
+        ],
+        "count": 103
+    },
+    {
+        "co-occurrence": [
+            "non-binary",
+            "23502006.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "male",
+            "23919004.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "female",
+            "23919004.0"
+        ],
+        "count": 71
+    },
+    {
+        "co-occurrence": [
+            "non-binary",
+            "23919004.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "male",
+            "24693007.0"
+        ],
+        "count": 61278
+    },
+    {
+        "co-occurrence": [
+            "female",
+            "24693007.0"
+        ],
+        "count": 50160
+    },
+    {
+        "co-occurrence": [
+            "non-binary",
+            "24693007.0"
+        ],
+        "count": 9
+    },
+    {
+        "co-occurrence": [
+            "male",
+            "24700007.0"
+        ],
+        "count": 11286
+    },
+    {
+        "co-occurrence": [
+            "female",
+            "24700007.0"
+        ],
+        "count": 2019093
+    },
+    {
+        "co-occurrence": [
+            "non-binary",
+            "24700007.0"
+        ],
+        "count": 304
+    },
+    {
+        "co-occurrence": [
+            "male",
+            "25458004.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "female",
+            "25458004.0"
+        ],
+        "count": 40
+    },
+    {
+        "co-occurrence": [
+            "non-binary",
+            "25458004.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "male",
+            "26889001.0"
+        ],
+        "count": 20844
+    },
+    {
+        "co-occurrence": [
+            "female",
+            "26889001.0"
+        ],
+        "count": 399
+    },
+    {
+        "co-occurrence": [
+            "non-binary",
+            "26889001.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "male",
+            "26929004.0"
+        ],
+        "count": 6418
+    },
+    {
+        "co-occurrence": [
+            "female",
+            "26929004.0"
+        ],
+        "count": 619
+    },
+    {
+        "co-occurrence": [
+            "non-binary",
+            "26929004.0"
+        ],
+        "count": 28
+    },
+    {
+        "co-occurrence": [
+            "male",
+            "29384001.0"
+        ],
+        "count": 4131
+    },
+    {
+        "co-occurrence": [
+            "female",
+            "29384001.0"
+        ],
+        "count": 16328
+    },
+    {
+        "co-occurrence": [
+            "non-binary",
+            "29384001.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "male",
+            "30811009.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "female",
+            "30811009.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "non-binary",
+            "30811009.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "male",
+            "31384009.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "female",
+            "31384009.0"
+        ],
+        "count": 590
+    },
+    {
+        "co-occurrence": [
+            "non-binary",
+            "31384009.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "male",
+            "32398004.0"
+        ],
+        "count": 270736
+    },
+    {
+        "co-occurrence": [
+            "female",
+            "32398004.0"
+        ],
+        "count": 23896
+    },
+    {
+        "co-occurrence": [
+            "non-binary",
+            "32398004.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "male",
+            "32798002.0"
+        ],
+        "count": 38180
+    },
+    {
+        "co-occurrence": [
+            "female",
+            "32798002.0"
+        ],
+        "count": 1530
+    },
+    {
+        "co-occurrence": [
+            "non-binary",
+            "32798002.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "male",
+            "32914008.0"
+        ],
+        "count": 5246
+    },
+    {
+        "co-occurrence": [
+            "female",
+            "32914008.0"
+        ],
+        "count": 2960
+    },
+    {
+        "co-occurrence": [
+            "non-binary",
+            "32914008.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "male",
+            "34840004.0"
+        ],
+        "count": 49902
+    },
+    {
+        "co-occurrence": [
+            "female",
+            "34840004.0"
+        ],
+        "count": 14274
+    },
+    {
+        "co-occurrence": [
+            "non-binary",
+            "34840004.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "male",
+            "35489007.0"
+        ],
+        "count": 9966100
+    },
+    {
+        "co-occurrence": [
+            "female",
+            "35489007.0"
+        ],
+        "count": 5653737
+    },
+    {
+        "co-occurrence": [
+            "non-binary",
+            "35489007.0"
+        ],
+        "count": 57474
+    },
+    {
+        "co-occurrence": [
+            "male",
+            "36971009.0"
+        ],
+        "count": 17846
+    },
+    {
+        "co-occurrence": [
+            "female",
+            "36971009.0"
+        ],
+        "count": 3602
+    },
+    {
+        "co-occurrence": [
+            "non-binary",
+            "36971009.0"
+        ],
+        "count": 1
+    },
+    {
+        "co-occurrence": [
+            "male",
+            "37340000.0"
+        ],
+        "count": 11216
+    },
+    {
+        "co-occurrence": [
+            "female",
+            "37340000.0"
+        ],
+        "count": 2354
+    },
+    {
+        "co-occurrence": [
+            "non-binary",
+            "37340000.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "male",
+            "39400004.0"
+        ],
+        "count": 31447
+    },
+    {
+        "co-occurrence": [
+            "female",
+            "39400004.0"
+        ],
+        "count": 36162
+    },
+    {
+        "co-occurrence": [
+            "non-binary",
+            "39400004.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "male",
+            "39621005.0"
+        ],
+        "count": 16250
+    },
+    {
+        "co-occurrence": [
+            "female",
+            "39621005.0"
+        ],
+        "count": 7307
+    },
+    {
+        "co-occurrence": [
+            "non-binary",
+            "39621005.0"
+        ],
+        "count": 1
+    },
+    {
+        "co-occurrence": [
+            "male",
+            "40733004.0"
+        ],
+        "count": 15060694
+    },
+    {
+        "co-occurrence": [
+            "female",
+            "40733004.0"
+        ],
+        "count": 1922136
+    },
+    {
+        "co-occurrence": [
+            "non-binary",
+            "40733004.0"
+        ],
+        "count": 13867
+    },
+    {
+        "co-occurrence": [
+            "male",
+            "91302008"
+        ],
+        "count": 263809
+    },
+    {
+        "co-occurrence": [
+            "female",
+            "91302008"
+        ],
+        "count": 678483
+    },
+    {
+        "co-occurrence": [
+            "non-binary",
+            "91302008"
+        ],
+        "count": 50
+    },
+    {
+        "co-occurrence": [
+            "male",
+            "161712005.0"
+        ],
+        "count": 315817
+    },
+    {
+        "co-occurrence": [
+            "female",
+            "161712005.0"
+        ],
+        "count": 1817234
+    },
+    {
+        "co-occurrence": [
+            "non-binary",
+            "161712005.0"
+        ],
+        "count": 421
+    },
+    {
+        "co-occurrence": [
+            "male",
+            "43116000.0"
+        ],
+        "count": 328776
+    },
+    {
+        "co-occurrence": [
+            "female",
+            "43116000.0"
+        ],
+        "count": 35452
+    },
+    {
+        "co-occurrence": [
+            "non-binary",
+            "43116000.0"
+        ],
+        "count": 64
+    },
+    {
+        "co-occurrence": [
+            "male",
+            "44054006.0"
+        ],
+        "count": 540660
+    },
+    {
+        "co-occurrence": [
+            "female",
+            "44054006.0"
+        ],
+        "count": 124619
+    },
+    {
+        "co-occurrence": [
+            "non-binary",
+            "44054006.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "male",
+            "46635009.0"
+        ],
+        "count": 122
+    },
+    {
+        "co-occurrence": [
+            "female",
+            "46635009.0"
+        ],
+        "count": 6792
+    },
+    {
+        "co-occurrence": [
+            "non-binary",
+            "46635009.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "male",
+            "49049000.0"
+        ],
+        "count": 76806
+    },
+    {
+        "co-occurrence": [
+            "female",
+            "49049000.0"
+        ],
+        "count": 2880
+    },
+    {
+        "co-occurrence": [
+            "non-binary",
+            "49049000.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "male",
+            "49601007.0"
+        ],
+        "count": 929174
+    },
+    {
+        "co-occurrence": [
+            "female",
+            "49601007.0"
+        ],
+        "count": 780090
+    },
+    {
+        "co-occurrence": [
+            "non-binary",
+            "49601007.0"
+        ],
+        "count": 3674
+    },
+    {
+        "co-occurrence": [
+            "male",
+            "50829006.0"
+        ],
+        "count": 13274
+    },
+    {
+        "co-occurrence": [
+            "female",
+            "50829006.0"
+        ],
+        "count": 3233
+    },
+    {
+        "co-occurrence": [
+            "non-binary",
+            "50829006.0"
+        ],
+        "count": 79
+    },
+    {
+        "co-occurrence": [
+            "male",
+            "52448006.0"
+        ],
+        "count": 256012
+    },
+    {
+        "co-occurrence": [
+            "female",
+            "52448006.0"
+        ],
+        "count": 402193
+    },
+    {
+        "co-occurrence": [
+            "non-binary",
+            "52448006.0"
+        ],
+        "count": 572
+    },
+    {
+        "co-occurrence": [
+            "male",
+            "52702003.0"
+        ],
+        "count": 5312
+    },
+    {
+        "co-occurrence": [
+            "female",
+            "52702003.0"
+        ],
+        "count": 2067
+    },
+    {
+        "co-occurrence": [
+            "non-binary",
+            "52702003.0"
+        ],
+        "count": 51
+    },
+    {
+        "co-occurrence": [
+            "male",
+            "53741008.0"
+        ],
+        "count": 51072
+    },
+    {
+        "co-occurrence": [
+            "female",
+            "53741008.0"
+        ],
+        "count": 102992
+    },
+    {
+        "co-occurrence": [
+            "non-binary",
+            "53741008.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "male",
+            "54150009.0"
+        ],
+        "count": 21403
+    },
+    {
+        "co-occurrence": [
+            "female",
+            "54150009.0"
+        ],
+        "count": 3097
+    },
+    {
+        "co-occurrence": [
+            "non-binary",
+            "54150009.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "male",
+            "56317004.0"
+        ],
+        "count": 65664
+    },
+    {
+        "co-occurrence": [
+            "female",
+            "56317004.0"
+        ],
+        "count": 39452
+    },
+    {
+        "co-occurrence": [
+            "non-binary",
+            "56317004.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "male",
+            "56925008.0"
+        ],
+        "count": 625675
+    },
+    {
+        "co-occurrence": [
+            "female",
+            "56925008.0"
+        ],
+        "count": 301700
+    },
+    {
+        "co-occurrence": [
+            "non-binary",
+            "56925008.0"
+        ],
+        "count": 1076
+    },
+    {
+        "co-occurrence": [
+            "male",
+            "57182000.0"
+        ],
+        "count": 237587
+    },
+    {
+        "co-occurrence": [
+            "female",
+            "57182000.0"
+        ],
+        "count": 25166
+    },
+    {
+        "co-occurrence": [
+            "non-binary",
+            "57182000.0"
+        ],
+        "count": 7
+    },
+    {
+        "co-occurrence": [
+            "male",
+            "57406009.0"
+        ],
+        "count": 9851
+    },
+    {
+        "co-occurrence": [
+            "female",
+            "57406009.0"
+        ],
+        "count": 3249
+    },
+    {
+        "co-occurrence": [
+            "non-binary",
+            "57406009.0"
+        ],
+        "count": 32
+    },
+    {
+        "co-occurrence": [
+            "male",
+            "59927004.0"
+        ],
+        "count": 107623
+    },
+    {
+        "co-occurrence": [
+            "female",
+            "59927004.0"
+        ],
+        "count": 72076
+    },
+    {
+        "co-occurrence": [
+            "non-binary",
+            "59927004.0"
+        ],
+        "count": 188
+    },
+    {
+        "co-occurrence": [
+            "male",
+            "60862001.0"
+        ],
+        "count": 54582
+    },
+    {
+        "co-occurrence": [
+            "female",
+            "60862001.0"
+        ],
+        "count": 34096
+    },
+    {
+        "co-occurrence": [
+            "non-binary",
+            "60862001.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "male",
+            "61462000.0"
+        ],
+        "count": 442396
+    },
+    {
+        "co-occurrence": [
+            "female",
+            "61462000.0"
+        ],
+        "count": 502132
+    },
+    {
+        "co-occurrence": [
+            "non-binary",
+            "61462000.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "male",
+            "61599003.0"
+        ],
+        "count": 68
+    },
+    {
+        "co-occurrence": [
+            "female",
+            "61599003.0"
+        ],
+        "count": 14375
+    },
+    {
+        "co-occurrence": [
+            "non-binary",
+            "61599003.0"
+        ],
+        "count": 50
+    },
+    {
+        "co-occurrence": [
+            "male",
+            "62315008.0"
+        ],
+        "count": 864550
+    },
+    {
+        "co-occurrence": [
+            "female",
+            "62315008.0"
+        ],
+        "count": 257775
+    },
+    {
+        "co-occurrence": [
+            "non-binary",
+            "62315008.0"
+        ],
+        "count": 40
+    },
+    {
+        "co-occurrence": [
+            "male",
+            "63102001.0"
+        ],
+        "count": 12321
+    },
+    {
+        "co-occurrence": [
+            "female",
+            "63102001.0"
+        ],
+        "count": 9312
+    },
+    {
+        "co-occurrence": [
+            "non-binary",
+            "63102001.0"
+        ],
+        "count": 9
+    },
+    {
+        "co-occurrence": [
+            "male",
+            "67362008.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "female",
+            "67362008.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "non-binary",
+            "67362008.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "male",
+            "68566005.0"
+        ],
+        "count": 24946
+    },
+    {
+        "co-occurrence": [
+            "female",
+            "68566005.0"
+        ],
+        "count": 19052
+    },
+    {
+        "co-occurrence": [
+            "non-binary",
+            "68566005.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "male",
+            "69322001.0"
+        ],
+        "count": 361269
+    },
+    {
+        "co-occurrence": [
+            "female",
+            "69322001.0"
+        ],
+        "count": 54432
+    },
+    {
+        "co-occurrence": [
+            "non-binary",
+            "69322001.0"
+        ],
+        "count": 1935
+    },
+    {
+        "co-occurrence": [
+            "male",
+            "69896004.0"
+        ],
+        "count": 459280
+    },
+    {
+        "co-occurrence": [
+            "female",
+            "69896004.0"
+        ],
+        "count": 241242
+    },
+    {
+        "co-occurrence": [
+            "non-binary",
+            "69896004.0"
+        ],
+        "count": 275
+    },
+    {
+        "co-occurrence": [
+            "male",
+            "73211009.0"
+        ],
+        "count": 594804
+    },
+    {
+        "co-occurrence": [
+            "female",
+            "73211009.0"
+        ],
+        "count": 1894854
+    },
+    {
+        "co-occurrence": [
+            "non-binary",
+            "73211009.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "male",
+            "73442001.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "female",
+            "73442001.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "non-binary",
+            "73442001.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "male",
+            "74732009.0"
+        ],
+        "count": 1928799
+    },
+    {
+        "co-occurrence": [
+            "female",
+            "74732009.0"
+        ],
+        "count": 4329909
+    },
+    {
+        "co-occurrence": [
+            "non-binary",
+            "74732009.0"
+        ],
+        "count": 40842
+    },
+    {
+        "co-occurrence": [
+            "male",
+            "75694006.0"
+        ],
+        "count": 2079
+    },
+    {
+        "co-occurrence": [
+            "female",
+            "75694006.0"
+        ],
+        "count": 35100
+    },
+    {
+        "co-occurrence": [
+            "non-binary",
+            "75694006.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "male",
+            "76376003.0"
+        ],
+        "count": 1560
+    },
+    {
+        "co-occurrence": [
+            "female",
+            "76376003.0"
+        ],
+        "count": 7490
+    },
+    {
+        "co-occurrence": [
+            "non-binary",
+            "76376003.0"
+        ],
+        "count": 1
+    },
+    {
+        "co-occurrence": [
+            "male",
+            "86044005.0"
+        ],
+        "count": 26524
+    },
+    {
+        "co-occurrence": [
+            "female",
+            "86044005.0"
+        ],
+        "count": 876
+    },
+    {
+        "co-occurrence": [
+            "non-binary",
+            "86044005.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "male",
+            "709044004.0"
+        ],
+        "count": 129800
+    },
+    {
+        "co-occurrence": [
+            "female",
+            "709044004.0"
+        ],
+        "count": 18892
+    },
+    {
+        "co-occurrence": [
+            "non-binary",
+            "709044004.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "male",
+            "129103003.0"
+        ],
+        "count": 27828
+    },
+    {
+        "co-occurrence": [
+            "female",
+            "129103003.0"
+        ],
+        "count": 219582
+    },
+    {
+        "co-occurrence": [
+            "non-binary",
+            "129103003.0"
+        ],
+        "count": 6
+    },
+    {
+        "co-occurrence": [
+            "male",
+            "195967001.0"
+        ],
+        "count": 244464
+    },
+    {
+        "co-occurrence": [
+            "female",
+            "195967001.0"
+        ],
+        "count": 745248
+    },
+    {
+        "co-occurrence": [
+            "non-binary",
+            "195967001.0"
+        ],
+        "count": 1968
+    },
+    {
+        "co-occurrence": [
+            "male",
+            "200936003.0"
+        ],
+        "count": 226272
+    },
+    {
+        "co-occurrence": [
+            "female",
+            "200936003.0"
+        ],
+        "count": 9650
+    },
+    {
+        "co-occurrence": [
+            "non-binary",
+            "200936003.0"
+        ],
+        "count": 90
+    },
+    {
+        "co-occurrence": [
+            "male",
+            "233604007.0"
+        ],
+        "count": 35757708
+    },
+    {
+        "co-occurrence": [
+            "female",
+            "233604007.0"
+        ],
+        "count": 49140
+    },
+    {
+        "co-occurrence": [
+            "non-binary",
+            "233604007.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "male",
+            "698247007.0"
+        ],
+        "count": 581217
+    },
+    {
+        "co-occurrence": [
+            "female",
+            "698247007.0"
+        ],
+        "count": 56825
+    },
+    {
+        "co-occurrence": [
+            "non-binary",
+            "698247007.0"
+        ],
+        "count": 0
+    }
+]

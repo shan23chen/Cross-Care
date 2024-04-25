@@ -1,0 +1,3908 @@
+[
+    {
+        "co-occurrence": [
+            "white/caucasian",
+            "hiv/aids"
+        ],
+        "count": 41
+    },
+    {
+        "co-occurrence": [
+            "black/african american",
+            "hiv/aids"
+        ],
+        "count": 814
+    },
+    {
+        "co-occurrence": [
+            "hispanic/latino",
+            "hiv/aids"
+        ],
+        "count": 18
+    },
+    {
+        "co-occurrence": [
+            "asian",
+            "hiv/aids"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "native american/indigenous",
+            "hiv/aids"
+        ],
+        "count": 354
+    },
+    {
+        "co-occurrence": [
+            "pacific islander",
+            "hiv/aids"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "white/caucasian",
+            "covid-19"
+        ],
+        "count": 2
+    },
+    {
+        "co-occurrence": [
+            "black/african american",
+            "covid-19"
+        ],
+        "count": 34
+    },
+    {
+        "co-occurrence": [
+            "hispanic/latino",
+            "covid-19"
+        ],
+        "count": 27
+    },
+    {
+        "co-occurrence": [
+            "asian",
+            "covid-19"
+        ],
+        "count": 12
+    },
+    {
+        "co-occurrence": [
+            "native american/indigenous",
+            "covid-19"
+        ],
+        "count": 27
+    },
+    {
+        "co-occurrence": [
+            "pacific islander",
+            "covid-19"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "white/caucasian",
+            "takotsubo cardiomyopathy"
+        ],
+        "count": 10
+    },
+    {
+        "co-occurrence": [
+            "black/african american",
+            "takotsubo cardiomyopathy"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "hispanic/latino",
+            "takotsubo cardiomyopathy"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "asian",
+            "takotsubo cardiomyopathy"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "native american/indigenous",
+            "takotsubo cardiomyopathy"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "pacific islander",
+            "takotsubo cardiomyopathy"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "white/caucasian",
+            "tuberculoses"
+        ],
+        "count": 2204
+    },
+    {
+        "co-occurrence": [
+            "black/african american",
+            "tuberculoses"
+        ],
+        "count": 16673
+    },
+    {
+        "co-occurrence": [
+            "hispanic/latino",
+            "tuberculoses"
+        ],
+        "count": 174
+    },
+    {
+        "co-occurrence": [
+            "asian",
+            "tuberculoses"
+        ],
+        "count": 58
+    },
+    {
+        "co-occurrence": [
+            "native american/indigenous",
+            "tuberculoses"
+        ],
+        "count": 3915
+    },
+    {
+        "co-occurrence": [
+            "pacific islander",
+            "tuberculoses"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "white/caucasian",
+            "endocarditis"
+        ],
+        "count": 102
+    },
+    {
+        "co-occurrence": [
+            "black/african american",
+            "endocarditis"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "hispanic/latino",
+            "endocarditis"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "asian",
+            "endocarditis"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "native american/indigenous",
+            "endocarditis"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "pacific islander",
+            "endocarditis"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "white/caucasian",
+            "syphilis"
+        ],
+        "count": 1074
+    },
+    {
+        "co-occurrence": [
+            "black/african american",
+            "syphilis"
+        ],
+        "count": 3906
+    },
+    {
+        "co-occurrence": [
+            "hispanic/latino",
+            "syphilis"
+        ],
+        "count": 108
+    },
+    {
+        "co-occurrence": [
+            "asian",
+            "syphilis"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "native american/indigenous",
+            "syphilis"
+        ],
+        "count": 648
+    },
+    {
+        "co-occurrence": [
+            "pacific islander",
+            "syphilis"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "white/caucasian",
+            "hypertension"
+        ],
+        "count": 4446
+    },
+    {
+        "co-occurrence": [
+            "black/african american",
+            "hypertension"
+        ],
+        "count": 44958
+    },
+    {
+        "co-occurrence": [
+            "hispanic/latino",
+            "hypertension"
+        ],
+        "count": 12
+    },
+    {
+        "co-occurrence": [
+            "asian",
+            "hypertension"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "native american/indigenous",
+            "hypertension"
+        ],
+        "count": 10530
+    },
+    {
+        "co-occurrence": [
+            "pacific islander",
+            "hypertension"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "white/caucasian",
+            "sarcoidoses"
+        ],
+        "count": 60
+    },
+    {
+        "co-occurrence": [
+            "black/african american",
+            "sarcoidoses"
+        ],
+        "count": 200
+    },
+    {
+        "co-occurrence": [
+            "hispanic/latino",
+            "sarcoidoses"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "asian",
+            "sarcoidoses"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "native american/indigenous",
+            "sarcoidoses"
+        ],
+        "count": 108
+    },
+    {
+        "co-occurrence": [
+            "pacific islander",
+            "sarcoidoses"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "white/caucasian",
+            "hepatitis b"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "black/african american",
+            "hepatitis b"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "hispanic/latino",
+            "hepatitis b"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "asian",
+            "hepatitis b"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "native american/indigenous",
+            "hepatitis b"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "pacific islander",
+            "hepatitis b"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "white/caucasian",
+            "ulcerative colitis"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "black/african american",
+            "ulcerative colitis"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "hispanic/latino",
+            "ulcerative colitis"
+        ],
+        "count": 8
+    },
+    {
+        "co-occurrence": [
+            "asian",
+            "ulcerative colitis"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "native american/indigenous",
+            "ulcerative colitis"
+        ],
+        "count": 108
+    },
+    {
+        "co-occurrence": [
+            "pacific islander",
+            "ulcerative colitis"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "white/caucasian",
+            "crohn\u2019s disease"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "black/african american",
+            "crohn\u2019s disease"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "hispanic/latino",
+            "crohn\u2019s disease"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "asian",
+            "crohn\u2019s disease"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "native american/indigenous",
+            "crohn\u2019s disease"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "pacific islander",
+            "crohn\u2019s disease"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "white/caucasian",
+            "chagas disease"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "black/african american",
+            "chagas disease"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "hispanic/latino",
+            "chagas disease"
+        ],
+        "count": 8
+    },
+    {
+        "co-occurrence": [
+            "asian",
+            "chagas disease"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "native american/indigenous",
+            "chagas disease"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "pacific islander",
+            "chagas disease"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "white/caucasian",
+            "3545003.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "black/african american",
+            "3545003.0"
+        ],
+        "count": 48
+    },
+    {
+        "co-occurrence": [
+            "hispanic/latino",
+            "3545003.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "asian",
+            "3545003.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "native american/indigenous",
+            "3545003.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "pacific islander",
+            "3545003.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "white/caucasian",
+            "3716002.0"
+        ],
+        "count": 58
+    },
+    {
+        "co-occurrence": [
+            "black/african american",
+            "3716002.0"
+        ],
+        "count": 647
+    },
+    {
+        "co-occurrence": [
+            "hispanic/latino",
+            "3716002.0"
+        ],
+        "count": 8
+    },
+    {
+        "co-occurrence": [
+            "asian",
+            "3716002.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "native american/indigenous",
+            "3716002.0"
+        ],
+        "count": 270
+    },
+    {
+        "co-occurrence": [
+            "pacific islander",
+            "3716002.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "white/caucasian",
+            "3723001.0"
+        ],
+        "count": 238
+    },
+    {
+        "co-occurrence": [
+            "black/african american",
+            "3723001.0"
+        ],
+        "count": 88128
+    },
+    {
+        "co-occurrence": [
+            "hispanic/latino",
+            "3723001.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "asian",
+            "3723001.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "native american/indigenous",
+            "3723001.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "pacific islander",
+            "3723001.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "white/caucasian",
+            "4308002.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "black/african american",
+            "4308002.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "hispanic/latino",
+            "4308002.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "asian",
+            "4308002.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "native american/indigenous",
+            "4308002.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "pacific islander",
+            "4308002.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "white/caucasian",
+            "6142004.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "black/african american",
+            "6142004.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "hispanic/latino",
+            "6142004.0"
+        ],
+        "count": 1160
+    },
+    {
+        "co-occurrence": [
+            "asian",
+            "6142004.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "native american/indigenous",
+            "6142004.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "pacific islander",
+            "6142004.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "white/caucasian",
+            "6471006.0"
+        ],
+        "count": 8352
+    },
+    {
+        "co-occurrence": [
+            "black/african american",
+            "6471006.0"
+        ],
+        "count": 144
+    },
+    {
+        "co-occurrence": [
+            "hispanic/latino",
+            "6471006.0"
+        ],
+        "count": 72
+    },
+    {
+        "co-occurrence": [
+            "asian",
+            "6471006.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "native american/indigenous",
+            "6471006.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "pacific islander",
+            "6471006.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "white/caucasian",
+            "7973008.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "black/african american",
+            "7973008.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "hispanic/latino",
+            "7973008.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "asian",
+            "7973008.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "native american/indigenous",
+            "7973008.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "pacific islander",
+            "7973008.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "white/caucasian",
+            "8357008.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "black/african american",
+            "8357008.0"
+        ],
+        "count": 2588
+    },
+    {
+        "co-occurrence": [
+            "hispanic/latino",
+            "8357008.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "asian",
+            "8357008.0"
+        ],
+        "count": 6
+    },
+    {
+        "co-occurrence": [
+            "native american/indigenous",
+            "8357008.0"
+        ],
+        "count": 27
+    },
+    {
+        "co-occurrence": [
+            "pacific islander",
+            "8357008.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "white/caucasian",
+            "menstruation"
+        ],
+        "count": 1727
+    },
+    {
+        "co-occurrence": [
+            "black/african american",
+            "menstruation"
+        ],
+        "count": 1
+    },
+    {
+        "co-occurrence": [
+            "hispanic/latino",
+            "menstruation"
+        ],
+        "count": 21
+    },
+    {
+        "co-occurrence": [
+            "asian",
+            "menstruation"
+        ],
+        "count": 3
+    },
+    {
+        "co-occurrence": [
+            "native american/indigenous",
+            "menstruation"
+        ],
+        "count": 108
+    },
+    {
+        "co-occurrence": [
+            "pacific islander",
+            "menstruation"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "white/caucasian",
+            "9829001.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "black/african american",
+            "9829001.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "hispanic/latino",
+            "9829001.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "asian",
+            "9829001.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "native american/indigenous",
+            "9829001.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "pacific islander",
+            "9829001.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "white/caucasian",
+            "10743008.0"
+        ],
+        "count": 73
+    },
+    {
+        "co-occurrence": [
+            "black/african american",
+            "10743008.0"
+        ],
+        "count": 28
+    },
+    {
+        "co-occurrence": [
+            "hispanic/latino",
+            "10743008.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "asian",
+            "10743008.0"
+        ],
+        "count": 8
+    },
+    {
+        "co-occurrence": [
+            "native american/indigenous",
+            "10743008.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "pacific islander",
+            "10743008.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "white/caucasian",
+            "11381005.0"
+        ],
+        "count": 1368
+    },
+    {
+        "co-occurrence": [
+            "black/african american",
+            "11381005.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "hispanic/latino",
+            "11381005.0"
+        ],
+        "count": 27
+    },
+    {
+        "co-occurrence": [
+            "asian",
+            "11381005.0"
+        ],
+        "count": 45
+    },
+    {
+        "co-occurrence": [
+            "native american/indigenous",
+            "11381005.0"
+        ],
+        "count": 18
+    },
+    {
+        "co-occurrence": [
+            "pacific islander",
+            "11381005.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "white/caucasian",
+            "11654001.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "black/african american",
+            "11654001.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "hispanic/latino",
+            "11654001.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "asian",
+            "11654001.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "native american/indigenous",
+            "11654001.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "pacific islander",
+            "11654001.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "white/caucasian",
+            "13746004.0"
+        ],
+        "count": 3829
+    },
+    {
+        "co-occurrence": [
+            "black/african american",
+            "13746004.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "hispanic/latino",
+            "13746004.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "asian",
+            "13746004.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "native american/indigenous",
+            "13746004.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "pacific islander",
+            "13746004.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "white/caucasian",
+            "34486009.0"
+        ],
+        "count": 12
+    },
+    {
+        "co-occurrence": [
+            "black/african american",
+            "34486009.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "hispanic/latino",
+            "34486009.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "asian",
+            "34486009.0"
+        ],
+        "count": 24
+    },
+    {
+        "co-occurrence": [
+            "native american/indigenous",
+            "34486009.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "pacific islander",
+            "34486009.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "white/caucasian",
+            "40930008.0"
+        ],
+        "count": 348
+    },
+    {
+        "co-occurrence": [
+            "black/african american",
+            "40930008.0"
+        ],
+        "count": 144
+    },
+    {
+        "co-occurrence": [
+            "hispanic/latino",
+            "40930008.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "asian",
+            "40930008.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "native american/indigenous",
+            "40930008.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "pacific islander",
+            "40930008.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "white/caucasian",
+            "14669001.0"
+        ],
+        "count": 3
+    },
+    {
+        "co-occurrence": [
+            "black/african american",
+            "14669001.0"
+        ],
+        "count": 4
+    },
+    {
+        "co-occurrence": [
+            "hispanic/latino",
+            "14669001.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "asian",
+            "14669001.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "native american/indigenous",
+            "14669001.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "pacific islander",
+            "14669001.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "white/caucasian",
+            "15188001.0"
+        ],
+        "count": 1647
+    },
+    {
+        "co-occurrence": [
+            "black/african american",
+            "15188001.0"
+        ],
+        "count": 3960
+    },
+    {
+        "co-occurrence": [
+            "hispanic/latino",
+            "15188001.0"
+        ],
+        "count": 18
+    },
+    {
+        "co-occurrence": [
+            "asian",
+            "15188001.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "native american/indigenous",
+            "15188001.0"
+        ],
+        "count": 81
+    },
+    {
+        "co-occurrence": [
+            "pacific islander",
+            "15188001.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "white/caucasian",
+            "18193002.0"
+        ],
+        "count": 545
+    },
+    {
+        "co-occurrence": [
+            "black/african american",
+            "18193002.0"
+        ],
+        "count": 48
+    },
+    {
+        "co-occurrence": [
+            "hispanic/latino",
+            "18193002.0"
+        ],
+        "count": 16
+    },
+    {
+        "co-occurrence": [
+            "asian",
+            "18193002.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "native american/indigenous",
+            "18193002.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "pacific islander",
+            "18193002.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "white/caucasian",
+            "18718003.0"
+        ],
+        "count": 2
+    },
+    {
+        "co-occurrence": [
+            "black/african american",
+            "18718003.0"
+        ],
+        "count": 1368
+    },
+    {
+        "co-occurrence": [
+            "hispanic/latino",
+            "18718003.0"
+        ],
+        "count": 2
+    },
+    {
+        "co-occurrence": [
+            "asian",
+            "18718003.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "native american/indigenous",
+            "18718003.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "pacific islander",
+            "18718003.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "white/caucasian",
+            "21134002.0"
+        ],
+        "count": 127608
+    },
+    {
+        "co-occurrence": [
+            "black/african american",
+            "21134002.0"
+        ],
+        "count": 3744
+    },
+    {
+        "co-occurrence": [
+            "hispanic/latino",
+            "21134002.0"
+        ],
+        "count": 156
+    },
+    {
+        "co-occurrence": [
+            "asian",
+            "21134002.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "native american/indigenous",
+            "21134002.0"
+        ],
+        "count": 4212
+    },
+    {
+        "co-occurrence": [
+            "pacific islander",
+            "21134002.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "white/caucasian",
+            "396275006.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "black/african american",
+            "396275006.0"
+        ],
+        "count": 4
+    },
+    {
+        "co-occurrence": [
+            "hispanic/latino",
+            "396275006.0"
+        ],
+        "count": 8
+    },
+    {
+        "co-occurrence": [
+            "asian",
+            "396275006.0"
+        ],
+        "count": 32
+    },
+    {
+        "co-occurrence": [
+            "native american/indigenous",
+            "396275006.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "pacific islander",
+            "396275006.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "white/caucasian",
+            "22298006.0"
+        ],
+        "count": 47190
+    },
+    {
+        "co-occurrence": [
+            "black/african american",
+            "22298006.0"
+        ],
+        "count": 92103
+    },
+    {
+        "co-occurrence": [
+            "hispanic/latino",
+            "22298006.0"
+        ],
+        "count": 129
+    },
+    {
+        "co-occurrence": [
+            "asian",
+            "22298006.0"
+        ],
+        "count": 4
+    },
+    {
+        "co-occurrence": [
+            "native american/indigenous",
+            "22298006.0"
+        ],
+        "count": 514
+    },
+    {
+        "co-occurrence": [
+            "pacific islander",
+            "22298006.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "white/caucasian",
+            "23502006.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "black/african american",
+            "23502006.0"
+        ],
+        "count": 26
+    },
+    {
+        "co-occurrence": [
+            "hispanic/latino",
+            "23502006.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "asian",
+            "23502006.0"
+        ],
+        "count": 4
+    },
+    {
+        "co-occurrence": [
+            "native american/indigenous",
+            "23502006.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "pacific islander",
+            "23502006.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "white/caucasian",
+            "23919004.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "black/african american",
+            "23919004.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "hispanic/latino",
+            "23919004.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "asian",
+            "23919004.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "native american/indigenous",
+            "23919004.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "pacific islander",
+            "23919004.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "white/caucasian",
+            "24693007.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "black/african american",
+            "24693007.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "hispanic/latino",
+            "24693007.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "asian",
+            "24693007.0"
+        ],
+        "count": 24
+    },
+    {
+        "co-occurrence": [
+            "native american/indigenous",
+            "24693007.0"
+        ],
+        "count": 81
+    },
+    {
+        "co-occurrence": [
+            "pacific islander",
+            "24693007.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "white/caucasian",
+            "24700007.0"
+        ],
+        "count": 18
+    },
+    {
+        "co-occurrence": [
+            "black/african american",
+            "24700007.0"
+        ],
+        "count": 13
+    },
+    {
+        "co-occurrence": [
+            "hispanic/latino",
+            "24700007.0"
+        ],
+        "count": 11
+    },
+    {
+        "co-occurrence": [
+            "asian",
+            "24700007.0"
+        ],
+        "count": 4
+    },
+    {
+        "co-occurrence": [
+            "native american/indigenous",
+            "24700007.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "pacific islander",
+            "24700007.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "white/caucasian",
+            "25458004.0"
+        ],
+        "count": 2
+    },
+    {
+        "co-occurrence": [
+            "black/african american",
+            "25458004.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "hispanic/latino",
+            "25458004.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "asian",
+            "25458004.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "native american/indigenous",
+            "25458004.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "pacific islander",
+            "25458004.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "white/caucasian",
+            "26889001.0"
+        ],
+        "count": 2
+    },
+    {
+        "co-occurrence": [
+            "black/african american",
+            "26889001.0"
+        ],
+        "count": 48
+    },
+    {
+        "co-occurrence": [
+            "hispanic/latino",
+            "26889001.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "asian",
+            "26889001.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "native american/indigenous",
+            "26889001.0"
+        ],
+        "count": 27
+    },
+    {
+        "co-occurrence": [
+            "pacific islander",
+            "26889001.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "white/caucasian",
+            "26929004.0"
+        ],
+        "count": 10
+    },
+    {
+        "co-occurrence": [
+            "black/african american",
+            "26929004.0"
+        ],
+        "count": 15
+    },
+    {
+        "co-occurrence": [
+            "hispanic/latino",
+            "26929004.0"
+        ],
+        "count": 3
+    },
+    {
+        "co-occurrence": [
+            "asian",
+            "26929004.0"
+        ],
+        "count": 4
+    },
+    {
+        "co-occurrence": [
+            "native american/indigenous",
+            "26929004.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "pacific islander",
+            "26929004.0"
+        ],
+        "count": 1
+    },
+    {
+        "co-occurrence": [
+            "white/caucasian",
+            "29384001.0"
+        ],
+        "count": 18
+    },
+    {
+        "co-occurrence": [
+            "black/african american",
+            "29384001.0"
+        ],
+        "count": 88
+    },
+    {
+        "co-occurrence": [
+            "hispanic/latino",
+            "29384001.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "asian",
+            "29384001.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "native american/indigenous",
+            "29384001.0"
+        ],
+        "count": 324
+    },
+    {
+        "co-occurrence": [
+            "pacific islander",
+            "29384001.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "white/caucasian",
+            "30811009.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "black/african american",
+            "30811009.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "hispanic/latino",
+            "30811009.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "asian",
+            "30811009.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "native american/indigenous",
+            "30811009.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "pacific islander",
+            "30811009.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "white/caucasian",
+            "31384009.0"
+        ],
+        "count": 4
+    },
+    {
+        "co-occurrence": [
+            "black/african american",
+            "31384009.0"
+        ],
+        "count": 76
+    },
+    {
+        "co-occurrence": [
+            "hispanic/latino",
+            "31384009.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "asian",
+            "31384009.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "native american/indigenous",
+            "31384009.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "pacific islander",
+            "31384009.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "white/caucasian",
+            "32398004.0"
+        ],
+        "count": 44
+    },
+    {
+        "co-occurrence": [
+            "black/african american",
+            "32398004.0"
+        ],
+        "count": 2588
+    },
+    {
+        "co-occurrence": [
+            "hispanic/latino",
+            "32398004.0"
+        ],
+        "count": 16
+    },
+    {
+        "co-occurrence": [
+            "asian",
+            "32398004.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "native american/indigenous",
+            "32398004.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "pacific islander",
+            "32398004.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "white/caucasian",
+            "32798002.0"
+        ],
+        "count": 2
+    },
+    {
+        "co-occurrence": [
+            "black/african american",
+            "32798002.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "hispanic/latino",
+            "32798002.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "asian",
+            "32798002.0"
+        ],
+        "count": 8
+    },
+    {
+        "co-occurrence": [
+            "native american/indigenous",
+            "32798002.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "pacific islander",
+            "32798002.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "white/caucasian",
+            "32914008.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "black/african american",
+            "32914008.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "hispanic/latino",
+            "32914008.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "asian",
+            "32914008.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "native american/indigenous",
+            "32914008.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "pacific islander",
+            "32914008.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "white/caucasian",
+            "34840004.0"
+        ],
+        "count": 10
+    },
+    {
+        "co-occurrence": [
+            "black/african american",
+            "34840004.0"
+        ],
+        "count": 1294
+    },
+    {
+        "co-occurrence": [
+            "hispanic/latino",
+            "34840004.0"
+        ],
+        "count": 1
+    },
+    {
+        "co-occurrence": [
+            "asian",
+            "34840004.0"
+        ],
+        "count": 2
+    },
+    {
+        "co-occurrence": [
+            "native american/indigenous",
+            "34840004.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "pacific islander",
+            "34840004.0"
+        ],
+        "count": 1
+    },
+    {
+        "co-occurrence": [
+            "white/caucasian",
+            "35489007.0"
+        ],
+        "count": 10088
+    },
+    {
+        "co-occurrence": [
+            "black/african american",
+            "35489007.0"
+        ],
+        "count": 15667
+    },
+    {
+        "co-occurrence": [
+            "hispanic/latino",
+            "35489007.0"
+        ],
+        "count": 667
+    },
+    {
+        "co-occurrence": [
+            "asian",
+            "35489007.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "native american/indigenous",
+            "35489007.0"
+        ],
+        "count": 6655
+    },
+    {
+        "co-occurrence": [
+            "pacific islander",
+            "35489007.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "white/caucasian",
+            "36971009.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "black/african american",
+            "36971009.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "hispanic/latino",
+            "36971009.0"
+        ],
+        "count": 1
+    },
+    {
+        "co-occurrence": [
+            "asian",
+            "36971009.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "native american/indigenous",
+            "36971009.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "pacific islander",
+            "36971009.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "white/caucasian",
+            "37340000.0"
+        ],
+        "count": 1
+    },
+    {
+        "co-occurrence": [
+            "black/african american",
+            "37340000.0"
+        ],
+        "count": 1294
+    },
+    {
+        "co-occurrence": [
+            "hispanic/latino",
+            "37340000.0"
+        ],
+        "count": 5
+    },
+    {
+        "co-occurrence": [
+            "asian",
+            "37340000.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "native american/indigenous",
+            "37340000.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "pacific islander",
+            "37340000.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "white/caucasian",
+            "39400004.0"
+        ],
+        "count": 8
+    },
+    {
+        "co-occurrence": [
+            "black/african american",
+            "39400004.0"
+        ],
+        "count": 5482
+    },
+    {
+        "co-occurrence": [
+            "hispanic/latino",
+            "39400004.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "asian",
+            "39400004.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "native american/indigenous",
+            "39400004.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "pacific islander",
+            "39400004.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "white/caucasian",
+            "39621005.0"
+        ],
+        "count": 5
+    },
+    {
+        "co-occurrence": [
+            "black/african american",
+            "39621005.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "hispanic/latino",
+            "39621005.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "asian",
+            "39621005.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "native american/indigenous",
+            "39621005.0"
+        ],
+        "count": 27
+    },
+    {
+        "co-occurrence": [
+            "pacific islander",
+            "39621005.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "white/caucasian",
+            "40733004.0"
+        ],
+        "count": 566
+    },
+    {
+        "co-occurrence": [
+            "black/african american",
+            "40733004.0"
+        ],
+        "count": 36224
+    },
+    {
+        "co-occurrence": [
+            "hispanic/latino",
+            "40733004.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "asian",
+            "40733004.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "native american/indigenous",
+            "40733004.0"
+        ],
+        "count": 30564
+    },
+    {
+        "co-occurrence": [
+            "pacific islander",
+            "40733004.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "white/caucasian",
+            "91302008"
+        ],
+        "count": 116
+    },
+    {
+        "co-occurrence": [
+            "black/african american",
+            "91302008"
+        ],
+        "count": 1450
+    },
+    {
+        "co-occurrence": [
+            "hispanic/latino",
+            "91302008"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "asian",
+            "91302008"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "native american/indigenous",
+            "91302008"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "pacific islander",
+            "91302008"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "white/caucasian",
+            "161712005.0"
+        ],
+        "count": 7747
+    },
+    {
+        "co-occurrence": [
+            "black/african american",
+            "161712005.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "hispanic/latino",
+            "161712005.0"
+        ],
+        "count": 7
+    },
+    {
+        "co-occurrence": [
+            "asian",
+            "161712005.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "native american/indigenous",
+            "161712005.0"
+        ],
+        "count": 7
+    },
+    {
+        "co-occurrence": [
+            "pacific islander",
+            "161712005.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "white/caucasian",
+            "43116000.0"
+        ],
+        "count": 4368
+    },
+    {
+        "co-occurrence": [
+            "black/african american",
+            "43116000.0"
+        ],
+        "count": 5176
+    },
+    {
+        "co-occurrence": [
+            "hispanic/latino",
+            "43116000.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "asian",
+            "43116000.0"
+        ],
+        "count": 64
+    },
+    {
+        "co-occurrence": [
+            "native american/indigenous",
+            "43116000.0"
+        ],
+        "count": 4
+    },
+    {
+        "co-occurrence": [
+            "pacific islander",
+            "43116000.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "white/caucasian",
+            "44054006.0"
+        ],
+        "count": 700
+    },
+    {
+        "co-occurrence": [
+            "black/african american",
+            "44054006.0"
+        ],
+        "count": 961
+    },
+    {
+        "co-occurrence": [
+            "hispanic/latino",
+            "44054006.0"
+        ],
+        "count": 1
+    },
+    {
+        "co-occurrence": [
+            "asian",
+            "44054006.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "native american/indigenous",
+            "44054006.0"
+        ],
+        "count": 2
+    },
+    {
+        "co-occurrence": [
+            "pacific islander",
+            "44054006.0"
+        ],
+        "count": 2
+    },
+    {
+        "co-occurrence": [
+            "white/caucasian",
+            "46635009.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "black/african american",
+            "46635009.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "hispanic/latino",
+            "46635009.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "asian",
+            "46635009.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "native american/indigenous",
+            "46635009.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "pacific islander",
+            "46635009.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "white/caucasian",
+            "49049000.0"
+        ],
+        "count": 8
+    },
+    {
+        "co-occurrence": [
+            "black/african american",
+            "49049000.0"
+        ],
+        "count": 32
+    },
+    {
+        "co-occurrence": [
+            "hispanic/latino",
+            "49049000.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "asian",
+            "49049000.0"
+        ],
+        "count": 18
+    },
+    {
+        "co-occurrence": [
+            "native american/indigenous",
+            "49049000.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "pacific islander",
+            "49049000.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "white/caucasian",
+            "49601007.0"
+        ],
+        "count": 9544
+    },
+    {
+        "co-occurrence": [
+            "black/african american",
+            "49601007.0"
+        ],
+        "count": 12497
+    },
+    {
+        "co-occurrence": [
+            "hispanic/latino",
+            "49601007.0"
+        ],
+        "count": 151
+    },
+    {
+        "co-occurrence": [
+            "asian",
+            "49601007.0"
+        ],
+        "count": 216
+    },
+    {
+        "co-occurrence": [
+            "native american/indigenous",
+            "49601007.0"
+        ],
+        "count": 71
+    },
+    {
+        "co-occurrence": [
+            "pacific islander",
+            "49601007.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "white/caucasian",
+            "50829006.0"
+        ],
+        "count": 1
+    },
+    {
+        "co-occurrence": [
+            "black/african american",
+            "50829006.0"
+        ],
+        "count": 48
+    },
+    {
+        "co-occurrence": [
+            "hispanic/latino",
+            "50829006.0"
+        ],
+        "count": 4
+    },
+    {
+        "co-occurrence": [
+            "asian",
+            "50829006.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "native american/indigenous",
+            "50829006.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "pacific islander",
+            "50829006.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "white/caucasian",
+            "52448006.0"
+        ],
+        "count": 1234
+    },
+    {
+        "co-occurrence": [
+            "black/african american",
+            "52448006.0"
+        ],
+        "count": 15
+    },
+    {
+        "co-occurrence": [
+            "hispanic/latino",
+            "52448006.0"
+        ],
+        "count": 3
+    },
+    {
+        "co-occurrence": [
+            "asian",
+            "52448006.0"
+        ],
+        "count": 4
+    },
+    {
+        "co-occurrence": [
+            "native american/indigenous",
+            "52448006.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "pacific islander",
+            "52448006.0"
+        ],
+        "count": 1
+    },
+    {
+        "co-occurrence": [
+            "white/caucasian",
+            "52702003.0"
+        ],
+        "count": 2
+    },
+    {
+        "co-occurrence": [
+            "black/african american",
+            "52702003.0"
+        ],
+        "count": 2
+    },
+    {
+        "co-occurrence": [
+            "hispanic/latino",
+            "52702003.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "asian",
+            "52702003.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "native american/indigenous",
+            "52702003.0"
+        ],
+        "count": 33
+    },
+    {
+        "co-occurrence": [
+            "pacific islander",
+            "52702003.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "white/caucasian",
+            "53741008.0"
+        ],
+        "count": 944
+    },
+    {
+        "co-occurrence": [
+            "black/african american",
+            "53741008.0"
+        ],
+        "count": 4224
+    },
+    {
+        "co-occurrence": [
+            "hispanic/latino",
+            "53741008.0"
+        ],
+        "count": 64
+    },
+    {
+        "co-occurrence": [
+            "asian",
+            "53741008.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "native american/indigenous",
+            "53741008.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "pacific islander",
+            "53741008.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "white/caucasian",
+            "54150009.0"
+        ],
+        "count": 10
+    },
+    {
+        "co-occurrence": [
+            "black/african american",
+            "54150009.0"
+        ],
+        "count": 96
+    },
+    {
+        "co-occurrence": [
+            "hispanic/latino",
+            "54150009.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "asian",
+            "54150009.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "native american/indigenous",
+            "54150009.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "pacific islander",
+            "54150009.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "white/caucasian",
+            "56317004.0"
+        ],
+        "count": 34
+    },
+    {
+        "co-occurrence": [
+            "black/african american",
+            "56317004.0"
+        ],
+        "count": 24
+    },
+    {
+        "co-occurrence": [
+            "hispanic/latino",
+            "56317004.0"
+        ],
+        "count": 2
+    },
+    {
+        "co-occurrence": [
+            "asian",
+            "56317004.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "native american/indigenous",
+            "56317004.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "pacific islander",
+            "56317004.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "white/caucasian",
+            "56925008.0"
+        ],
+        "count": 27
+    },
+    {
+        "co-occurrence": [
+            "black/african american",
+            "56925008.0"
+        ],
+        "count": 42
+    },
+    {
+        "co-occurrence": [
+            "hispanic/latino",
+            "56925008.0"
+        ],
+        "count": 20
+    },
+    {
+        "co-occurrence": [
+            "asian",
+            "56925008.0"
+        ],
+        "count": 42
+    },
+    {
+        "co-occurrence": [
+            "native american/indigenous",
+            "56925008.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "pacific islander",
+            "56925008.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "white/caucasian",
+            "57182000.0"
+        ],
+        "count": 8
+    },
+    {
+        "co-occurrence": [
+            "black/african american",
+            "57182000.0"
+        ],
+        "count": 805
+    },
+    {
+        "co-occurrence": [
+            "hispanic/latino",
+            "57182000.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "asian",
+            "57182000.0"
+        ],
+        "count": 2
+    },
+    {
+        "co-occurrence": [
+            "native american/indigenous",
+            "57182000.0"
+        ],
+        "count": 2
+    },
+    {
+        "co-occurrence": [
+            "pacific islander",
+            "57182000.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "white/caucasian",
+            "57406009.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "black/african american",
+            "57406009.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "hispanic/latino",
+            "57406009.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "asian",
+            "57406009.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "native american/indigenous",
+            "57406009.0"
+        ],
+        "count": 1
+    },
+    {
+        "co-occurrence": [
+            "pacific islander",
+            "57406009.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "white/caucasian",
+            "59927004.0"
+        ],
+        "count": 4
+    },
+    {
+        "co-occurrence": [
+            "black/african american",
+            "59927004.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "hispanic/latino",
+            "59927004.0"
+        ],
+        "count": 30
+    },
+    {
+        "co-occurrence": [
+            "asian",
+            "59927004.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "native american/indigenous",
+            "59927004.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "pacific islander",
+            "59927004.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "white/caucasian",
+            "60862001.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "black/african american",
+            "60862001.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "hispanic/latino",
+            "60862001.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "asian",
+            "60862001.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "native american/indigenous",
+            "60862001.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "pacific islander",
+            "60862001.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "white/caucasian",
+            "61462000.0"
+        ],
+        "count": 76
+    },
+    {
+        "co-occurrence": [
+            "black/african american",
+            "61462000.0"
+        ],
+        "count": 494
+    },
+    {
+        "co-occurrence": [
+            "hispanic/latino",
+            "61462000.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "asian",
+            "61462000.0"
+        ],
+        "count": 152
+    },
+    {
+        "co-occurrence": [
+            "native american/indigenous",
+            "61462000.0"
+        ],
+        "count": 83106
+    },
+    {
+        "co-occurrence": [
+            "pacific islander",
+            "61462000.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "white/caucasian",
+            "61599003.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "black/african american",
+            "61599003.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "hispanic/latino",
+            "61599003.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "asian",
+            "61599003.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "native american/indigenous",
+            "61599003.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "pacific islander",
+            "61599003.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "white/caucasian",
+            "62315008.0"
+        ],
+        "count": 27355
+    },
+    {
+        "co-occurrence": [
+            "black/african american",
+            "62315008.0"
+        ],
+        "count": 16435
+    },
+    {
+        "co-occurrence": [
+            "hispanic/latino",
+            "62315008.0"
+        ],
+        "count": 30
+    },
+    {
+        "co-occurrence": [
+            "asian",
+            "62315008.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "native american/indigenous",
+            "62315008.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "pacific islander",
+            "62315008.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "white/caucasian",
+            "63102001.0"
+        ],
+        "count": 60
+    },
+    {
+        "co-occurrence": [
+            "black/african american",
+            "63102001.0"
+        ],
+        "count": 647
+    },
+    {
+        "co-occurrence": [
+            "hispanic/latino",
+            "63102001.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "asian",
+            "63102001.0"
+        ],
+        "count": 1
+    },
+    {
+        "co-occurrence": [
+            "native american/indigenous",
+            "63102001.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "pacific islander",
+            "63102001.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "white/caucasian",
+            "67362008.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "black/african american",
+            "67362008.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "hispanic/latino",
+            "67362008.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "asian",
+            "67362008.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "native american/indigenous",
+            "67362008.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "pacific islander",
+            "67362008.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "white/caucasian",
+            "68566005.0"
+        ],
+        "count": 128
+    },
+    {
+        "co-occurrence": [
+            "black/african american",
+            "68566005.0"
+        ],
+        "count": 16
+    },
+    {
+        "co-occurrence": [
+            "hispanic/latino",
+            "68566005.0"
+        ],
+        "count": 2
+    },
+    {
+        "co-occurrence": [
+            "asian",
+            "68566005.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "native american/indigenous",
+            "68566005.0"
+        ],
+        "count": 108
+    },
+    {
+        "co-occurrence": [
+            "pacific islander",
+            "68566005.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "white/caucasian",
+            "69322001.0"
+        ],
+        "count": 15282
+    },
+    {
+        "co-occurrence": [
+            "black/african american",
+            "69322001.0"
+        ],
+        "count": 23292
+    },
+    {
+        "co-occurrence": [
+            "hispanic/latino",
+            "69322001.0"
+        ],
+        "count": 18
+    },
+    {
+        "co-occurrence": [
+            "asian",
+            "69322001.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "native american/indigenous",
+            "69322001.0"
+        ],
+        "count": 729
+    },
+    {
+        "co-occurrence": [
+            "pacific islander",
+            "69322001.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "white/caucasian",
+            "69896004.0"
+        ],
+        "count": 57
+    },
+    {
+        "co-occurrence": [
+            "black/african american",
+            "69896004.0"
+        ],
+        "count": 297
+    },
+    {
+        "co-occurrence": [
+            "hispanic/latino",
+            "69896004.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "asian",
+            "69896004.0"
+        ],
+        "count": 44
+    },
+    {
+        "co-occurrence": [
+            "native american/indigenous",
+            "69896004.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "pacific islander",
+            "69896004.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "white/caucasian",
+            "73211009.0"
+        ],
+        "count": 284
+    },
+    {
+        "co-occurrence": [
+            "black/african american",
+            "73211009.0"
+        ],
+        "count": 20461
+    },
+    {
+        "co-occurrence": [
+            "hispanic/latino",
+            "73211009.0"
+        ],
+        "count": 4544
+    },
+    {
+        "co-occurrence": [
+            "asian",
+            "73211009.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "native american/indigenous",
+            "73211009.0"
+        ],
+        "count": 23227
+    },
+    {
+        "co-occurrence": [
+            "pacific islander",
+            "73211009.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "white/caucasian",
+            "73442001.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "black/african american",
+            "73442001.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "hispanic/latino",
+            "73442001.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "asian",
+            "73442001.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "native american/indigenous",
+            "73442001.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "pacific islander",
+            "73442001.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "white/caucasian",
+            "74732009.0"
+        ],
+        "count": 20223
+    },
+    {
+        "co-occurrence": [
+            "black/african american",
+            "74732009.0"
+        ],
+        "count": 2457
+    },
+    {
+        "co-occurrence": [
+            "hispanic/latino",
+            "74732009.0"
+        ],
+        "count": 81
+    },
+    {
+        "co-occurrence": [
+            "asian",
+            "74732009.0"
+        ],
+        "count": 72
+    },
+    {
+        "co-occurrence": [
+            "native american/indigenous",
+            "74732009.0"
+        ],
+        "count": 4860
+    },
+    {
+        "co-occurrence": [
+            "pacific islander",
+            "74732009.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "white/caucasian",
+            "75694006.0"
+        ],
+        "count": 540
+    },
+    {
+        "co-occurrence": [
+            "black/african american",
+            "75694006.0"
+        ],
+        "count": 684
+    },
+    {
+        "co-occurrence": [
+            "hispanic/latino",
+            "75694006.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "asian",
+            "75694006.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "native american/indigenous",
+            "75694006.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "pacific islander",
+            "75694006.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "white/caucasian",
+            "76376003.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "black/african american",
+            "76376003.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "hispanic/latino",
+            "76376003.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "asian",
+            "76376003.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "native american/indigenous",
+            "76376003.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "pacific islander",
+            "76376003.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "white/caucasian",
+            "86044005.0"
+        ],
+        "count": 1098
+    },
+    {
+        "co-occurrence": [
+            "black/african american",
+            "86044005.0"
+        ],
+        "count": 2
+    },
+    {
+        "co-occurrence": [
+            "hispanic/latino",
+            "86044005.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "asian",
+            "86044005.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "native american/indigenous",
+            "86044005.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "pacific islander",
+            "86044005.0"
+        ],
+        "count": 2
+    },
+    {
+        "co-occurrence": [
+            "white/caucasian",
+            "709044004.0"
+        ],
+        "count": 48
+    },
+    {
+        "co-occurrence": [
+            "black/african american",
+            "709044004.0"
+        ],
+        "count": 916
+    },
+    {
+        "co-occurrence": [
+            "hispanic/latino",
+            "709044004.0"
+        ],
+        "count": 12
+    },
+    {
+        "co-occurrence": [
+            "asian",
+            "709044004.0"
+        ],
+        "count": 2
+    },
+    {
+        "co-occurrence": [
+            "native american/indigenous",
+            "709044004.0"
+        ],
+        "count": 216
+    },
+    {
+        "co-occurrence": [
+            "pacific islander",
+            "709044004.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "white/caucasian",
+            "129103003.0"
+        ],
+        "count": 24
+    },
+    {
+        "co-occurrence": [
+            "black/african american",
+            "129103003.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "hispanic/latino",
+            "129103003.0"
+        ],
+        "count": 48
+    },
+    {
+        "co-occurrence": [
+            "asian",
+            "129103003.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "native american/indigenous",
+            "129103003.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "pacific islander",
+            "129103003.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "white/caucasian",
+            "195967001.0"
+        ],
+        "count": 96
+    },
+    {
+        "co-occurrence": [
+            "black/african american",
+            "195967001.0"
+        ],
+        "count": 2688
+    },
+    {
+        "co-occurrence": [
+            "hispanic/latino",
+            "195967001.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "asian",
+            "195967001.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "native american/indigenous",
+            "195967001.0"
+        ],
+        "count": 2592
+    },
+    {
+        "co-occurrence": [
+            "pacific islander",
+            "195967001.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "white/caucasian",
+            "200936003.0"
+        ],
+        "count": 178
+    },
+    {
+        "co-occurrence": [
+            "black/african american",
+            "200936003.0"
+        ],
+        "count": 404
+    },
+    {
+        "co-occurrence": [
+            "hispanic/latino",
+            "200936003.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "asian",
+            "200936003.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "native american/indigenous",
+            "200936003.0"
+        ],
+        "count": 11
+    },
+    {
+        "co-occurrence": [
+            "pacific islander",
+            "200936003.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "white/caucasian",
+            "233604007.0"
+        ],
+        "count": 2436
+    },
+    {
+        "co-occurrence": [
+            "black/african american",
+            "233604007.0"
+        ],
+        "count": 252
+    },
+    {
+        "co-occurrence": [
+            "hispanic/latino",
+            "233604007.0"
+        ],
+        "count": 84
+    },
+    {
+        "co-occurrence": [
+            "asian",
+            "233604007.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "native american/indigenous",
+            "233604007.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "pacific islander",
+            "233604007.0"
+        ],
+        "count": 42
+    },
+    {
+        "co-occurrence": [
+            "white/caucasian",
+            "698247007.0"
+        ],
+        "count": 255
+    },
+    {
+        "co-occurrence": [
+            "black/african american",
+            "698247007.0"
+        ],
+        "count": 767
+    },
+    {
+        "co-occurrence": [
+            "hispanic/latino",
+            "698247007.0"
+        ],
+        "count": 70
+    },
+    {
+        "co-occurrence": [
+            "asian",
+            "698247007.0"
+        ],
+        "count": 0
+    },
+    {
+        "co-occurrence": [
+            "native american/indigenous",
+            "698247007.0"
+        ],
+        "count": 12
+    },
+    {
+        "co-occurrence": [
+            "pacific islander",
+            "698247007.0"
+        ],
+        "count": 0
+    }
+]

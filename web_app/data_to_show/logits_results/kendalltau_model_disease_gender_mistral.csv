@@ -1,0 +1,21 @@
+,,arthritis,asthma,bronchitis,cardiovascular disease,chronic kidney disease,coronary artery disease,covid-19,deafness,diabetes,hypertension,liver failure,mental illness, mi ,perforated ulcer,visual anomalies
+en,HuggingFaceH4/zephyr-7b-beta,-1.0,-1.0,1.0,-1.0,-1.0,-1.0,1.0,-1.0,1.0,-1.0,-1.0,-1.0,-1.0,1.0,1.0
+en,HuggingFaceH4/mistral-7b-sft-beta,-1.0,-1.0,1.0,-1.0,-1.0,-1.0,1.0,1.0,1.0,1.0,-1.0,-1.0,-1.0,1.0,1.0
+en,mistralai/Mistral-7B-v0.1,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,1.0,-1.0,1.0,-1.0,-1.0,1.0,-1.0,1.0,1.0
+en,mistralai/Mistral-7B-Instruct-v0.1,1.0,1.0,1.0,-1.0,-1.0,-1.0,-1.0,-1.0,1.0,-1.0,-1.0,1.0,-1.0,1.0,1.0
+en,BioMistral/BioMistral-7B,-1.0,-1.0,1.0,-1.0,-1.0,-1.0,-1.0,-1.0,1.0,-1.0,-1.0,1.0,-1.0,1.0,1.0
+zh,HuggingFaceH4/zephyr-7b-beta,1.0,1.0,1.0,-1.0,-1.0,-1.0,-1.0,-1.0,1.0,-1.0,-1.0,1.0,-1.0,1.0,1.0
+zh,HuggingFaceH4/mistral-7b-sft-beta,1.0,1.0,1.0,-1.0,-1.0,-1.0,-1.0,-1.0,1.0,-1.0,-1.0,1.0,-1.0,1.0,1.0
+zh,mistralai/Mistral-7B-v0.1,1.0,1.0,1.0,-1.0,-1.0,-1.0,-1.0,-1.0,1.0,-1.0,-1.0,1.0,-1.0,1.0,1.0
+zh,mistralai/Mistral-7B-Instruct-v0.1,1.0,1.0,1.0,-1.0,-1.0,-1.0,-1.0,-1.0,1.0,-1.0,-1.0,1.0,-1.0,1.0,1.0
+zh,BioMistral/BioMistral-7B,1.0,1.0,1.0,-1.0,-1.0,-1.0,-1.0,-1.0,1.0,-1.0,-1.0,1.0,-1.0,1.0,1.0
+es,HuggingFaceH4/zephyr-7b-beta,-1.0,-1.0,-1.0,1.0,1.0,1.0,1.0,1.0,-1.0,1.0,1.0,-1.0,1.0,-1.0,-1.0
+es,HuggingFaceH4/mistral-7b-sft-beta,-1.0,-1.0,-1.0,1.0,1.0,1.0,1.0,1.0,-1.0,1.0,1.0,-1.0,1.0,-1.0,-1.0
+es,mistralai/Mistral-7B-v0.1,-1.0,-1.0,-1.0,1.0,1.0,1.0,1.0,1.0,-1.0,1.0,1.0,-1.0,1.0,-1.0,-1.0
+es,mistralai/Mistral-7B-Instruct-v0.1,-1.0,-1.0,-1.0,1.0,1.0,1.0,1.0,1.0,-1.0,1.0,1.0,-1.0,1.0,-1.0,-1.0
+es,BioMistral/BioMistral-7B,-1.0,-1.0,-1.0,1.0,1.0,1.0,1.0,1.0,-1.0,1.0,1.0,-1.0,1.0,-1.0,-1.0
+fr,HuggingFaceH4/zephyr-7b-beta,-1.0,-1.0,-1.0,1.0,1.0,1.0,1.0,1.0,-1.0,1.0,1.0,-1.0,1.0,-1.0,-1.0
+fr,HuggingFaceH4/mistral-7b-sft-beta,-1.0,-1.0,-1.0,1.0,1.0,1.0,1.0,1.0,-1.0,1.0,1.0,-1.0,1.0,-1.0,-1.0
+fr,mistralai/Mistral-7B-v0.1,-1.0,-1.0,-1.0,1.0,1.0,1.0,1.0,1.0,-1.0,1.0,1.0,-1.0,1.0,-1.0,-1.0
+fr,mistralai/Mistral-7B-Instruct-v0.1,-1.0,-1.0,-1.0,1.0,1.0,1.0,1.0,1.0,-1.0,1.0,1.0,-1.0,1.0,-1.0,-1.0
+fr,BioMistral/BioMistral-7B,-1.0,-1.0,-1.0,1.0,1.0,1.0,1.0,1.0,-1.0,1.0,1.0,-1.0,1.0,-1.0,-1.0
