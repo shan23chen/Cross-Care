@@ -90,10 +90,6 @@ The web app is a fully functional web application that allows users to interact 
 
 ## Setting Up Environment 
 
-### Docker
-
-
-
 ### Managing API Keys
 
 To securely manage your API keys, you can use environment variables. Follow these steps to set up the environment variables for this project:
