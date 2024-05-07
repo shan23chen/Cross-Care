@@ -6,10 +6,10 @@ This repository contains a series of Jupyter notebooks dedicated to analyzing sp
 
 This section focuses on analyzing co-occurrence counts in the 'The Pile' dataset, examining the relationship between diseases and demographic attributes.
 
-### 1a. Co-occurrence Count Analysis (`co_occurrence_count_analysis.ipynb`)
+### ✅ 1a. Co-occurrence Count Analysis (`co_occurrence_count_analysis.ipynb`)
 Analyzes co-occurrence counts with gender and race columns against disease rows. This notebook should cover:
 - Variation across windows
-  - ✅ Figure for showing no variation across window sizes for a given disease demographic pair - hence use one from now on
+  - Figure for showing no variation across window sizes for a given disease demographic pair - hence use one from now on
 - General disease counts, co-occurrences gender/race, real world prevalence
   - Rows - disease, columns- gender+race, values = co-occurrence counts
   - Subset top 25--> Rows - disease, columns- gender+race
@@ -44,7 +44,7 @@ Evaluates variation in logit ranks across each of the templates used in the stud
   - rows-templates, columns- gender+race, value sum of disease top/bottom rank, one table for each model
 - Boxplot/violin plot visualise
 
-### 2c. Kendall Tau Scores Analysis (`kendall_tau_scores_analysis.ipynb`)
+### ✅ 2c. Kendall Tau Scores Analysis (`kendall_tau_scores_analysis.ipynb`)
 Calculates and compares Kendall tau scores for co-occurrences and logits, as well as logits vs. real-world prevalence. Should include:
 - Comparing co-occurrences with logits- Kendall tau scores race and gender for each model
 - Comparing logits and real prevalence- Kendall tau scores race and gender for each model.
@@ -67,14 +67,14 @@ Analyzes models "in the wild," focusing on the variability across languages, ali
   - logits vs real world prevalence
 - English TF vs hf robustness via Kendall tau scores 
 
-### 3b. Language Eval (`lang_eval.ipynb`)
+### ✅ 3b. Language Eval (`lang_eval.ipynb`)
 Evaluates the impact of language and model size on model performance. 
 - Start with nested table- may need to make one table per language
   - Rows- disease, columns level 1 race/gender, level 2 language, value sum of disease top/bottom rank
 - kendall tau scores
   - logits from each language vs real world prevalence
 
-### 3c. Alignment Eval (`align_eval.ipynb`)
+### ✅ 3c. Alignment Eval (`align_eval.ipynb`)
 Evaluates the impact of language, alignment, and model size on model performance. 
 - RLHF vs base
   - Qwen1.5: RLHF vs base
