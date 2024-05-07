@@ -15,9 +15,13 @@ declare -a hf_model_names=(
     # "meta-llama/Llama-2-70b-hf"
     # "meta-llama/Llama-2-70b-chat-hf"
     # "epfl-llm/meditron-70b"
-    "meta-llama/Llama-2-7b-hf"
-    "meta-llama/Llama-2-7b-chat-hf"
-    "epfl-llm/meditron-7b"
+    # "meta-llama/Llama-2-7b-hf"
+    # "meta-llama/Llama-2-7b-chat-hf"
+    # "epfl-llm/meditron-7b"
+    "meta-llama/Meta-Llama-3-8B"
+    "meta-llama/Meta-Llama-3-8B-Instruct"
+    "meta-llama/Meta-Llama-3-70B"
+    "meta-llama/Meta-Llama-3-70B-Instruct"
     # "allenai/tulu-2-70b"
     # "allenai/tulu-2-dpo-70b"
 )
@@ -29,12 +33,16 @@ declare -A model_vram_requirements=(
     # ["meta-llama/Llama-2-70b-hf"]=140
     # ["meta-llama/Llama-2-70b-chat-hf"]=140
     # ["epfl-llm/meditron-70b"]=140
-    ["meta-llama/Llama-2-7b-hf"]=14
-    ["meta-llama/Llama-2-7b-chat-hf"]=14
-    ["epfl-llm/meditron-7b"]=14
+    # ["meta-llama/Llama-2-7b-hf"]=14
+    # ["meta-llama/Llama-2-7b-chat-hf"]=14
+    # ["epfl-llm/meditron-7b"]=14
 
     # ["allenai/tulu-2-70b"]=140
-    ["allenai/tulu-2-dpo-70b"]=140
+    # ["allenai/tulu-2-dpo-70b"]=140
+    ["meta-llama/Meta-Llama-3-8B"]=16
+    ["meta-llama/Meta-Llama-3-8B-Instruct"]=16
+    ["meta-llama/Meta-Llama-3-70B"]=140
+    ["meta-llama/Meta-Llama-3-70B-Instruct"]=140
 )
 
 # Define an array of demographic choices                                                
@@ -46,14 +54,15 @@ declare -a languages=("en" "zh" "es" "fr")
 # declare -a languages=("es" "fr")
 
 # Define an array for location_preprompt options
-declare -a location_pre=("True" "False")
-# declare -a location_pre=("False")
+# declare -a location_pre=("True" "False")
+declare -a location_pre=("True")
 
 # Loop for Hugging Face methods, iterating model names
-declare -a hf_logit_methods=("70b_hf_eval_logit.py" "70b_hf_tf_eval_logit.py")
+# declare -a hf_logit_methods=("70b_hf_eval_logit.py" "70b_hf_tf_eval_logit.py")
+declare -a hf_logit_methods=("70b_hf_eval_logit.py")
 
 # Define root directory for logits results
-cross_care_root="/home/jgally/mit/Cross-Care"
+cross_care_root="/clinical_nlp/Cross-Care"
 
 
 for model_name in "${hf_model_names[@]}"; do
@@ -92,7 +101,7 @@ for model_name in "${hf_model_names[@]}"; do
                         echo "no file at ${expected_filepath}"
                         echo "Running ${logit_method} for Model: ${model_name}, Demographic: ${demographic}, Language: ${language}, Location Prep: ${loc_prep}, Device: ${device}"
                         # Pass the device as an argument to the Python script
-                        conda run --name nlp_cuda118 python "logits_generate/${logit_method}" --model_name "${model_name}" --demographic "${demographic}" --language "${language}" --location_preprompt "${loc_prep}" --device "${device}" --cache_dir "../cache"
+                        conda run --name clinical_nlp python "logits_generate/${logit_method}" --model_name "${model_name}" --demographic "${demographic}" --language "${language}" --location_preprompt "${loc_prep}" --device "${device}" --cache_dir "../cache"
                         echo "Completed: ${model_name}, Method: ${logit_method}, Demographic: ${demographic}, location_preprompt: ${loc_prep}, Device: ${device}"
                     fi
                 done
