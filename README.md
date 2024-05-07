@@ -132,6 +132,7 @@ With these steps, your API keys will be securely stored in the .env file and eas
 Contributions to improve the code or add additional functionalities are welcome! Please ensure to follow the existing code structure and comment appropriately.
 
 ## Acknowledgements
+The authors thank Oracle Cloud for computing the co-occurrence calculations for process $The Pile$ and the subset of $RedPajama$. 
 
+The authors also acknowledge financial support from the Woods Foundation (DB, SC, HA) NIH (NIH-USA U54CA274516-01A1 (SC, HA, DB), NIH-USA U24CA194354 (HA), NIH-USA U01CA190234 (HA), NIH-USA U01CA209414 (HA), and NIH-USA R35CA22052 (HA), NIH-USA U54 TW012043-01 (JG, LAC), NIH-USA OT2OD032701 (JG, LAC), NIH-USA R01EB017205 (LAC), DS-I Africa U54 TW012043-01 (LAC), Bridge2AI OT2OD032701 (LAC), NSF ITEST 2148451 (LAC) and the European Union - European Research Council (HA: 866504)
 
-## License
