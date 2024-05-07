@@ -85,7 +85,7 @@ Details on how to run the analysis for propagation evaluation can be found in th
 
 ### Web App
 
-The web app is a fully functional web application that allows users to interact with the data and results of the project. The web app is built using Next.js, hosted on Vercel, and the backend is hosted on Heroku. The web app is accessible at [cross-care.vercel.app](https://crosscare.net).
+The web app is a fully functional web application that allows users to interact with the data and results of the project. The web app is built using Next.js, hosted on Vercel, and the backend is hosted on Heroku. The web app is accessible at [https://crosscare.net](https://crosscare.net).
 
 
 ## Setting Up Environment 
