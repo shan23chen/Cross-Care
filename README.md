@@ -18,6 +18,17 @@ include_docs_end -->
 
 Cross-Care is a project that compares the co-occurrences of medical terms with demographic terms in pretraining data and investigates the downstream effects of these co-occurrences on the biases of language models trained on them. The project is divided into three main parts: co-occurrence analysis, logits analysis, and propagation evaluation. The results of these analyses are then visualized in a web application.
 
+```
+@misc{chen2024crosscare,
+      title={Cross-Care: Assessing the Healthcare Implications of Pre-training Data on Language Model Bias}, 
+      author={Shan Chen and Jack Gallifant and Mingye Gao and Pedro Moreira and Nikolaj Munch and Ajay Muthukkumar and Arvind Rajan and Jaya Kolluri and Amelia Fiske and Janna Hastings and Hugo Aerts and Brian Anthony and Leo Anthony Celi and William G. La Cava and Danielle S. Bitterman},
+      year={2024},
+      eprint={2405.05506},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+```
+
 
 ## Overview
 ```
