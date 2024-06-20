@@ -1,6 +1,6 @@
 <!-- exclude_docs -->
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](./LICENSE.txt)
-[![Arxiv](https://img.shields.io/badge/Arxiv-pending-red)](https://github.com/Gallifantjack/Cross-Care)
+[![Arxiv](https://img.shields.io/badge/Arxiv-2405.05506-red)]([https://github.com/Gallifantjack/Cross-Care](https://arxiv.org/abs/2405.05506))
 
 <!-- exclude_docs_end -->
 
@@ -18,6 +18,7 @@ include_docs_end -->
 
 Cross-Care is a project that compares the co-occurrences of medical terms with demographic terms in pretraining data and investigates the downstream effects of these co-occurrences on the biases of language models trained on them. The project is divided into three main parts: co-occurrence analysis, logits analysis, and propagation evaluation. The results of these analyses are then visualized in a web application.
 
+### Citing
 ```
 @misc{chen2024crosscare,
       title={Cross-Care: Assessing the Healthcare Implications of Pre-training Data on Language Model Bias}, 
